@@ -1,0 +1,146 @@
+{
+  "ui": {
+    "title": "OMNI-DATABASE",
+    "access": "ACCESS: O5-COUNCIL",
+    "module": "MODULE",
+    "footer": "ROBCO INDUSTRIES © 2077",
+    "nav": {
+      "status": "STATUS",
+      "timeline": "HISTORY",
+      "tech": "TECH",
+      "vaults": "VAULTS",
+      "locations": "ATLAS",
+      "bestiary": "BESTIARY",
+      "factions": "FACTIONS",
+      "vanburen": "VAN BUREN"
+    },
+    "status_msg": "ROBCO SYSTEM ONLINE",
+    "status_sub": "Select a module from the menu.",
+    "loading": "LOADING DATA..."
+  },
+  "tech": {
+    "title": "ARMORY & PROTOTYPES",
+    "color": "text-amber-300",
+    "border": "border-amber-300",
+    "theme": "theme-tech",
+    "categories": [
+      { "id": "pa", "name": "POWER ARMOR", "icon": "🛡️", "desc": "From T-45 to Hellfire." },
+      { "id": "energy", "name": "ENERGY WEAPONS", "icon": "⚡", "desc": "Lasers, Plasma, Gauss." },
+      { "id": "robots", "name": "ROBOTICS", "icon": "🤖", "desc": "RobCo, General Atomics." },
+      { "id": "devices", "name": "DEVICES", "icon": "💾", "desc": "Pip-Boy, Stealth-Boy, G.E.C.K." }
+    ],
+    "items": {
+      "pa": [
+        { "id": "t45", "name": "T-45d POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-45d", "specs": {"Year": "2067", "Faction": "US Army"}, "lore": "First combat model used in Anchorage. Steel plating, low mobility." },
+        { "id": "t51", "name": "T-51b POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-51b", "specs": {"Year": "2076", "Trivia": "Urine recycling"}, "lore": "Pinnacle of engineering. Polylaminate composite. Fallout 1 icon." },
+        { "id": "x01", "name": "X-01 / APA", "img": "https://placehold.co/400x300/111/ffb000?text=X-01", "specs": {"Year": "2220", "Faction": "Enclave"}, "lore": "Developed by the Enclave post-war. Far superior to pre-war models." }
+      ],
+      "energy": [
+        { "id": "aer9", "name": "AER9 LASER RIFLE", "img": "https://placehold.co/400x150/111/ffb000?text=AER9", "specs": {"Type": "Laser", "Ammo": "MFC"}, "lore": "Standard army rifle. Durable and blocky." },
+        { "id": "p94", "name": "PLASMA CASTER", "img": "https://placehold.co/400x150/111/ffb000?text=P94", "specs": {"Type": "Plasma", "Ammo": "MFC"}, "lore": "Industrial Winchester P94 plasma weapon. Fires a plasma torus." }
+      ],
+      "robots": [
+        { "id": "mrhandy", "name": "MR. HANDY", "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY", "specs": {"Company": "General Atomics"}, "lore": "Domestic robot. Gutsy version served in the military." },
+        { "id": "securitron", "name": "SECURITRON", "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON", "specs": {"Company": "RobCo"}, "lore": "New Vegas guardian. Equipped with grenade launchers and lasers." }
+      ],
+      "devices": [
+        { "id": "pipboy", "name": "PIP-BOY 3000", "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY", "specs": {"Company": "RobCo"}, "lore": "Personal computer. Model 3000 has a biometric lock." },
+        { "id": "geck", "name": "G.E.C.K.", "img": "https://placehold.co/400x200/111/ffb000?text=GECK", "specs": {"Function": "Terraforming"}, "lore": "Garden of Eden Creation Kit. Suitcase with a matter replicator." }
+      ]
+    }
+  },
+  "timeline": {
+    "title": "HISTORICAL ARCHIVES (FALLOUT BIBLE)",
+    "color": "text-yellow-400",
+    "border": "border-yellow-400",
+    "theme": "theme-history",
+    "categories": [
+      { "id": "prewar", "name": "PRE-WAR ERA (2050-2077)", "icon": "🏙️", "desc": "Resource Wars, New Plague, Canada Annexation." },
+      { "id": "greatwar", "name": "THE GREAT WAR (2077)", "icon": "🍄", "desc": "October 23rd. Doomsday and Birth of the Wasteland." },
+      { "id": "darkages", "name": "DARK AGES (2078-2160)", "icon": "💀", "desc": "Exodus, Mariposa, Master's Birth and the Hub." },
+      { "id": "heroic", "name": "HEROIC AGE (2161-2241)", "icon": "🌟", "desc": "Fallout 1 & 2. Destruction of Unity and Enclave." },
+      { "id": "modern", "name": "MODERN ERA (2250+)", "icon": "⚙️", "desc": "NCR-BOS War, Van Buren, New Vegas, Washington." }
+    ],
+    "items": {
+      "prewar": [
+        { "id": "2052", "name": "2052: RESOURCE WARS", "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS", "specs": {"Result": "UN Collapse", "Reason": "No Oil"}, "lore": "The beginning of the end. Europe invades the Middle East. The UN collapses." },
+        { "id": "2077_fuel", "name": "2077: FUEL CRISIS", "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES", "specs": {"Price": "$8500 / Gallon"}, "lore": "Just before the war, gasoline prices skyrocket." }
+      ],
+      "greatwar": [
+        { "id": "2077_bombs", "name": "OCTOBER 23, 2077", "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR", "specs": {"Start": "9:47 AM", "Duration": "2 hours"}, "lore": "Nuclear exchange. Most major cities vanish. West Tek takes a direct hit." }
+      ],
+      "heroic": [
+        { "id": "2161", "name": "2161: FALLOUT 1", "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER", "specs": {"Hero": "Vault Dweller", "Goal": "Water Chip"}, "lore": "Vault Dweller destroys the Master and his Cathedral in 2162." },
+        { "id": "2241", "name": "2241: FALLOUT 2", "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE", "specs": {"Hero": "Chosen One", "Enemy": "Enclave"}, "lore": "Chosen One goes for the G.E.C.K. Destroys the Oil Rig." }
+      ]
+    }
+  },
+  "vaults": {
+    "title": "VAULT-TEC REGISTRY",
+    "color": "text-blue-400",
+    "border": "border-blue-400",
+    "theme": "theme-vaults",
+    "categories": [
+      { "id": "control", "name": "CONTROL GROUPS", "icon": "✅", "desc": "Vaults working as advertised." },
+      { "id": "social", "name": "SOCIAL EXPERIMENTS", "icon": "🎭", "desc": "Behavior, power, stress tests." },
+      { "id": "science", "name": "MEDICAL/PHYSICAL", "icon": "🧬", "desc": "FEV, diseases, radiation, cloning." },
+      { "id": "esoteric", "name": "ESOTERIC / WEIRD", "icon": "🌀", "desc": "Enclave's most absurd ideas." }
+    ],
+    "items": {
+      "control": [
+        { "id": "v8", "name": "VAULT 8", "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY", "specs": {"Location": "Nevada", "Result": "Success"}, "lore": "Perfect Vault. Opened after 10 years. Residents built Vault City." },
+        { "id": "v13", "name": "VAULT 13", "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN", "specs": {"Location": "California", "Goal": "Isolation"}, "lore": "Home of the Vault Dweller (Fallout 1). Intended to stay closed for 200 years." }
+      ],
+      "social": [
+        { "id": "v11", "name": "VAULT 11", "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE", "specs": {"Experiment": "Obedience", "Result": "Tragedy"}, "lore": "They were told to sacrifice one person each year." }
+      ]
+    }
+  },
+  "locations": {
+    "title": "GLOBAL ATLAS",
+    "color": "text-gray-300",
+    "border": "border-gray-500",
+    "theme": "",
+    "categories": [
+      { "id": "west", "name": "WEST (CORE)", "icon": "🐻", "desc": "California (NCR)." },
+      { "id": "mojave", "name": "MOJAVE", "icon": "🎰", "desc": "Nevada, Vegas." },
+      { "id": "east", "name": "EAST", "icon": "🗽", "desc": "D.C. and Boston." }
+    ],
+    "items": {
+      "west": [
+        { "id": "glow", "name": "THE GLOW", "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK", "specs": {"Type": "Crater"}, "lore": "West Tek ruins." },
+        { "id": "hub", "name": "THE HUB", "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB", "specs": {"Type": "City"}, "lore": "Trading center." }
+      ]
+    }
+  },
+  "factions": {
+    "title": "FACTIONS DATABASE",
+    "color": "text-white",
+    "border": "border-white",
+    "theme": "",
+    "categories": [{"id":"all","name":"LIST","icon":"🏴","desc":"Major Powers"}],
+    "items": {
+      "all": [{"id":"bos","name":"BROTHERHOOD OF STEEL","img":"https://placehold.co/300x200/000/fff?text=BOS","specs":{},"lore":"Military order."}]
+    }
+  },
+  "bestiary": {
+    "title": "BESTIARY",
+    "color": "text-red-400",
+    "border": "border-red-400",
+    "theme": "",
+    "categories": [{"id":"all","name":"MUTANTS","icon":"🦎","desc":"Fauna"}],
+    "items": {
+      "all": [{"id":"claw","name":"DEATHCLAW","img":"https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW","specs":{},"lore":"Apex predator."}]
+    }
+  },
+  "vanburen": {
+    "title": "PROJECT VAN BUREN",
+    "color": "text-purple-400",
+    "border": "border-purple-400",
+    "theme": "",
+    "categories": [{"id":"all","name":"DOCUMENTS","icon":"📝","desc":"Black Isle"}],
+    "items": {
+      "all": [{"id":"vb","name":"OVERVIEW","img":"https://placehold.co/300x200/110011/cc00cc?text=VB","specs":{},"lore":"Cancelled F3."}]
+    }
+  }
+}

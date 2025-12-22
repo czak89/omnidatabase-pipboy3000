@@ -1,0 +1,147 @@
+{
+  "ui": {
+    "title": "OMNI-DATABASE",
+    "access": "DOSTĘP: O5-COUNCIL",
+    "module": "MODUŁ",
+    "footer": "ROBCO INDUSTRIES © 2077",
+    "nav": {
+      "status": "STATUS",
+      "timeline": "HISTORIA",
+      "tech": "TECH",
+      "vaults": "KRYPTY",
+      "locations": "ATLAS",
+      "bestiary": "BESTIARIUSZ",
+      "factions": "FRAKCJE",
+      "vanburen": "VAN BUREN"
+    },
+    "status_msg": "SYSTEM ROBCO ONLINE",
+    "status_sub": "Wybierz moduł z menu.",
+    "loading": "ŁADOWANIE DANYCH..."
+  },
+  "tech": {
+    "title": "ZBROJOWNIA I PROTOTYPY",
+    "color": "text-amber-300",
+    "border": "border-amber-300",
+    "theme": "theme-tech",
+    "categories": [
+      { "id": "pa", "name": "PANCERZE WSPOMAGANE", "icon": "🛡️", "desc": "Od T-45 do Hellfire." },
+      { "id": "energy", "name": "BROŃ ENERGETYCZNA", "icon": "⚡", "desc": "Lasery, Plazma, Gauss." },
+      { "id": "robots", "name": "ROBOTYKA", "icon": "🤖", "desc": "RobCo, General Atomics." },
+      { "id": "devices", "name": "URZĄDZENIA", "icon": "💾", "desc": "Pip-Boy, Stealth-Boy, G.E.C.K." }
+    ],
+    "items": {
+      "pa": [
+        { "id": "t45", "name": "T-45d POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-45d", "specs": {"Rok": "2067", "Frakcja": "US Army"}, "lore": "Pierwszy model bojowy użyty w Anchorage. Pancerz stalowy, niska mobilność." },
+        { "id": "t51", "name": "T-51b POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-51b", "specs": {"Rok": "2076", "Ciekawostka": "Recykling moczu"}, "lore": "Szczyt inżynierii. Kompozyt polilaminatowy. Ikona Fallout 1." },
+        { "id": "x01", "name": "X-01 / APA", "img": "https://placehold.co/400x300/111/ffb000?text=X-01", "specs": {"Rok": "2220", "Frakcja": "Enklawa"}, "lore": "Rozwinięty przez Enklawę po wojnie. Znacznie przewyższa modele przedwojenne." }
+      ],
+      "energy": [
+        { "id": "aer9", "name": "AER9 LASER RIFLE", "img": "https://placehold.co/400x150/111/ffb000?text=AER9", "specs": {"Typ": "Laser", "Ammo": "MFC"}, "lore": "Standardowy karabin armii. Wytrzymały i kanciasty." },
+        { "id": "p94", "name": "PLASMA CASTER", "img": "https://placehold.co/400x150/111/ffb000?text=P94", "specs": {"Typ": "Plazma", "Ammo": "MFC"}, "lore": "Przemysłowa broń plazmowa Winchester P94. Strzela torusem plazmy." }
+      ],
+      "robots": [
+        { "id": "mrhandy", "name": "MR. HANDY", "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY", "specs": {"Firma": "General Atomics"}, "lore": "Robot domowy. Wersja Gutsy służyła w wojsku." },
+        { "id": "securitron", "name": "SECURITRON", "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON", "specs": {"Firma": "RobCo"}, "lore": "Strażnik New Vegas. Posiada granatniki i lasery." }
+      ],
+      "devices": [
+        { "id": "pipboy", "name": "PIP-BOY 3000", "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY", "specs": {"Firma": "RobCo"}, "lore": "Komputer osobisty. Model 3000 ma blokadę biometryczną." },
+        { "id": "geck", "name": "G.E.C.K.", "img": "https://placehold.co/400x200/111/ffb000?text=GECK", "specs": {"Funkcja": "Terraformacja"}, "lore": "Garden of Eden Creation Kit. Walizka z replikatorem materii." }
+      ]
+    }
+  },
+  "timeline": {
+    "title": "ARCHIWUM HISTORYCZNE (BIBLIA FALLOUTA)",
+    "color": "text-yellow-400",
+    "border": "border-yellow-400",
+    "theme": "theme-history",
+    "categories": [
+      { "id": "prewar", "name": "ERA PRZEDWOJENNA (2050-2077)", "icon": "🏙️", "desc": "Wojny o Surowce, Nowa Plaga, Aneksja Kanady." },
+      { "id": "greatwar", "name": "WIELKA WOJNA (2077)", "icon": "🍄", "desc": "23 Października. Dzień Zagłady i Narodziny Pustkowi." },
+      { "id": "darkages", "name": "WIEKI CIEMNE (2078-2160)", "icon": "💀", "desc": "Exodus, Mariposa, Narodziny Mistrza i Hub." },
+      { "id": "heroic", "name": "ERA BOHATERÓW (2161-2241)", "icon": "🌟", "desc": "Fallout 1 & 2. Zniszczenie Jedności i Enklawy." },
+      { "id": "modern", "name": "ERA NOWOŻYTNA (2250+)", "icon": "⚙️", "desc": "Wojny RNK-BOS, Van Buren, New Vegas, Waszyngton." }
+    ],
+    "items": {
+      "prewar": [
+        { "id": "2052", "name": "2052: WOJNY O SUROWCE", "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS", "specs": {"Skutek": "Upadek ONZ", "Powód": "Brak ropy"}, "lore": "Początek końca. Europa najeżdża Bliski Wschód po ostatnie krople ropy. ONZ upada w lipcu. USA zamyka granice. Telewizja pokazuje wyschnięte szyby naftowe w Teksasie." },
+        { "id": "2077_fuel", "name": "2077: KRYZYS PALIWOWY", "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES", "specs": {"Cena": "$8500 / Galon"}, "lore": "Tuż przed wojną cena benzyny osiąga gigantyczne kwoty." }
+      ],
+      "greatwar": [
+        { "id": "2077_bombs", "name": "23 PAŹDZIERNIKA 2077", "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR", "specs": {"Start": "9:47 AM", "Czas trwania": "2 godziny"}, "lore": "Wymiana nuklearna. Większość dużych miast znika z mapy. West Tek otrzymuje bezpośrednie trafienie." }
+      ],
+      "heroic": [
+        { "id": "2161", "name": "2161: FALLOUT 1", "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER", "specs": {"Bohater": "Przybysz z Krypty", "Cel": "Water Chip"}, "lore": "Przybysz z Krypty niszczy Mistrza i jego Katedrę w 2162. Wraca do domu, ale zostaje wygnany." },
+        { "id": "2241", "name": "2241: FALLOUT 2", "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE", "specs": {"Bohater": "Wybraniec", "Wróg": "Enklawa"}, "lore": "Susza w Arroyo. Wybraniec rusza po G.E.C.K. Niszczy Platformę Wiertniczą." }
+      ]
+    }
+  },
+  "vaults": {
+    "title": "REJESTR KRYPT VAULT-TEC",
+    "color": "text-blue-400",
+    "border": "border-blue-400",
+    "theme": "theme-vaults",
+    "categories": [
+      { "id": "control", "name": "GRUPY KONTROLNE", "icon": "✅", "desc": "Krypty działające zgodnie z oficjalnym celem." },
+      { "id": "social", "name": "EKSPERYMENTY SOCJOLOGICZNE", "icon": "🎭", "desc": "Testy zachowań, władzy, stresu i izolacji." },
+      { "id": "science", "name": "BADANIA MEDYCZNE/FIZ.", "icon": "🧬", "desc": "FEV, choroby, promieniowanie, klonowanie." },
+      { "id": "esoteric", "name": "EZOTERYCZNE / DZIWNE", "icon": "🌀", "desc": "Najbardziej absurdalne pomysły Enklawy." }
+    ],
+    "items": {
+      "control": [
+        { "id": "v8", "name": "KRYPTA 8", "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY", "specs": {"Lokacja": "Nevada", "Wynik": "Sukces"}, "lore": "Idealna krypta. Otwarta po 10 latach. Dzięki G.E.C.K. mieszkańcy zbudowali sterylne Vault City." },
+        { "id": "v13", "name": "KRYPTA 13", "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN", "specs": {"Lokacja": "Kalifornia", "Cel": "Izolacja"}, "lore": "Dom Przybysza (Fallout 1). Miała pozostać zamknięta przez 200 lat." }
+      ],
+      "social": [
+        { "id": "v11", "name": "KRYPTA 11", "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE", "specs": {"Eksperyment": "Posłuszeństwo", "Wynik": "Tragedia"}, "lore": "Powiedziano im, że muszą co roku wybierać jedną osobę na śmierć." },
+        { "id": "v77", "name": "KRYPTA 77", "img": "https://placehold.co/300x200/001133/33bbff?text=PUPPET+MAN", "specs": {"Lokacja": "Nieznana", "Populacja": "1"}, "lore": "Krypta z jednym człowiekiem i skrzynią pacynek." }
+      ]
+    }
+  },
+  "locations": {
+    "title": "ATLAS GLOBALNY",
+    "color": "text-gray-300",
+    "border": "border-gray-500",
+    "theme": "",
+    "categories": [
+      { "id": "west", "name": "ZACHÓD (CORE)", "icon": "🐻", "desc": "Kalifornia (RNK)." },
+      { "id": "mojave", "name": "MOJAVE", "icon": "🎰", "desc": "Nevada, Vegas." },
+      { "id": "east", "name": "WSCHÓD", "icon": "🗽", "desc": "D.C. i Boston." }
+    ],
+    "items": {
+      "west": [
+        { "id": "glow", "name": "THE GLOW", "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK", "specs": {"Typ": "Krater"}, "lore": "Ruiny West Tek." },
+        { "id": "hub", "name": "THE HUB", "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB", "specs": {"Typ": "Miasto"}, "lore": "Centrum handlowe." }
+      ]
+    }
+  },
+  "factions": {
+    "title": "BAZA FRAKCJI",
+    "color": "text-white",
+    "border": "border-white",
+    "theme": "",
+    "categories": [{"id":"all","name":"LISTA","icon":"🏴","desc":"Główne siły"}],
+    "items": {
+      "all": [{"id":"bos","name":"BRACTWO STALI","img":"https://placehold.co/300x200/000/fff?text=BOS","specs":{},"lore":"Zakon militarny."}]
+    }
+  },
+  "bestiary": {
+    "title": "BESTIARIUSZ",
+    "color": "text-red-400",
+    "border": "border-red-400",
+    "theme": "",
+    "categories": [{"id":"all","name":"MUTANTY","icon":"🦎","desc":"Fauna"}],
+    "items": {
+      "all": [{"id":"claw","name":"SZPON ŚMIERCI","img":"https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW","specs":{},"lore":"Apex predator."}]
+    }
+  },
+  "vanburen": {
+    "title": "PROJEKT VAN BUREN",
+    "color": "text-purple-400",
+    "border": "border-purple-400",
+    "theme": "",
+    "categories": [{"id":"all","name":"DOKUMENTY","icon":"📝","desc":"Black Isle"}],
+    "items": {
+      "all": [{"id":"vb","name":"PRZEGLĄD","img":"https://placehold.co/300x200/110011/cc00cc?text=VB","specs":{},"lore":"Anulowany F3."}]
+    }
+  }
+}
