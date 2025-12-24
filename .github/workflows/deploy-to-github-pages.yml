@@ -35,7 +35,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        uses: pavi2410/html-preview-action@v4
         with:
           # Upload entire repository
           path: '.'
