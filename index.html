@@ -201,9 +201,24 @@
         <header class="flex justify-between items-end border-b-4 border-[#33ff33] pb-4 mb-4 bg-[#001500] p-4 transition-colors duration-500" id="header-container">
             <div class="flex items-center gap-6">
                 <div class="w-16 h-16 md:w-24 md:h-24 border-2 border-[#33ff33] rounded-full flex items-center justify-center bg-black relative animate-[pulse_4s_infinite]" id="logo-container">
-                    <!-- PLACEHOLDER: SVG LOGO -->
-                    <!-- Paste your SVG code here inside the span -->
-                    <span class="text-3xl md:text-5xl">☢️</span> 
+                    <span class="text-3xl md:text-5xl flex items-center justify-center">
+                        <svg viewBox="-3 -3 6 6" class="w-[1em] h-[1em] fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs>
+                                <mask id="rad-mask" maskUnits="userSpaceOnUse" x="-3" y="-3" width="6" height="6">
+                                    <circle r="1.625" fill="none" stroke="white" stroke-width="1.75"/>
+                                </mask>
+                            </defs>
+                            <circle r=".5" fill="currentColor"/>
+                            <g mask="url(#rad-mask)" fill="currentColor">
+                                <g id="rad-blade">
+                                    <path id="rad-blade-part" transform="rotate(30)" d="m0 0v2.88h3"/>
+                                    <use transform="scale(-1,1)" xlink:href="#rad-blade-part"/>
+                                </g>
+                                <use transform="rotate(120)" xlink:href="#rad-blade"/>
+                                <use transform="rotate(240)" xlink:href="#rad-blade"/>
+                            </g>
+                        </svg>
+                    </span>
                 </div>
                 <div>
                     <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold tracking-widest uppercase" style="text-shadow: 2px 2px 0px rgba(0,0,0,0.5);" id="header-title">PIP-BOY 3000</h1>
