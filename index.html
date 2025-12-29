@@ -267,25 +267,60 @@
 
             // 2. Load Data & Start
             enterSystem: async function() {
+                console.log('[SYSTEM] Initializing...');
                 const filename = `database-${this.currentLang}.json`;
-                
+
+                // Show loading indicator
+                const bootScreen = document.getElementById('boot-screen');
+                const startBtn = document.getElementById('start-btn-container');
+                startBtn.innerHTML = '<p class="text-amber-400 animate-pulse text-xl">LOADING DATABASE...</p>';
+
                 try {
+                    console.log(`[SYSTEM] Fetching ${filename}...`);
                     const response = await fetch(filename);
+                    console.log('[SYSTEM] Fetch complete, status:', response.status);
+
                     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                    console.log('[SYSTEM] Parsing JSON...');
                     this.db = await response.json();
-                    
-                    // Hide boot, show main
-                    document.getElementById('boot-screen').classList.add('hidden');
+                    console.log('[SYSTEM] Database loaded successfully:', Object.keys(this.db));
+
+                    console.log('[SYSTEM] Hiding boot screen...');
+                    bootScreen.classList.add('hidden');
                     document.getElementById('main-interface').classList.remove('hidden');
-                    
+
+                    console.log('[SYSTEM] Initializing UI...');
                     this.initUI();
+
+                    console.log('[SYSTEM] Changing to status tab...');
                     this.changeTab('status');
+
+                    console.log('[SYSTEM] Starting clock...');
                     setInterval(this.updateClock, 1000);
                     this.updateClock();
 
+                    console.log('[SYSTEM] Initialization complete!');
+
                 } catch (e) {
-                    console.error("Critical Failure:", e);
-                    alert(`CRITICAL ERROR: COULD NOT LOAD ${filename}. \n\nEnsure you are running this on a web server (GitHub Pages/Localhost), NOT directly from file://`);
+                    console.error("[SYSTEM] Critical Failure:", e);
+                    console.error("[SYSTEM] Error stack:", e.stack);
+
+                    // Show error on screen
+                    const isFileProtocol = window.location.protocol === 'file:';
+                    const errorMsg = isFileProtocol
+                        ? `CRITICAL ERROR: FILE PROTOCOL DETECTED\n\nYou are opening this file directly in your browser.\nThis blocks database loading for security reasons.\n\nSOLUTION:\n1. Use VS Code Live Server extension, OR\n2. Run: python -m http.server 8000\n3. Then open: http://localhost:8000`
+                        : `CRITICAL ERROR: COULD NOT LOAD ${filename}\n\nError: ${e.message}\n\nCheck browser console for details.`;
+
+                    startBtn.innerHTML = `
+                        <div class="border-2 border-red-500 bg-black p-6 text-red-500 text-left max-w-2xl">
+                            <h3 class="text-2xl font-bold mb-4 text-center">⚠ SYSTEM FAILURE ⚠</h3>
+                            <pre class="text-sm whitespace-pre-wrap font-mono">${errorMsg}</pre>
+                            <button onclick="location.reload()" class="pip-btn px-6 py-2 mt-4 w-full border-red-500 text-red-500 hover:bg-red-500">
+                                > RESTART SYSTEM
+                            </button>
+                        </div>
+                    `;
                 }
             },
 
