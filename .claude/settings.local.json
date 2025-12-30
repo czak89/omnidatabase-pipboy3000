@@ -3,7 +3,13 @@
     "allow": [
       "Bash(ls:*)",
       "Bash(dir:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(wc:*)",
+      "Bash(node -e:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(git rm:*)"
     ]
   }
 }
