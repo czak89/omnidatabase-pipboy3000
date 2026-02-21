@@ -1,0 +1,233 @@
+{
+  "min_confidence": 0.45,
+  "exclude_url_patterns": [
+    "/wiki/User:",
+    "/wiki/Talk:",
+    "/wiki/Template:",
+    "/wiki/Category:",
+    "/wiki/File:",
+    "/wiki/Forum:",
+    "/wiki/Message_Wall",
+    "/wiki/Thread:"
+  ],
+  "exclude_title_patterns": [
+    "(disambiguation)",
+    "mod",
+    "mods",
+    "cut content"
+  ],
+  "exclude_category_patterns": [
+    "Disambiguation pages",
+    "Mod pages"
+  ],
+  "canon_keywords": {
+    "tv": [
+      "tv series",
+      "season 1",
+      "amazon",
+      "lucy maclean",
+      "cooper howard"
+    ]
+  },
+  "module_keywords": {
+    "timeline": [
+      "timeline",
+      "great war",
+      "resource wars",
+      "event",
+      "battle",
+      "war",
+      "year"
+    ],
+    "vaults": [
+      "vault",
+      "vault-tec",
+      "safehouse"
+    ],
+    "factions": [
+      "faction",
+      "brotherhood",
+      "republic",
+      "legion",
+      "enclave",
+      "gang",
+      "tribe",
+      "followers",
+      "institute",
+      "minutemen",
+      "railroad"
+    ],
+    "locations": [
+      "location",
+      "settlement",
+      "city",
+      "bunker",
+      "dam",
+      "strip",
+      "harbor",
+      "capital wasteland",
+      "mojave",
+      "commonwealth"
+    ],
+    "bestiary": [
+      "creature",
+      "mutant",
+      "animal",
+      "beast",
+      "super mutant",
+      "ghoul",
+      "deathclaw",
+      "nightkin"
+    ],
+    "tech": [
+      "weapon",
+      "robot",
+      "power armor",
+      "energy weapon",
+      "pip-boy",
+      "geck",
+      "prototype",
+      "liberty prime",
+      "securitron",
+      "robobrain",
+      "eyebot"
+    ],
+    "vanburen": [
+      "van buren",
+      "cancelled fallout 3"
+    ]
+  },
+  "category_keywords": {
+    "tech": {
+      "pa": [
+        "power armor",
+        "armor",
+        "t-45",
+        "t-51",
+        "x-01"
+      ],
+      "energy": [
+        "energy weapon",
+        "laser",
+        "plasma"
+      ],
+      "robots": [
+        "robot",
+        "android",
+        "liberty prime",
+        "securitron",
+        "robobrain",
+        "eyebot"
+      ],
+      "devices": [
+        "device",
+        "pip-boy",
+        "geck",
+        "terminal"
+      ]
+    },
+    "vaults": {
+      "control": [
+        "control vault",
+        "no experiment"
+      ],
+      "social": [
+        "social experiment",
+        "population",
+        "society",
+        "psychological"
+      ],
+      "science": [
+        "fev",
+        "research",
+        "scientific",
+        "laboratory",
+        "cryogenic"
+      ],
+      "esoteric": [
+        "music",
+        "strange",
+        "occult",
+        "esoteric"
+      ]
+    },
+    "locations": {
+      "west": [
+        "california",
+        "west coast",
+        "shady sands",
+        "hub",
+        "boneyard"
+      ],
+      "mojave": [
+        "mojave",
+        "new vegas",
+        "hoover dam",
+        "hidden valley"
+      ],
+      "east": [
+        "capital wasteland",
+        "commonwealth",
+        "boston",
+        "dc",
+        "far harbor"
+      ]
+    },
+    "factions": {
+      "major": [
+        "ncr",
+        "brotherhood",
+        "legion",
+        "enclave"
+      ],
+      "regional": [
+        "followers",
+        "minutemen",
+        "railroad",
+        "regional"
+      ],
+      "raiders": [
+        "raider",
+        "gang",
+        "ganger",
+        "khans",
+        "fiends"
+      ]
+    },
+    "bestiary": {
+      "mutants": [
+        "mutant",
+        "deathclaw",
+        "nightkin",
+        "ghoul"
+      ],
+      "robots": [
+        "robot",
+        "protectron",
+        "assaultron",
+        "sentry bot"
+      ],
+      "humans": [
+        "human",
+        "survivor",
+        "raider"
+      ]
+    },
+    "vanburen": {
+      "all": [
+        "van buren",
+        "cancelled"
+      ]
+    }
+  },
+  "default_category": {
+    "timeline": "modern",
+    "vaults": "social",
+    "factions": "regional",
+    "locations": "west",
+    "bestiary": "mutants",
+    "tech": "devices",
+    "vanburen": "all"
+  }
+}
+

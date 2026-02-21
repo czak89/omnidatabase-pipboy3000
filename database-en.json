@@ -122,6 +122,36 @@
             "Company": "RobCo"
           },
           "lore": "New Vegas guardian. Equipped with grenade launchers and lasers."
+        },
+        {
+          "id": "liberty_prime",
+          "name": "LIBERTY PRIME",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=LIBERTY+PRIME",
+          "specs": {
+            "Type": "Strategic war robot",
+            "Affiliation": "Brotherhood of Steel"
+          },
+          "lore": "A giant anti-communist war robot deployed by the Brotherhood in major East Coast conflicts."
+        },
+        {
+          "id": "robobrain_platform",
+          "name": "ROBOBRAIN",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=ROBOBRAIN",
+          "specs": {
+            "Type": "Military/scientific robot",
+            "Core": "Human brain tissue"
+          },
+          "lore": "A military and research robot platform integrating human brain tissue for advanced tactical behavior."
+        },
+        {
+          "id": "eyebot_surveillance_platform",
+          "name": "EYEBOT",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=EYEBOT",
+          "specs": {
+            "Type": "Reconnaissance drone",
+            "Role": "Broadcast/scouting support"
+          },
+          "lore": "A floating utility and reconnaissance robot used for broadcasting, scouting, and field support."
         }
       ],
       "devices": [
@@ -549,6 +579,36 @@
             "Men": "1"
           },
           "lore": "Inverse of Vault 68. 999 women and only 1 man. Social dynamics experiment."
+        },
+        {
+          "id": "v15_shady_origins",
+          "name": "VAULT 15",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+15",
+          "specs": {
+            "Experiment": "Ideological diversity",
+            "Legacy": "Shady Sands origins"
+          },
+          "lore": "Vault 15 housed ideologically diverse groups; its descendants helped establish major post-war settlements including Shady Sands."
+        },
+        {
+          "id": "v106_hallucination_experiment",
+          "name": "VAULT 106",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+106",
+          "specs": {
+            "Experiment": "Psychoactive chemicals",
+            "Result": "Psychological collapse"
+          },
+          "lore": "Vault 106 used psychoactive chemicals on residents, causing severe psychological collapse."
+        },
+        {
+          "id": "v21_gamblers_vault",
+          "name": "VAULT 21",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+21",
+          "specs": {
+            "Experiment": "Gambling-based governance",
+            "Location": "New Vegas"
+          },
+          "lore": "Vault 21 used gambling as a dispute-resolution system and later became tied to New Vegas politics."
         }
       ],
       "science": [
@@ -591,6 +651,16 @@
             "Primary design": "Controlled social experiments"
           },
           "lore": "The vault network was presented as a civil defense system, but many facilities were designed for controlled long-term experimentation on residents."
+        },
+        {
+          "id": "v87_fev_lab",
+          "name": "VAULT 87",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+87",
+          "specs": {
+            "Experiment": "FEV exposure",
+            "Region": "Capital Wasteland"
+          },
+          "lore": "Vault 87 conducted FEV-based experimentation that produced many Capital Wasteland super mutants."
         }
       ],
       "esoteric": [
@@ -795,6 +865,16 @@
             "Leader": "Marcus"
           },
           "lore": "Peaceful super mutant settlement. Led by Marcus from Fallout 2. Refuge for outcasts."
+        },
+        {
+          "id": "hidden_valley_bunker",
+          "name": "HIDDEN VALLEY BUNKER",
+          "img": "https://placehold.co/300x200/113300/88ff33?text=HIDDEN+VALLEY",
+          "specs": {
+            "Region": "Mojave",
+            "Occupants": "Brotherhood of Steel"
+          },
+          "lore": "Primary Mojave bunker complex used by the Brotherhood of Steel chapter in New Vegas."
         }
       ],
       "east": [
@@ -857,6 +937,16 @@
             "Industry": "Steel mills"
           },
           "lore": "Industrial hellscape. Slaves work steel mills. Raiders rule. Featured in Fallout 3 DLC."
+        },
+        {
+          "id": "megaton_bomb_city",
+          "name": "MEGATON",
+          "img": "https://placehold.co/300x200/113300/88ff33?text=MEGATON",
+          "specs": {
+            "Region": "Capital Wasteland",
+            "Landmark": "Unexploded atomic bomb"
+          },
+          "lore": "A major Capital Wasteland settlement built around an unexploded atomic bomb."
         }
       ]
     }
@@ -979,6 +1069,16 @@
             "Status": "Merged with NCR"
           },
           "lore": "Lawmen of the wasteland. Merged with NCR in 2271. Became NCR Rangers. Iconic dusters and masks."
+        },
+        {
+          "id": "followers_apocalypse",
+          "name": "FOLLOWERS OF THE APOCALYPSE",
+          "img": "https://placehold.co/300x200/220022/bb66ff?text=FOLLOWERS",
+          "specs": {
+            "Focus": "Medicine and education",
+            "Type": "Humanitarian organization"
+          },
+          "lore": "A humanitarian knowledge-focused organization dedicated to medicine, education, and social recovery."
         }
       ],
       "raiders": [
@@ -1021,6 +1121,16 @@
             "Base": "Commonwealth"
           },
           "lore": "Ruthless mercenary company operating in the Commonwealth. Essentially well-armed raiders-for-hire – they take any contract and show no mercy. Better organized and equipped than typical raiders, with strongholds like Gunners Plaza in Boston."
+        },
+        {
+          "id": "powder_gangers",
+          "name": "POWDER GANGERS",
+          "img": "https://placehold.co/300x200/441100/ff8800?text=POWDER+GANGERS",
+          "specs": {
+            "Origin": "Escaped NCR convicts",
+            "Tactics": "Explosives"
+          },
+          "lore": "Former NCR correctional laborers turned explosive-focused raider gang in the Mojave."
         }
       ]
     }
@@ -1121,6 +1231,16 @@
             "Commonality": "Very high"
           },
           "lore": "Mutated cockroach. Highly resistant to radiation. Found everywhere. Relatively harmless but numerous."
+        },
+        {
+          "id": "nightkin",
+          "name": "NIGHTKIN",
+          "img": "https://placehold.co/300x200/331133/cc88ff?text=NIGHTKIN",
+          "specs": {
+            "Type": "Super mutant variant",
+            "Trait": "Stealth specialization"
+          },
+          "lore": "A stealth-specialist super mutant variant strongly associated with prolonged Stealth Boy use."
         }
       ],
       "robots": [
