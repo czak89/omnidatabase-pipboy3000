@@ -24,28 +24,125 @@
     "border": "border-amber-300",
     "theme": "theme-tech",
     "categories": [
-      { "id": "pa", "name": "PANCERZE WSPOMAGANE", "icon": "🛡️", "desc": "Od T-45 do Hellfire." },
-      { "id": "energy", "name": "BROŃ ENERGETYCZNA", "icon": "⚡", "desc": "Lasery, Plazma, Gauss." },
-      { "id": "robots", "name": "ROBOTYKA", "icon": "🤖", "desc": "RobCo, General Atomics." },
-      { "id": "devices", "name": "URZĄDZENIA", "icon": "💾", "desc": "Pip-Boy, Stealth-Boy, G.E.C.K." }
+      {
+        "id": "pa",
+        "name": "PANCERZE WSPOMAGANE",
+        "icon": "🛡️",
+        "desc": "Od T-45 do Hellfire."
+      },
+      {
+        "id": "energy",
+        "name": "BROŃ ENERGETYCZNA",
+        "icon": "⚡",
+        "desc": "Lasery, Plazma, Gauss."
+      },
+      {
+        "id": "robots",
+        "name": "ROBOTYKA",
+        "icon": "🤖",
+        "desc": "RobCo, General Atomics."
+      },
+      {
+        "id": "devices",
+        "name": "URZĄDZENIA",
+        "icon": "💾",
+        "desc": "Pip-Boy, Stealth-Boy, G.E.C.K."
+      }
     ],
     "items": {
       "pa": [
-        { "id": "t45", "name": "T-45d POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-45d", "specs": {"Rok": "2067", "Frakcja": "US Army"}, "lore": "Pierwszy model bojowy użyty w Anchorage. Pancerz stalowy, niska mobilność." },
-        { "id": "t51", "name": "T-51b POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-51b", "specs": {"Rok": "2076", "Ciekawostka": "Recykling moczu"}, "lore": "Szczyt inżynierii. Kompozyt polilaminatowy. Ikona Fallout 1." },
-        { "id": "x01", "name": "X-01 / APA", "img": "https://placehold.co/400x300/111/ffb000?text=X-01", "specs": {"Rok": "2220", "Frakcja": "Enklawa"}, "lore": "Rozwinięty przez Enklawę po wojnie. Znacznie przewyższa modele przedwojenne." }
+        {
+          "id": "t45",
+          "name": "T-45d POWER ARMOR",
+          "img": "https://placehold.co/400x300/111/ffb000?text=T-45d",
+          "specs": {
+            "Rok": "2067",
+            "Frakcja": "US Army"
+          },
+          "lore": "Pierwszy model bojowy użyty w Anchorage. Pancerz stalowy, niska mobilność."
+        },
+        {
+          "id": "t51",
+          "name": "T-51b POWER ARMOR",
+          "img": "https://placehold.co/400x300/111/ffb000?text=T-51b",
+          "specs": {
+            "Rok": "2076",
+            "Ciekawostka": "Recykling moczu"
+          },
+          "lore": "Szczyt inżynierii. Kompozyt polilaminatowy. Ikona Fallout 1."
+        },
+        {
+          "id": "x01",
+          "name": "X-01 / APA",
+          "img": "https://placehold.co/400x300/111/ffb000?text=X-01",
+          "specs": {
+            "Rok": "2220",
+            "Frakcja": "Enklawa"
+          },
+          "lore": "Rozwinięty przez Enklawę po wojnie. Znacznie przewyższa modele przedwojenne."
+        }
       ],
       "energy": [
-        { "id": "aer9", "name": "AER9 LASER RIFLE", "img": "https://placehold.co/400x150/111/ffb000?text=AER9", "specs": {"Typ": "Laser", "Ammo": "MFC"}, "lore": "Standardowy karabin armii. Wytrzymały i kanciasty." },
-        { "id": "p94", "name": "PLASMA CASTER", "img": "https://placehold.co/400x150/111/ffb000?text=P94", "specs": {"Typ": "Plazma", "Ammo": "MFC"}, "lore": "Przemysłowa broń plazmowa Winchester P94. Strzela torusem plazmy." }
+        {
+          "id": "aer9",
+          "name": "AER9 LASER RIFLE",
+          "img": "https://placehold.co/400x150/111/ffb000?text=AER9",
+          "specs": {
+            "Typ": "Laser",
+            "Ammo": "MFC"
+          },
+          "lore": "Standardowy karabin armii. Wytrzymały i kanciasty."
+        },
+        {
+          "id": "p94",
+          "name": "PLASMA CASTER",
+          "img": "https://placehold.co/400x150/111/ffb000?text=P94",
+          "specs": {
+            "Typ": "Plazma",
+            "Ammo": "MFC"
+          },
+          "lore": "Przemysłowa broń plazmowa Winchester P94. Strzela torusem plazmy."
+        }
       ],
       "robots": [
-        { "id": "mrhandy", "name": "MR. HANDY", "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY", "specs": {"Firma": "General Atomics"}, "lore": "Robot domowy. Wersja Gutsy służyła w wojsku." },
-        { "id": "securitron", "name": "SECURITRON", "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON", "specs": {"Firma": "RobCo"}, "lore": "Strażnik New Vegas. Posiada granatniki i lasery." }
+        {
+          "id": "mrhandy",
+          "name": "MR. HANDY",
+          "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY",
+          "specs": {
+            "Firma": "General Atomics"
+          },
+          "lore": "Robot domowy. Wersja Gutsy służyła w wojsku."
+        },
+        {
+          "id": "securitron",
+          "name": "SECURITRON",
+          "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON",
+          "specs": {
+            "Firma": "RobCo"
+          },
+          "lore": "Strażnik New Vegas. Posiada granatniki i lasery."
+        }
       ],
       "devices": [
-        { "id": "pipboy", "name": "PIP-BOY 3000", "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY", "specs": {"Firma": "RobCo"}, "lore": "Komputer osobisty. Model 3000 ma blokadę biometryczną." },
-        { "id": "geck", "name": "G.E.C.K.", "img": "https://placehold.co/400x200/111/ffb000?text=GECK", "specs": {"Funkcja": "Terraformacja"}, "lore": "Garden of Eden Creation Kit. Walizka z replikatorem materii." }
+        {
+          "id": "pipboy",
+          "name": "PIP-BOY 3000",
+          "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY",
+          "specs": {
+            "Firma": "RobCo"
+          },
+          "lore": "Komputer osobisty. Model 3000 ma blokadę biometryczną."
+        },
+        {
+          "id": "geck",
+          "name": "G.E.C.K.",
+          "img": "https://placehold.co/400x200/111/ffb000?text=GECK",
+          "specs": {
+            "Funkcja": "Terraformacja"
+          },
+          "lore": "Garden of Eden Creation Kit. Walizka z replikatorem materii."
+        }
       ]
     }
   },
@@ -55,33 +152,206 @@
     "border": "border-yellow-400",
     "theme": "theme-history",
     "categories": [
-      { "id": "prewar", "name": "ERA PRZEDWOJENNA (2050-2077)", "icon": "🏙️", "desc": "Wojny o Surowce, Nowa Plaga, Aneksja Kanady." },
-      { "id": "greatwar", "name": "WIELKA WOJNA (2077)", "icon": "🍄", "desc": "23 Października. Dzień Zagłady i Narodziny Pustkowi." },
-      { "id": "darkages", "name": "WIEKI CIEMNE (2078-2160)", "icon": "💀", "desc": "Exodus, Mariposa, Narodziny Mistrza i Hub." },
-      { "id": "heroic", "name": "ERA BOHATERÓW (2161-2241)", "icon": "🌟", "desc": "Fallout 1 & 2. Zniszczenie Jedności i Enklawy." },
-      { "id": "modern", "name": "ERA NOWOŻYTNA (2250+)", "icon": "⚙️", "desc": "Wojny RNK-BOS, Van Buren, New Vegas, Waszyngton." }
+      {
+        "id": "prewar",
+        "name": "ERA PRZEDWOJENNA (2050-2077)",
+        "icon": "🏙️",
+        "desc": "Wojny o Surowce, Nowa Plaga, Aneksja Kanady."
+      },
+      {
+        "id": "greatwar",
+        "name": "WIELKA WOJNA (2077)",
+        "icon": "🍄",
+        "desc": "23 Października. Dzień Zagłady i Narodziny Pustkowi."
+      },
+      {
+        "id": "darkages",
+        "name": "WIEKI CIEMNE (2078-2160)",
+        "icon": "💀",
+        "desc": "Exodus, Mariposa, Narodziny Mistrza i Hub."
+      },
+      {
+        "id": "heroic",
+        "name": "ERA BOHATERÓW (2161-2241)",
+        "icon": "🌟",
+        "desc": "Fallout 1 & 2. Zniszczenie Jedności i Enklawy."
+      },
+      {
+        "id": "modern",
+        "name": "ERA NOWOŻYTNA (2250+)",
+        "icon": "⚙️",
+        "desc": "Wojny RNK-BOS, Van Buren, New Vegas, Waszyngton."
+      }
     ],
     "items": {
       "prewar": [
-        { "id": "2052", "name": "2052: WOJNY O SUROWCE", "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS", "specs": {"Skutek": "Upadek ONZ", "Powód": "Brak ropy"}, "lore": "Początek końca. Europa najeżdża Bliski Wschód po ostatnie krople ropy. ONZ upada w lipcu. USA zamyka granice. Telewizja pokazuje wyschnięte szyby naftowe w Teksasie." },
-        { "id": "2077_fuel", "name": "2077: KRYZYS PALIWOWY", "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES", "specs": {"Cena": "$8500 / Galon"}, "lore": "Tuż przed wojną cena benzyny osiąga gigantyczne kwoty." }
+        {
+          "id": "2052",
+          "name": "2052: WOJNY O SUROWCE",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS",
+          "specs": {
+            "Skutek": "Upadek ONZ",
+            "Powód": "Brak ropy"
+          },
+          "lore": "Początek końca. Europa najeżdża Bliski Wschód po ostatnie krople ropy. ONZ upada w lipcu. USA zamyka granice. Telewizja pokazuje wyschnięte szyby naftowe w Teksasie."
+        },
+        {
+          "id": "2077_fuel",
+          "name": "2077: KRYZYS PALIWOWY",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES",
+          "specs": {
+            "Cena": "$8500 / Galon"
+          },
+          "lore": "Tuż przed wojną cena benzyny osiąga gigantyczne kwoty."
+        }
       ],
       "greatwar": [
-        { "id": "2077_bombs", "name": "23 PAŹDZIERNIKA 2077", "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR", "specs": {"Start": "9:47 AM", "Czas trwania": "2 godziny"}, "lore": "Wymiana nuklearna. Większość dużych miast znika z mapy. West Tek otrzymuje bezpośrednie trafienie." }
+        {
+          "id": "2077_bombs",
+          "name": "23 PAŹDZIERNIKA 2077",
+          "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR",
+          "specs": {
+            "Start": "9:47 AM",
+            "Czas trwania": "2 godziny"
+          },
+          "lore": "Wymiana nuklearna. Większość dużych miast znika z mapy. West Tek otrzymuje bezpośrednie trafienie."
+        }
       ],
       "darkages": [
-        { "id": "2077_vault", "name": "2077: MIESZKAŃCY WCHODZĄ DO KRYPT", "img": "https://placehold.co/600x300/003300/00ff00?text=VAULT+DOOR", "specs": {"Populacja": "~1000 na kryptę", "Czas trwania": "Różny"}, "lore": "Wybrani obywatele wchodzą do krypt. Większość eksperymentów zaczyna się natychmiast. Krypty kontrolne funkcjonują zgodnie z planem." },
-        { "id": "2084", "name": "2084: POWSTANIE SHADY SANDS", "img": "https://placehold.co/600x300/111100/ffff00?text=SHADY+SANDS", "specs": {"Założyciele": "Mieszkańcy Krypty 15", "Lokacja": "Kalifornia"}, "lore": "Ocaleni z Krypty 15 zakładają małą wioskę rolniczą. Stanie się stolicą RNK." },
-        { "id": "2091", "name": "2091: POWSTANIE VAULT CITY", "img": "https://placehold.co/600x300/001133/33bbff?text=VAULT+CITY", "specs": {"Pochodzenie": "Krypta 8", "Technologia": "G.E.C.K."}, "lore": "Krypta 8 otwiera się zgodnie z harmonogramem. Używając G.E.C.K., mieszkańcy budują sterylne, wysokotechnologiczne osiedle." },
-        { "id": "2102", "name": "2102: OTWARCIE KRYPTY 76", "img": "https://placehold.co/600x300/001133/33bbff?text=RECLAMATION+DAY", "specs": {"Lokacja": "Zachodnia Wirginia", "Cel": "Odbudowa"}, "lore": "Krypta kontrolna otwiera się po 25 latach. Mieszkańcy wychodzą, aby odzyskać Appalachię (Fallout 76)." },
-        { "id": "2134", "name": "2134: MISTRZ ROZPOCZYNA EKSPERYMENTY", "img": "https://placehold.co/600x300/220000/ff0000?text=FEV+VATS", "specs": {"Lokacja": "Mariposa", "Cel": "Armia Super Mutantów"}, "lore": "Richard Grey, teraz Mistrz, zaczyna tworzyć Super Mutantów z mieszkańców pustkowi używając FEV." },
-        { "id": "2141", "name": "2141: POWSTANIE WIELKICH CHANÓW", "img": "https://placehold.co/600x300/111111/888888?text=KHANS", "specs": {"Typ": "Plemię najeźdźców", "Terytorium": "Kalifornia"}, "lore": "Pochodzą z Krypty 15. Stają się jedną z najbardziej znanych grup najeźdźców na pustkowiach." },
-        { "id": "2152", "name": "2152: ŚMIERĆ MAXSONA", "img": "https://placehold.co/600x300/003344/0088ff?text=BOS+MOURNS", "specs": {"Przyczyna": "Rak", "Wiek": "Nie odnotowano"}, "lore": "Roger Maxson, założyciel Bractwa Stali, umiera. Jego syn przejmuje dowództwo." },
-        { "id": "2155", "name": "2155: ROZKWIT HUB", "img": "https://placehold.co/600x300/332200/ff8800?text=TRADE+ROUTES", "specs": {"Typ": "Centrum handlowe", "Sieć": "Karawany"}, "lore": "Hub staje się centrum handlowym Nowej Kalifornii. Handlarze Wodą kontrolują ekonomię." }
+        {
+          "id": "2077_vault",
+          "name": "2077: MIESZKAŃCY WCHODZĄ DO KRYPT",
+          "img": "https://placehold.co/600x300/003300/00ff00?text=VAULT+DOOR",
+          "specs": {
+            "Populacja": "~1000 na kryptę",
+            "Czas trwania": "Różny"
+          },
+          "lore": "Wybrani obywatele wchodzą do krypt. Większość eksperymentów zaczyna się natychmiast. Krypty kontrolne funkcjonują zgodnie z planem."
+        },
+        {
+          "id": "2084",
+          "name": "2084: POWSTANIE SHADY SANDS",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=SHADY+SANDS",
+          "specs": {
+            "Założyciele": "Mieszkańcy Krypty 15",
+            "Lokacja": "Kalifornia"
+          },
+          "lore": "Ocaleni z Krypty 15 zakładają małą wioskę rolniczą. Stanie się stolicą RNK."
+        },
+        {
+          "id": "2091",
+          "name": "2091: POWSTANIE VAULT CITY",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=VAULT+CITY",
+          "specs": {
+            "Pochodzenie": "Krypta 8",
+            "Technologia": "G.E.C.K."
+          },
+          "lore": "Krypta 8 otwiera się zgodnie z harmonogramem. Używając G.E.C.K., mieszkańcy budują sterylne, wysokotechnologiczne osiedle."
+        },
+        {
+          "id": "2102",
+          "name": "2102: OTWARCIE KRYPTY 76",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=RECLAMATION+DAY",
+          "specs": {
+            "Lokacja": "Zachodnia Wirginia",
+            "Cel": "Odbudowa"
+          },
+          "lore": "Krypta kontrolna otwiera się po 25 latach. Mieszkańcy wychodzą, aby odzyskać Appalachię (Fallout 76)."
+        },
+        {
+          "id": "2134",
+          "name": "2134: MISTRZ ROZPOCZYNA EKSPERYMENTY",
+          "img": "https://placehold.co/600x300/220000/ff0000?text=FEV+VATS",
+          "specs": {
+            "Lokacja": "Mariposa",
+            "Cel": "Armia Super Mutantów"
+          },
+          "lore": "Richard Grey, teraz Mistrz, zaczyna tworzyć Super Mutantów z mieszkańców pustkowi używając FEV."
+        },
+        {
+          "id": "2141",
+          "name": "2141: POWSTANIE WIELKICH CHANÓW",
+          "img": "https://placehold.co/600x300/111111/888888?text=KHANS",
+          "specs": {
+            "Typ": "Plemię najeźdźców",
+            "Terytorium": "Kalifornia"
+          },
+          "lore": "Pochodzą z Krypty 15. Stają się jedną z najbardziej znanych grup najeźdźców na pustkowiach."
+        },
+        {
+          "id": "2152",
+          "name": "2152: ŚMIERĆ MAXSONA",
+          "img": "https://placehold.co/600x300/003344/0088ff?text=BOS+MOURNS",
+          "specs": {
+            "Przyczyna": "Rak",
+            "Wiek": "Nie odnotowano"
+          },
+          "lore": "Roger Maxson, założyciel Bractwa Stali, umiera. Jego syn przejmuje dowództwo."
+        },
+        {
+          "id": "2155",
+          "name": "2155: ROZKWIT HUB",
+          "img": "https://placehold.co/600x300/332200/ff8800?text=TRADE+ROUTES",
+          "specs": {
+            "Typ": "Centrum handlowe",
+            "Sieć": "Karawany"
+          },
+          "lore": "Hub staje się centrum handlowym Nowej Kalifornii. Handlarze Wodą kontrolują ekonomię."
+        }
       ],
       "heroic": [
-        { "id": "2161", "name": "2161: FALLOUT 1", "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER", "specs": {"Bohater": "Przybysz z Krypty", "Cel": "Water Chip"}, "lore": "Przybysz z Krypty niszczy Mistrza i jego Katedrę w 2162. Wraca do domu, ale zostaje wygnany." },
-        { "id": "2241", "name": "2241: FALLOUT 2", "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE", "specs": {"Bohater": "Wybraniec", "Wróg": "Enklawa"}, "lore": "Susza w Arroyo. Wybraniec rusza po G.E.C.K. Niszczy Platformę Wiertniczą." }
+        {
+          "id": "2161",
+          "name": "2161: FALLOUT 1",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER",
+          "specs": {
+            "Bohater": "Przybysz z Krypty",
+            "Cel": "Water Chip"
+          },
+          "lore": "Mieszkaniec Krypty opuszcza Kryptę 13 w 2161, by znaleźć chip wodny dla swojego schronienia. W 2162 niszczy Mistrza i jego Katedrę, lecz po powrocie zostaje wygnany."
+        },
+        {
+          "id": "2241",
+          "name": "2241: FALLOUT 2",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE",
+          "specs": {
+            "Bohater": "Wybraniec",
+            "Wróg": "Enklawa"
+          },
+          "lore": "Dotkliwa susza nawiedza Arroyo, zmuszając Wybrańca do wyruszenia w poszukiwaniu Zestawu Stworzenia Ogrodów Edenu (G.E.C.K.). Później niszczy platformę wiertniczą Enklawy, ratując swoich ludzi."
+        }
+      ],
+      "modern": [
+        {
+          "id": "2276_sunburst",
+          "name": "2276: OPERACJA SUNBURST",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=HELIOS+ONE",
+          "specs": {
+            "Miejsce": "Helios One",
+            "Wynik": "Zwycięstwo RNK"
+          },
+          "lore": "Siły RNK zdobywają elektrownię Helios One na Bractwie. Rozdział Mojave traci połowę paladynów; wojna kończy się na korzyść RNK."
+        },
+        {
+          "id": "2277_purity",
+          "name": "2277: BITWA O PROJECT PURITY",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=PROJECT+PURITY",
+          "specs": {
+            "Lokacja": "Waszyngton (Jefferson Memorial)",
+            "Wynik": "Zwycięstwo Bractwa"
+          },
+          "lore": "Enklawa zajmuje Project Purity, ale zostaje odparta przez Bractwo Lyonsa. Uruchomienie oczyszczalnika zapewnia czystą wodę Pustkowiom Stolicy."
+        },
+        {
+          "id": "2281_dam",
+          "name": "2281: DRUGA BITWA O ZAPORĘ HOOVERA",
+          "img": "https://placehold.co/600x300/332200/ff8800?text=HOOVER+DAM",
+          "specs": {
+            "Konflikt": "RNK vs Legion Cezara",
+            "Rezultat": "Zapora obroniona"
+          },
+          "lore": "Decydujące starcie o los New Vegas. Atak Legionu Cezara załamuje się na Zaporze Hoovera. Republika Nowej Kalifornii świętuje zwycięstwo i umacnia kontrolę nad Mojave."
+        }
       ]
     }
   },
@@ -91,35 +361,199 @@
     "border": "border-blue-400",
     "theme": "theme-vaults",
     "categories": [
-      { "id": "control", "name": "GRUPY KONTROLNE", "icon": "✅", "desc": "Krypty działające zgodnie z oficjalnym celem." },
-      { "id": "social", "name": "EKSPERYMENTY SOCJOLOGICZNE", "icon": "🎭", "desc": "Testy zachowań, władzy, stresu i izolacji." },
-      { "id": "science", "name": "BADANIA MEDYCZNE/FIZ.", "icon": "🧬", "desc": "FEV, choroby, promieniowanie, klonowanie." },
-      { "id": "esoteric", "name": "EZOTERYCZNE / DZIWNE", "icon": "🌀", "desc": "Najbardziej absurdalne pomysły Enklawy." }
+      {
+        "id": "control",
+        "name": "GRUPY KONTROLNE",
+        "icon": "✅",
+        "desc": "Krypty działające zgodnie z oficjalnym celem."
+      },
+      {
+        "id": "social",
+        "name": "EKSPERYMENTY SOCJOLOGICZNE",
+        "icon": "🎭",
+        "desc": "Testy zachowań, władzy, stresu i izolacji."
+      },
+      {
+        "id": "science",
+        "name": "BADANIA MEDYCZNE/FIZ.",
+        "icon": "🧬",
+        "desc": "FEV, choroby, promieniowanie, klonowanie."
+      },
+      {
+        "id": "esoteric",
+        "name": "EZOTERYCZNE / DZIWNE",
+        "icon": "🌀",
+        "desc": "Najbardziej absurdalne pomysły Enklawy."
+      }
     ],
     "items": {
       "control": [
-        { "id": "v8", "name": "KRYPTA 8", "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY", "specs": {"Lokacja": "Nevada", "Wynik": "Sukces"}, "lore": "Idealna krypta. Otwarta po 10 latach. Dzięki G.E.C.K. mieszkańcy zbudowali Vault City." },
-        { "id": "v13", "name": "KRYPTA 13", "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN", "specs": {"Lokacja": "Kalifornia", "Cel": "Izolacja"}, "lore": "Dom Przybysza (Fallout 1). Miała pozostać zamknięta przez 200 lat. Awaria chipa wodnego." },
-        { "id": "v76", "name": "KRYPTA 76", "img": "https://placehold.co/300x200/001133/33bbff?text=RECLAMATION", "specs": {"Lokacja": "Zachodnia Wirginia", "Otwarta": "2102"}, "lore": "Krypta kontrolna. Otwarta po 25 latach. Mieszkańcy wyszli odzyskać Appalachię. Pokazana w Fallout 76." }
+        {
+          "id": "v8",
+          "name": "KRYPTA 8",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY",
+          "specs": {
+            "Lokacja": "Nevada",
+            "Wynik": "Sukces"
+          },
+          "lore": "Idealna krypta. Otwarta po 10 latach. Dzięki G.E.C.K. mieszkańcy zbudowali Vault City."
+        },
+        {
+          "id": "v13",
+          "name": "KRYPTA 13",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN",
+          "specs": {
+            "Lokacja": "Kalifornia",
+            "Cel": "Izolacja"
+          },
+          "lore": "Dom Przybysza (Fallout 1). Miała pozostać zamknięta przez 200 lat. Awaria chipa wodnego."
+        },
+        {
+          "id": "v76",
+          "name": "KRYPTA 76",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=RECLAMATION",
+          "specs": {
+            "Lokacja": "Zachodnia Wirginia",
+            "Otwarta": "2102"
+          },
+          "lore": "Krypta kontrolna. Otwarta po 25 latach. Mieszkańcy wyszli odzyskać Appalachię. Pokazana w Fallout 76."
+        }
       ],
       "social": [
-        { "id": "v11", "name": "KRYPTA 11", "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE", "specs": {"Eksperyment": "Posłuszeństwo", "Wynik": "Tragedia"}, "lore": "Powiedziano im, że muszą co roku wybierać jedną osobę na śmierć. W końcu pozostało tylko 5 mieszkańców." },
-        { "id": "v77", "name": "KRYPTA 77", "img": "https://placehold.co/300x200/001133/33bbff?text=PUPPET+MAN", "specs": {"Lokacja": "Nieznana", "Populacja": "1"}, "lore": "Jeden człowiek i skrzynia pacynek. Eksperyment psychologicznej izolacji. Człowiek oszalał." },
-        { "id": "v101", "name": "KRYPTA 101", "img": "https://placehold.co/300x200/001133/33bbff?text=V101", "specs": {"Lokacja": "Kapitalna Pustka", "Motto": "Nikt nigdy nie wychodzi"}, "lore": "Izolowana od zewnątrz. Nadzorca miał absolutną władzę. Dom Samotnego Wędrowca (Fallout 3)." },
-        { "id": "v19", "name": "KRYPTA 19", "img": "https://placehold.co/300x200/001133/33bbff?text=RED+VS+BLUE", "specs": {"Eksperyment": "Paranoja", "Metoda": "Sektory kolorowe"}, "lore": "Podzielona na sektory Czerwony i Niebieski. Podprogowe komunikaty wzbudzały paranoję. Mieszkańcy zwrócili się przeciw sobie." },
-        { "id": "v27", "name": "KRYPTA 27", "img": "https://placehold.co/300x200/001133/33bbff?text=OVERCROWDED", "specs": {"Populacja": "2000", "Pojemność": "500"}, "lore": "Zaprojektowana dla 500 ale zapchana 2000 ludźmi. Brak prywatności. Ekstremalny stres i konflikty." },
-        { "id": "v68", "name": "KRYPTA 68", "img": "https://placehold.co/300x200/001133/33bbff?text=999+MEN", "specs": {"Mężczyźni": "999", "Kobiety": "1"}, "lore": "Eksperyment społeczny. 999 mężczyzn i tylko 1 kobieta. Wyniki nieznane ale przypuszczalnie katastrofalne." },
-        { "id": "v69", "name": "KRYPTA 69", "img": "https://placehold.co/300x200/001133/33bbff?text=999+WOMEN", "specs": {"Kobiety": "999", "Mężczyźni": "1"}, "lore": "Odwrotność Krypty 68. 999 kobiet i tylko 1 mężczyzna. Eksperyment dynamiki społecznej." }
+        {
+          "id": "v11",
+          "name": "KRYPTA 11",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE",
+          "specs": {
+            "Eksperyment": "Posłuszeństwo",
+            "Wynik": "Tragedia"
+          },
+          "lore": "Powiedziano im, że muszą co roku wybierać jedną osobę na śmierć. W końcu pozostało tylko 5 mieszkańców."
+        },
+        {
+          "id": "v77",
+          "name": "KRYPTA 77",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=PUPPET+MAN",
+          "specs": {
+            "Lokacja": "Nieznana",
+            "Populacja": "1"
+          },
+          "lore": "Jeden człowiek i skrzynia pacynek. Eksperyment psychologicznej izolacji. Człowiek oszalał."
+        },
+        {
+          "id": "v101",
+          "name": "KRYPTA 101",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V101",
+          "specs": {
+            "Lokacja": "Kapitalna Pustka",
+            "Motto": "Nikt nigdy nie wychodzi"
+          },
+          "lore": "Izolowana od zewnątrz. Nadzorca miał absolutną władzę. Dom Samotnego Wędrowca (Fallout 3)."
+        },
+        {
+          "id": "v19",
+          "name": "KRYPTA 19",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=RED+VS+BLUE",
+          "specs": {
+            "Eksperyment": "Paranoja",
+            "Metoda": "Sektory kolorowe"
+          },
+          "lore": "Podzielona na sektory Czerwony i Niebieski. Podprogowe komunikaty wzbudzały paranoję. Mieszkańcy zwrócili się przeciw sobie."
+        },
+        {
+          "id": "v27",
+          "name": "KRYPTA 27",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=OVERCROWDED",
+          "specs": {
+            "Populacja": "2000",
+            "Pojemność": "500"
+          },
+          "lore": "Zaprojektowana dla 500 ale zapchana 2000 ludźmi. Brak prywatności. Ekstremalny stres i konflikty."
+        },
+        {
+          "id": "v68",
+          "name": "KRYPTA 68",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=999+MEN",
+          "specs": {
+            "Mężczyźni": "999",
+            "Kobiety": "1"
+          },
+          "lore": "Eksperyment społeczny. 999 mężczyzn i tylko 1 kobieta. Wyniki nieznane ale przypuszczalnie katastrofalne."
+        },
+        {
+          "id": "v69",
+          "name": "KRYPTA 69",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=999+WOMEN",
+          "specs": {
+            "Kobiety": "999",
+            "Mężczyźni": "1"
+          },
+          "lore": "Odwrotność Krypty 68. 999 kobiet i tylko 1 mężczyzna. Eksperyment dynamiki społecznej."
+        }
       ],
       "science": [
-        { "id": "v111", "name": "KRYPTA 111", "img": "https://placehold.co/300x200/001133/33bbff?text=CRYOGENIC", "specs": {"Lokacja": "Commonwealth", "Technologia": "Kriogeniczne komory"}, "lore": "Eksperyment kriogenicznej hibernacji. Dom Jedynego Ocalałego (Fallout 4). Większość mieszkańców zmarła gdy zawiodło podtrzymanie życia." },
-        { "id": "v22", "name": "KRYPTA 22", "img": "https://placehold.co/300x200/001133/33bbff?text=SPORES", "specs": {"Eksperyment": "Wzrost roślin", "Wynik": "Katastrofa"}, "lore": "Testowano kontrolę szkodników bazującą na grzybach. Spory zmutowały i zainfektowały mieszkańców. Zamienili się w hybrydy roślin." },
-        { "id": "v108", "name": "KRYPTA 108", "img": "https://placehold.co/300x200/001133/33bbff?text=GARY", "specs": {"Eksperyment": "Klonowanie", "Podmiot": "Gary"}, "lore": "Eksperyment klonowania. Podmiot Gary został sklonowany setki razy. Wszystkie klony mówią tylko 'Gary'." }
+        {
+          "id": "v111",
+          "name": "KRYPTA 111",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=CRYOGENIC",
+          "specs": {
+            "Lokacja": "Commonwealth",
+            "Technologia": "Kriogeniczne komory"
+          },
+          "lore": "Eksperyment kriogenicznej hibernacji. Dom Jedynego Ocalałego (Fallout 4). Większość mieszkańców zmarła gdy zawiodło podtrzymanie życia."
+        },
+        {
+          "id": "v22",
+          "name": "KRYPTA 22",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=SPORES",
+          "specs": {
+            "Eksperyment": "Wzrost roślin",
+            "Wynik": "Katastrofa"
+          },
+          "lore": "Testowano kontrolę szkodników bazującą na grzybach. Spory zmutowały i zainfektowały mieszkańców. Zamienili się w hybrydy roślin."
+        },
+        {
+          "id": "v108",
+          "name": "KRYPTA 108",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=GARY",
+          "specs": {
+            "Eksperyment": "Klonowanie",
+            "Podmiot": "Gary"
+          },
+          "lore": "Eksperyment klonowania. Podmiot Gary został sklonowany setki razy. Wszystkie klony mówią tylko 'Gary'."
+        }
       ],
       "esoteric": [
-        { "id": "v12", "name": "KRYPTA 12", "img": "https://placehold.co/300x200/001133/33bbff?text=NECROPOLIS", "specs": {"Lokacja": "Bakersfield", "Defekt": "Drzwi się nie zamykały"}, "lore": "Drzwi zaprojektowane by nigdy się całkowicie nie zamknąć. Mieszkańcy wystawieni na radiację. Wszyscy stali się ghulami. Powstało Necropolis." },
-        { "id": "v92", "name": "KRYPTA 92", "img": "https://placehold.co/300x200/001133/33bbff?text=WHITE+NOISE", "specs": {"Eksperyment": "Hipnoza", "Metoda": "Biały szum"}, "lore": "Tworzenie super-żołnierzy przez podprogową sugestię. Biały szum w głośnikach. Mieszkańcy gwałtownie oszaleli." },
-        { "id": "v34", "name": "KRYPTA 34", "img": "https://placehold.co/300x200/001133/33bbff?text=ARMORY", "specs": {"Lokacja": "Mojave", "Problem": "Nadmiar broni"}, "lore": "Nadmiar broni ale surowe racjonowanie. Reaktor został zalany. Mieszkańcy stali się ghulami uwięzionymi w środku." }
+        {
+          "id": "v12",
+          "name": "KRYPTA 12",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=NECROPOLIS",
+          "specs": {
+            "Lokacja": "Bakersfield",
+            "Defekt": "Drzwi się nie zamykały"
+          },
+          "lore": "Drzwi zaprojektowane by nigdy się całkowicie nie zamknąć. Mieszkańcy wystawieni na radiację. Wszyscy stali się ghulami. Powstało Necropolis."
+        },
+        {
+          "id": "v92",
+          "name": "KRYPTA 92",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=WHITE+NOISE",
+          "specs": {
+            "Eksperyment": "Hipnoza",
+            "Metoda": "Biały szum"
+          },
+          "lore": "Tworzenie super-żołnierzy przez podprogową sugestię. Biały szum w głośnikach. Mieszkańcy gwałtownie oszaleli."
+        },
+        {
+          "id": "v34",
+          "name": "KRYPTA 34",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=ARMORY",
+          "specs": {
+            "Lokacja": "Mojave",
+            "Problem": "Nadmiar broni"
+          },
+          "lore": "Nadmiar broni ale surowe racjonowanie. Reaktor został zalany. Mieszkańcy stali się ghulami uwięzionymi w środku."
+        }
       ]
     }
   },
@@ -129,36 +563,231 @@
     "border": "border-gray-500",
     "theme": "",
     "categories": [
-      { "id": "west", "name": "ZACHÓD (CORE)", "icon": "🐻", "desc": "Kalifornia (RNK)." },
-      { "id": "mojave", "name": "MOJAVE", "icon": "🎰", "desc": "Nevada, Vegas." },
-      { "id": "east", "name": "WSCHÓD", "icon": "🗽", "desc": "D.C. i Boston." }
+      {
+        "id": "west",
+        "name": "ZACHÓD (CORE)",
+        "icon": "🐻",
+        "desc": "Kalifornia (RNK)."
+      },
+      {
+        "id": "mojave",
+        "name": "MOJAVE",
+        "icon": "🎰",
+        "desc": "Nevada, Vegas."
+      },
+      {
+        "id": "east",
+        "name": "WSCHÓD",
+        "icon": "🗽",
+        "desc": "D.C. i Boston."
+      }
     ],
     "items": {
       "west": [
-        { "id": "glow", "name": "THE GLOW", "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK", "specs": {"Typ": "Krater", "Radiacja": "Ekstremalna"}, "lore": "Ruiny ośrodka badawczego West Tek. Bezpośrednie trafienie nuklearne. Silnie napromieniowane. Miejsce badań FEV." },
-        { "id": "hub", "name": "THE HUB", "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB", "specs": {"Typ": "Miasto", "Ekonomia": "Handel"}, "lore": "Główne centrum handlowe. Gildia Handlarzy Wodą kontroluje ekonomię. Skrzyżowanie pustkowi." },
-        { "id": "shadysands", "name": "SHADY SANDS / STOLICA RNK", "img": "https://placehold.co/300x200/003311/33ff88?text=NCR", "specs": {"Założone": "2084", "Status": "Stolica"}, "lore": "Założone przez mieszkańców Krypty 15. Rozrosło się w stolicę RNK. Symbol powojennej cywilizacji i demokracji." },
-        { "id": "newreno", "name": "NEW RENO", "img": "https://placehold.co/300x200/330011/ff3366?text=NEW+RENO", "specs": {"Typ": "Miasto", "Kontrola": "Rodziny przestępcze"}, "lore": "Miasto grzechu pustkowi. Kontrolowane przez rodziny mafijne. Kasyna, narkotyki i prostytucja." },
-        { "id": "sanfrancisco", "name": "SAN FRANCISCO", "img": "https://placehold.co/300x200/001133/3388ff?text=SAN+FRAN", "specs": {"Frakcja": "Shi", "Technologia": "Przedwojenny okręt podwodny"}, "lore": "Kontrolowane przez Shi. Potomkowie załogi chińskiego okrętu podwodnego. Zaawansowana technologia i Hubologowie." },
-        { "id": "cathedral", "name": "KATEDRA", "img": "https://placehold.co/300x200/220000/ff0000?text=CATHEDRAL", "specs": {"Frakcja": "Dzieci Katedry", "Zniszczona": "2162"}, "lore": "Baza Mistrza w Los Angeles. Przykrywka dla eksperymentów FEV. Zniszczona przez Przybysza z Krypty bombą nuklearną." },
-        { "id": "boneyard", "name": "CMENTARZYSKO", "img": "https://placehold.co/300x200/111100/888866?text=LA+RUINS", "specs": {"Lokacja": "Los Angeles", "Frakcja": "Producenci Broni"}, "lore": "Ruiny Los Angeles. Dom Producentów Broni i Wyznawców Apokalipsy. Terytorium szabrowników." }
+        {
+          "id": "glow",
+          "name": "THE GLOW",
+          "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK",
+          "specs": {
+            "Typ": "Krater",
+            "Radiacja": "Ekstremalna"
+          },
+          "lore": "Ruiny ośrodka badawczego West Tek. Bezpośrednie trafienie nuklearne. Silnie napromieniowane. Miejsce badań FEV."
+        },
+        {
+          "id": "hub",
+          "name": "THE HUB",
+          "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB",
+          "specs": {
+            "Typ": "Miasto",
+            "Ekonomia": "Handel"
+          },
+          "lore": "Główne centrum handlowe. Gildia Handlarzy Wodą kontroluje ekonomię. Skrzyżowanie pustkowi."
+        },
+        {
+          "id": "shadysands",
+          "name": "SHADY SANDS / STOLICA RNK",
+          "img": "https://placehold.co/300x200/003311/33ff88?text=NCR",
+          "specs": {
+            "Założone": "2084",
+            "Status": "Stolica"
+          },
+          "lore": "Założone przez mieszkańców Krypty 15. Rozrosło się w stolicę RNK. Symbol powojennej cywilizacji i demokracji."
+        },
+        {
+          "id": "newreno",
+          "name": "NEW RENO",
+          "img": "https://placehold.co/300x200/330011/ff3366?text=NEW+RENO",
+          "specs": {
+            "Typ": "Miasto",
+            "Kontrola": "Rodziny przestępcze"
+          },
+          "lore": "Miasto grzechu pustkowi. Kontrolowane przez rodziny mafijne. Kasyna, narkotyki i prostytucja."
+        },
+        {
+          "id": "sanfrancisco",
+          "name": "SAN FRANCISCO",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=SAN+FRAN",
+          "specs": {
+            "Frakcja": "Shi",
+            "Technologia": "Przedwojenny okręt podwodny"
+          },
+          "lore": "Kontrolowane przez Shi. Potomkowie załogi chińskiego okrętu podwodnego. Zaawansowana technologia i Hubologowie."
+        },
+        {
+          "id": "cathedral",
+          "name": "KATEDRA",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=CATHEDRAL",
+          "specs": {
+            "Frakcja": "Dzieci Katedry",
+            "Zniszczona": "2162"
+          },
+          "lore": "Baza Mistrza w Los Angeles. Przykrywka dla eksperymentów FEV. Zniszczona przez Przybysza z Krypty bombą nuklearną."
+        },
+        {
+          "id": "boneyard",
+          "name": "CMENTARZYSKO",
+          "img": "https://placehold.co/300x200/111100/888866?text=LA+RUINS",
+          "specs": {
+            "Lokacja": "Los Angeles",
+            "Frakcja": "Producenci Broni"
+          },
+          "lore": "Ruiny Los Angeles. Dom Producentów Broni i Wyznawców Apokalipsy. Terytorium szabrowników."
+        }
       ],
       "mojave": [
-        { "id": "strip", "name": "STRIP NEW VEGAS", "img": "https://placehold.co/300x200/332200/ffcc00?text=THE+STRIP", "specs": {"Właściciel": "Pan House", "Status": "Funkcjonalny"}, "lore": "Zachowany przez Pana House'a. Trzy rodziny prowadzą kasyna. Szczyt luksusu na pustkowiach." },
-        { "id": "hooverdam2", "name": "ZAPORA HOOVERA", "img": "https://placehold.co/300x200/003344/0088ff?text=HOOVER+DAM", "specs": {"Energia": "Cały region", "Kontrola": "Sporny"}, "lore": "Dostarcza elektryczność do Vegas i RNK. Walka między RNK a Legionem. Miejsce dwóch bitew." },
-        { "id": "mccarran", "name": "OBÓZ MCCARRAN", "img": "https://placehold.co/300x200/331100/ff8800?text=MCCARRAN", "specs": {"Typ": "Baza wojskowa", "Frakcja": "RNK"}, "lore": "Przedwojenne lotnisko. Kwatera główna wojsk RNK w Mojave. Główny punkt zborny blisko Vegas." },
-        { "id": "nellis", "name": "BAZA SIŁ POWIETRZNYCH NELLIS", "img": "https://placehold.co/300x200/001133/3388ff?text=NELLIS", "specs": {"Frakcja": "Wysadzacze", "Obrona": "Artyleria"}, "lore": "Dom Wysadzaczy. Izolowani plemienni obsesyjnie zajęci materiałami wybuchowymi. Chronieni przez bombardowanie artyleryjskie." },
-        { "id": "bigmt", "name": "BIG MT (WIELKA PUSTKA)", "img": "https://placehold.co/300x200/110033/8800ff?text=BIG+MT", "specs": {"Typ": "Ośrodek badawczy", "AI": "Think Tank"}, "lore": "Przedwojenna kopuła badawcza. Prowadzona przez naukowców będących mózgami w słojach. Stworzyli cazadory i nocne łowce." },
-        { "id": "zion", "name": "KANION ZION", "img": "https://placehold.co/300x200/113300/66ff33?text=ZION", "specs": {"Plemiona": "Martwe Konie, Smutki", "Piękno": "Nietknięte"}, "lore": "Nietknięte przez wojnę. Dom plemiennych społeczności. Schronienie Joshuy Grahama. Pokazane w Honest Hearts." },
-        { "id": "jacobstown", "name": "JACOBSTOWN", "img": "https://placehold.co/300x200/227700/88ff00?text=JACOBSTOWN", "specs": {"Populacja": "Super Mutanty", "Przywódca": "Marcus"}, "lore": "Pokojowa osada super mutantów. Prowadzona przez Marcusa z Fallout 2. Schronienie dla wyrzutków." }
+        {
+          "id": "strip",
+          "name": "STRIP NEW VEGAS",
+          "img": "https://placehold.co/300x200/332200/ffcc00?text=THE+STRIP",
+          "specs": {
+            "Właściciel": "Pan House",
+            "Status": "Funkcjonalny"
+          },
+          "lore": "Zachowany przez Pana House'a. Trzy rodziny prowadzą kasyna. Szczyt luksusu na pustkowiach."
+        },
+        {
+          "id": "hooverdam2",
+          "name": "ZAPORA HOOVERA",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=HOOVER+DAM",
+          "specs": {
+            "Energia": "Cały region",
+            "Kontrola": "Sporny"
+          },
+          "lore": "Dostarcza elektryczność do Vegas i RNK. Walka między RNK a Legionem. Miejsce dwóch bitew."
+        },
+        {
+          "id": "mccarran",
+          "name": "OBÓZ MCCARRAN",
+          "img": "https://placehold.co/300x200/331100/ff8800?text=MCCARRAN",
+          "specs": {
+            "Typ": "Baza wojskowa",
+            "Frakcja": "RNK"
+          },
+          "lore": "Przedwojenne lotnisko. Kwatera główna wojsk RNK w Mojave. Główny punkt zborny blisko Vegas."
+        },
+        {
+          "id": "nellis",
+          "name": "BAZA SIŁ POWIETRZNYCH NELLIS",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=NELLIS",
+          "specs": {
+            "Frakcja": "Wysadzacze",
+            "Obrona": "Artyleria"
+          },
+          "lore": "Dom Wysadzaczy. Izolowani plemienni obsesyjnie zajęci materiałami wybuchowymi. Chronieni przez bombardowanie artyleryjskie."
+        },
+        {
+          "id": "bigmt",
+          "name": "BIG MT (WIELKA PUSTKA)",
+          "img": "https://placehold.co/300x200/110033/8800ff?text=BIG+MT",
+          "specs": {
+            "Typ": "Ośrodek badawczy",
+            "AI": "Think Tank"
+          },
+          "lore": "Przedwojenna kopuła badawcza. Prowadzona przez naukowców będących mózgami w słojach. Stworzyli cazadory i nocne łowce."
+        },
+        {
+          "id": "zion",
+          "name": "KANION ZION",
+          "img": "https://placehold.co/300x200/113300/66ff33?text=ZION",
+          "specs": {
+            "Plemiona": "Martwe Konie, Smutki",
+            "Piękno": "Nietknięte"
+          },
+          "lore": "Nietknięte przez wojnę. Dom plemiennych społeczności. Schronienie Joshuy Grahama. Pokazane w Honest Hearts."
+        },
+        {
+          "id": "jacobstown",
+          "name": "JACOBSTOWN",
+          "img": "https://placehold.co/300x200/227700/88ff00?text=JACOBSTOWN",
+          "specs": {
+            "Populacja": "Super Mutanty",
+            "Przywódca": "Marcus"
+          },
+          "lore": "Pokojowa osada super mutantów. Prowadzona przez Marcusa z Fallout 2. Schronienie dla wyrzutków."
+        }
       ],
       "east": [
-        { "id": "capitaldc", "name": "KAPITALNA PUSTKA (D.C.)", "img": "https://placehold.co/300x200/112200/666633?text=DC+RUINS", "specs": {"Status": "Silnie napromieniowane", "Gra": "Fallout 3"}, "lore": "Ruiny Waszyngtonu D.C. Twierdza Bractwa. Super mutanty wszędzie. Miejsce Projektu Czystość." },
-        { "id": "diamondcity", "name": "DIAMENTOWE MIASTO", "img": "https://placehold.co/300x200/003311/33ff66?text=DIAMOND", "specs": {"Lokacja": "Fenway Park", "Typ": "Osada"}, "lore": "Zbudowane na stadionie Fenway Park. Największa osada w Commonwealth. Paranoja anty-syntetykowa." },
-        { "id": "institutecity", "name": "INSTYTUT", "img": "https://placehold.co/300x200/001133/3388ff?text=UNDERGROUND", "specs": {"Lokacja": "Pod MIT", "Technologia": "Najbardziej zaawansowana"}, "lore": "Podziemne miasto pod ruinami CIT. Najbardziej zaawansowana technologia na pustkowiach. Tworzą syntetyków." },
-        { "id": "rivetcity", "name": "RIVET CITY", "img": "https://placehold.co/300x200/002233/0088cc?text=CARRIER", "specs": {"Typ": "Lotniskowiec", "Lokacja": "Potomak"}, "lore": "Osada w osadzonym lotniskowcu. Jedna z największych społeczności w Kapitalnej Pustce. Społeczność naukowa." },
-        { "id": "farharbor", "name": "FAR HARBOR", "img": "https://placehold.co/300x200/112233/445566?text=ISLAND", "specs": {"Lokacja": "Wyspa Maine", "Zagrożenie": "Mgła"}, "lore": "Wyspa u wybrzeży Maine. Pokryta radioaktywną mgłą. Konflikt między miejscowymi, Dziećmi Atomu i syntetykami." },
-        { "id": "thepitt", "name": "THE PITT", "img": "https://placehold.co/300x200/221100/aa6633?text=PITTSBURGH", "specs": {"Lokacja": "Pittsburgh", "Przemysł": "Huty stali"}, "lore": "Przemysłowe piekło. Niewolnicy pracują w hutach stali. Rządy najeźdźców. Pokazane w DLC Fallout 3." }
+        {
+          "id": "capitaldc",
+          "name": "KAPITALNA PUSTKA (D.C.)",
+          "img": "https://placehold.co/300x200/112200/666633?text=DC+RUINS",
+          "specs": {
+            "Status": "Silnie napromieniowane",
+            "Gra": "Fallout 3"
+          },
+          "lore": "Ruiny Waszyngtonu D.C. Twierdza Bractwa. Super mutanty wszędzie. Miejsce Projektu Czystość."
+        },
+        {
+          "id": "diamondcity",
+          "name": "DIAMENTOWE MIASTO",
+          "img": "https://placehold.co/300x200/003311/33ff66?text=DIAMOND",
+          "specs": {
+            "Lokacja": "Fenway Park",
+            "Typ": "Osada"
+          },
+          "lore": "Zbudowane na stadionie Fenway Park. Największa osada w Commonwealth. Paranoja anty-syntetykowa."
+        },
+        {
+          "id": "institutecity",
+          "name": "INSTYTUT",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=UNDERGROUND",
+          "specs": {
+            "Lokacja": "Pod MIT",
+            "Technologia": "Najbardziej zaawansowana"
+          },
+          "lore": "Podziemne miasto pod ruinami CIT. Najbardziej zaawansowana technologia na pustkowiach. Tworzą syntetyków."
+        },
+        {
+          "id": "rivetcity",
+          "name": "RIVET CITY",
+          "img": "https://placehold.co/300x200/002233/0088cc?text=CARRIER",
+          "specs": {
+            "Typ": "Lotniskowiec",
+            "Lokacja": "Potomak"
+          },
+          "lore": "Osada w osadzonym lotniskowcu. Jedna z największych społeczności w Kapitalnej Pustce. Społeczność naukowa."
+        },
+        {
+          "id": "farharbor",
+          "name": "FAR HARBOR",
+          "img": "https://placehold.co/300x200/112233/445566?text=ISLAND",
+          "specs": {
+            "Lokacja": "Wyspa Maine",
+            "Zagrożenie": "Mgła"
+          },
+          "lore": "Wyspa u wybrzeży Maine. Pokryta radioaktywną mgłą. Konflikt między miejscowymi, Dziećmi Atomu i syntetykami."
+        },
+        {
+          "id": "thepitt",
+          "name": "THE PITT",
+          "img": "https://placehold.co/300x200/221100/aa6633?text=PITTSBURGH",
+          "specs": {
+            "Lokacja": "Pittsburgh",
+            "Przemysł": "Huty stali"
+          },
+          "lore": "Przemysłowe piekło. Niewolnicy pracują w hutach stali. Rządy najeźdźców. Pokazane w DLC Fallout 3."
+        }
       ]
     }
   },
@@ -168,26 +797,151 @@
     "border": "border-white",
     "theme": "",
     "categories": [
-      { "id": "major", "name": "GŁÓWNE POTĘGI", "icon": "🏴", "desc": "Siły obejmujące kontynent" },
-      { "id": "regional", "name": "FRAKCJE REGIONALNE", "icon": "🏛️", "desc": "Lokalne rządy" },
-      { "id": "raiders", "name": "NAJEŹDŹCY I GANGI", "icon": "💀", "desc": "Wrogie grupy" }
+      {
+        "id": "major",
+        "name": "GŁÓWNE POTĘGI",
+        "icon": "🏴",
+        "desc": "Siły obejmujące kontynent"
+      },
+      {
+        "id": "regional",
+        "name": "FRAKCJE REGIONALNE",
+        "icon": "🏛️",
+        "desc": "Lokalne rządy"
+      },
+      {
+        "id": "raiders",
+        "name": "NAJEŹDŹCY I GANGI",
+        "icon": "💀",
+        "desc": "Wrogie grupy"
+      }
     ],
     "items": {
       "major": [
-        { "id": "bos", "name": "BRACTWO STALI", "img": "https://placehold.co/300x200/003344/0088ff?text=BOS", "specs": {"Założone": "2077", "Przywódca": "Rada Starszych"}, "lore": "Zakon militarny gromadzący technologię, założony przez Rogera Maxsona. Chronią technologię przed nadużyciem. Baza w bunkrze Lost Hills." },
-        { "id": "ncr", "name": "REPUBLIKA NOWEJ KALIFORNII", "img": "https://placehold.co/300x200/331100/ff8800?text=NCR", "specs": {"Założona": "2189", "Stolica": "Shady Sands"}, "lore": "Demokratyczna federacja. Największy naród po wojnie. Polityka ekspansjonistyczna. Oparta na przedwojennej demokracji." },
-        { "id": "legion", "name": "LEGION CEZARA", "img": "https://placehold.co/300x200/330000/ff0000?text=LEGION", "specs": {"Założony": "2247", "Przywódca": "Cezar"}, "lore": "Autokratyczne imperium oparte na kulturze rzymskiej. Założone przez Edwarda Sallowa. Brutalni niewolnicy. Kontrolują Arizonę." },
-        { "id": "enclave", "name": "ENKLAWA", "img": "https://placehold.co/300x200/111/333?text=ENCLAVE", "specs": {"Pochodzenie": "Rząd przedwojenny", "Status": "Prawie wymarła"}, "lore": "Resztki rządu USA. Zaawansowane pancerze wspomagane. Uważają się za prawdziwą Amerykę. Platforma Wiertnicza zniszczona 2242." }
+        {
+          "id": "bos",
+          "name": "BRACTWO STALI",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=BOS",
+          "specs": {
+            "Założone": "2077",
+            "Przywódca": "Rada Starszych"
+          },
+          "lore": "Zakon militarny gromadzący technologię, założony przez Rogera Maxsona. Chronią technologię przed nadużyciem. Baza w bunkrze Lost Hills."
+        },
+        {
+          "id": "ncr",
+          "name": "REPUBLIKA NOWEJ KALIFORNII",
+          "img": "https://placehold.co/300x200/331100/ff8800?text=NCR",
+          "specs": {
+            "Założona": "2189",
+            "Stolica": "Shady Sands"
+          },
+          "lore": "Demokratyczna federacja. Największy naród po wojnie. Polityka ekspansjonistyczna. Oparta na przedwojennej demokracji."
+        },
+        {
+          "id": "legion",
+          "name": "LEGION CEZARA",
+          "img": "https://placehold.co/300x200/330000/ff0000?text=LEGION",
+          "specs": {
+            "Założony": "2247",
+            "Przywódca": "Cezar"
+          },
+          "lore": "Autokratyczne imperium oparte na kulturze rzymskiej. Założone przez Edwarda Sallowa. Brutalni niewolnicy. Kontrolują Arizonę."
+        },
+        {
+          "id": "enclave",
+          "name": "ENKLAWA",
+          "img": "https://placehold.co/300x200/111/333?text=ENCLAVE",
+          "specs": {
+            "Pochodzenie": "Rząd przedwojenny",
+            "Status": "Prawie wymarła"
+          },
+          "lore": "Resztki rządu USA. Zaawansowane pancerze wspomagane. Uważają się za prawdziwą Amerykę. Platforma Wiertnicza zniszczona 2242."
+        }
       ],
       "regional": [
-        { "id": "institute", "name": "INSTYTUT", "img": "https://placehold.co/300x200/001133/33bbff?text=INSTITUTE", "specs": {"Lokacja": "Commonwealth", "Technologia": "Syntetyki"}, "lore": "Podziemni naukowcy. Tworzą syntetycznych ludzi. Wywodzą się z MIT. Ukryci pod ruinami Bostonu." },
-        { "id": "minutemen", "name": "MINUTEMENI", "img": "https://placehold.co/300x200/111100/ffff00?text=MINUTEMEN", "specs": {"Region": "Commonwealth", "Typ": "Milicja"}, "lore": "Ochotnicze siły obronne. Chronią osady. Oparte na kolonialnych minutemanach. Prawie zniszczone przed Jedynym Ocalałym." },
-        { "id": "railroad", "name": "RAILROAD", "img": "https://placehold.co/300x200/220000/ff0000?text=RAILROAD", "specs": {"Cel": "Wyzwolenie syntetyków", "Metoda": "Podziemie"}, "lore": "Tajna organizacja. Uwalnia syntetyków z Instytutu. Używa skrytek i bezpiecznych domów. Nazwana od Underground Railroad." },
-        { "id": "rangers", "name": "STRAŻNICY PUSTYNI", "img": "https://placehold.co/300x200/332200/ff8800?text=RANGERS", "specs": {"Region": "Południowy Zachód", "Status": "Połączeni z RNK"}, "lore": "Strażnicy prawa pustkowi. Połączyli się z RNK w 2271. Stali się Rangers RNK. Charakterystyczne płaszcze i maski." }
+        {
+          "id": "institute",
+          "name": "INSTYTUT",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=INSTITUTE",
+          "specs": {
+            "Lokacja": "Commonwealth",
+            "Technologia": "Syntetyki"
+          },
+          "lore": "Podziemni naukowcy. Tworzą syntetycznych ludzi. Wywodzą się z MIT. Ukryci pod ruinami Bostonu."
+        },
+        {
+          "id": "minutemen",
+          "name": "MINUTEMENI",
+          "img": "https://placehold.co/300x200/111100/ffff00?text=MINUTEMEN",
+          "specs": {
+            "Region": "Commonwealth",
+            "Typ": "Milicja"
+          },
+          "lore": "Ochotnicze siły obronne. Chronią osady. Oparte na kolonialnych minutemanach. Prawie zniszczone przed Jedynym Ocalałym."
+        },
+        {
+          "id": "railroad",
+          "name": "RAILROAD",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=RAILROAD",
+          "specs": {
+            "Cel": "Wyzwolenie syntetyków",
+            "Metoda": "Podziemie"
+          },
+          "lore": "Tajna organizacja. Uwalnia syntetyków z Instytutu. Używa skrytek i bezpiecznych domów. Nazwana od Underground Railroad."
+        },
+        {
+          "id": "rangers",
+          "name": "STRAŻNICY PUSTYNI",
+          "img": "https://placehold.co/300x200/332200/ff8800?text=RANGERS",
+          "specs": {
+            "Region": "Południowy Zachód",
+            "Status": "Połączeni z RNK"
+          },
+          "lore": "Strażnicy prawa pustkowi. Połączyli się z RNK w 2271. Stali się Rangers RNK. Charakterystyczne płaszcze i maski."
+        }
       ],
       "raiders": [
-        { "id": "khans", "name": "WIELCY CHANOWIE", "img": "https://placehold.co/300x200/111/888?text=KHANS", "specs": {"Typ": "Koczownicze plemię", "Biznes": "Produkcja narkotyków"}, "lore": "Wywodzą się z Krypty 15. Produkują chemy. Gorzka rywalizacja z RNK. Baza w Red Rock Canyon." },
-        { "id": "fiends", "name": "DIABŁY", "img": "https://placehold.co/300x200/220000/ff3333?text=FIENDS", "specs": {"Lokacja": "Mojave", "Uzależnienie": "Wszystkie chemy"}, "lore": "Najeźdźcy uzależnieni od chemów. Skrajnie brutalni. Kontrolują Kryptę 3. Dostarczani przez Motor-Runnera." }
+        {
+          "id": "khans",
+          "name": "WIELCY CHANOWIE",
+          "img": "https://placehold.co/300x200/111/888?text=KHANS",
+          "specs": {
+            "Typ": "Koczownicze plemię",
+            "Biznes": "Produkcja narkotyków"
+          },
+          "lore": "Wywodzą się z Krypty 15. Produkują chemy. Gorzka rywalizacja z RNK. Baza w Red Rock Canyon."
+        },
+        {
+          "id": "fiends",
+          "name": "DIABŁY",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=FIENDS",
+          "specs": {
+            "Lokacja": "Mojave",
+            "Uzależnienie": "Wszystkie chemy"
+          },
+          "lore": "Najeźdźcy uzależnieni od chemów. Skrajnie brutalni. Kontrolują Kryptę 3. Dostarczani przez Motor-Runnera."
+        },
+        {
+          "id": "vipers",
+          "name": "ŻMIJOWCY (VIPERS)",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=VIPERS",
+          "specs": {
+            "Pochodzenie": "Plemię z Krypty 15",
+            "Specjalność": "Zatrute bronie"
+          },
+          "lore": "Kult raiderów czczących węże. Niemal wytępieni przez Bractwo w 2155 roku. Niedobitki rozproszyły się w małe bandy, nigdy nie odzyskując dawnej potęgi."
+        },
+        {
+          "id": "gunners",
+          "name": "GUNNERS (STRZELCY)",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=GUNNERS",
+          "specs": {
+            "Typ": "Armia najemników",
+            "Baza": "Commonwealth"
+          },
+          "lore": "Bezwzględna kompania najemników działająca w Commonwealth. W praktyce to świetnie uzbrojeni najemnicy-raiderzy – podejmą się każdego zlecenia i nie okazują litości. Lepiej zorganizowani niż typowi najeźdźcy; mają własne bazy, np. Plac Gunners w Bostonie."
+        }
       ]
     }
   },
@@ -197,28 +951,151 @@
     "border": "border-red-400",
     "theme": "",
     "categories": [
-      { "id": "mutants", "name": "ZMUTOWANE STWORZENIA", "icon": "🦎", "desc": "Zmutowana radiacyjnie fauna" },
-      { "id": "robots", "name": "WROGIE ROBOTY", "icon": "🤖", "desc": "Wadliwe maszyny" },
-      { "id": "humans", "name": "ZMUTOWANI HUMANOIDY", "icon": "👤", "desc": "Zmienieni przez FEV lub radiację" }
+      {
+        "id": "mutants",
+        "name": "ZMUTOWANE STWORZENIA",
+        "icon": "🦎",
+        "desc": "Zmutowana radiacyjnie fauna"
+      },
+      {
+        "id": "robots",
+        "name": "WROGIE ROBOTY",
+        "icon": "🤖",
+        "desc": "Wadliwe maszyny"
+      },
+      {
+        "id": "humans",
+        "name": "ZMUTOWANI HUMANOIDY",
+        "icon": "👤",
+        "desc": "Zmienieni przez FEV lub radiację"
+      }
     ],
     "items": {
       "mutants": [
-        { "id": "claw", "name": "SZPON ŚMIERCI", "img": "https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW", "specs": {"Pochodzenie": "Przedwojenna broń biologiczna", "Zagrożenie": "Ekstremalne"}, "lore": "Najgroźniejszy drapieżnik. Stworzony z DNA kameleona. Inteligentni łowcy stadni. Rogi i pazury przebijają pancerz." },
-        { "id": "radscorpion", "name": "RADSKORPION", "img": "https://placehold.co/300x200/220000/ff6600?text=RADSCORPION", "specs": {"Rozmiar": "Gigantyczny", "Broń": "Jadowity ogon"}, "lore": "Zmutowany skorpion cesarski. Wielkości samochodu. Jadowity ogon i twardy pancerz. Zakopuje się pod ziemią." },
-        { "id": "mirelurk", "name": "MIRELURK", "img": "https://placehold.co/300x200/003322/00ff88?text=MIRELURK", "specs": {"Typ": "Skorupiak", "Habitat": "Wybrzeża"}, "lore": "Zmutowane kraby. Twarda skorupa odporna na uszkodzenia. Plują kwasem. Królowe są ogromne i składają jaja." },
-        { "id": "cazador", "name": "CAZADOR", "img": "https://placehold.co/300x200/332200/ffaa00?text=CAZADOR", "specs": {"Pochodzenie": "Big MT", "Jad": "Paraliżujący"}, "lore": "Genetycznie zmodyfikowana osa. Stworzona w Big MT. Skrajnie agresywna. Jad powoduje paraliż." },
-        { "id": "bloatfly", "name": "BLOATFLY", "img": "https://placehold.co/300x200/221100/aa6600?text=BLOATFLY", "specs": {"Rozmiar": "Duży", "Atak": "Plucie larwami"}, "lore": "Zmutowana mucha. Rozdęta od radiacji. Pluje larwami much jako pociskami. Wybucha po śmierci." },
-        { "id": "centaur", "name": "CENTAUR", "img": "https://placehold.co/300x200/221100/886644?text=CENTAUR", "specs": {"Pochodzenie": "Eksperymenty FEV", "Status": "Abominacja"}, "lore": "Nieudane eksperymenty FEV. Wiele stworzeń stopionych razem. Lojalne Super Mutantom. Pluje radioaktywnym szlamem." },
-        { "id": "radroach", "name": "RADKARALUCH", "img": "https://placehold.co/300x200/110000/663300?text=RADROACH", "specs": {"Rozmiar": "Wielkości psa", "Powszechność": "Bardzo wysoka"}, "lore": "Zmutowany karaluch. Bardzo odporny na radiację. Znaleziony wszędzie. Relatywnie nieszkodliwy ale liczny." }
+        {
+          "id": "claw",
+          "name": "SZPON ŚMIERCI",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW",
+          "specs": {
+            "Pochodzenie": "Przedwojenna broń biologiczna",
+            "Zagrożenie": "Ekstremalne"
+          },
+          "lore": "Najgroźniejszy drapieżnik. Stworzony z DNA kameleona. Inteligentni łowcy stadni. Rogi i pazury przebijają pancerz."
+        },
+        {
+          "id": "radscorpion",
+          "name": "RADSKORPION",
+          "img": "https://placehold.co/300x200/220000/ff6600?text=RADSCORPION",
+          "specs": {
+            "Rozmiar": "Gigantyczny",
+            "Broń": "Jadowity ogon"
+          },
+          "lore": "Zmutowany skorpion cesarski. Wielkości samochodu. Jadowity ogon i twardy pancerz. Zakopuje się pod ziemią."
+        },
+        {
+          "id": "mirelurk",
+          "name": "MIRELURK",
+          "img": "https://placehold.co/300x200/003322/00ff88?text=MIRELURK",
+          "specs": {
+            "Typ": "Skorupiak",
+            "Habitat": "Wybrzeża"
+          },
+          "lore": "Zmutowane kraby. Twarda skorupa odporna na uszkodzenia. Plują kwasem. Królowe są ogromne i składają jaja."
+        },
+        {
+          "id": "cazador",
+          "name": "CAZADOR",
+          "img": "https://placehold.co/300x200/332200/ffaa00?text=CAZADOR",
+          "specs": {
+            "Pochodzenie": "Big MT",
+            "Jad": "Paraliżujący"
+          },
+          "lore": "Genetycznie zmodyfikowana osa. Stworzona w Big MT. Skrajnie agresywna. Jad powoduje paraliż."
+        },
+        {
+          "id": "bloatfly",
+          "name": "BLOATFLY",
+          "img": "https://placehold.co/300x200/221100/aa6600?text=BLOATFLY",
+          "specs": {
+            "Rozmiar": "Duży",
+            "Atak": "Plucie larwami"
+          },
+          "lore": "Zmutowana mucha. Rozdęta od radiacji. Pluje larwami much jako pociskami. Wybucha po śmierci."
+        },
+        {
+          "id": "centaur",
+          "name": "CENTAUR",
+          "img": "https://placehold.co/300x200/221100/886644?text=CENTAUR",
+          "specs": {
+            "Pochodzenie": "Eksperymenty FEV",
+            "Status": "Abominacja"
+          },
+          "lore": "Nieudane eksperymenty FEV. Wiele stworzeń stopionych razem. Lojalne Super Mutantom. Pluje radioaktywnym szlamem."
+        },
+        {
+          "id": "radroach",
+          "name": "RADKARALUCH",
+          "img": "https://placehold.co/300x200/110000/663300?text=RADROACH",
+          "specs": {
+            "Rozmiar": "Wielkości psa",
+            "Powszechność": "Bardzo wysoka"
+          },
+          "lore": "Zmutowany karaluch. Bardzo odporny na radiację. Znaleziony wszędzie. Relatywnie nieszkodliwy ale liczny."
+        }
       ],
       "robots": [
-        { "id": "assaultron", "name": "ASSAULTRON", "img": "https://placehold.co/300x200/111/aaa?text=ASSAULTRON", "specs": {"Broń": "Laser w głowie", "Prędkość": "Bardzo szybki"}, "lore": "Robot wojskowy. Kobieca sylwetka do infiltracji. Niszczycielski laser montowany w głowie. Szybkie ataki wręcz." },
-        { "id": "sentrybot", "name": "SENTRY BOT", "img": "https://placehold.co/300x200/111/888?text=SENTRY", "specs": {"Pancerz": "Ciężki", "Uzbrojenie": "Gatling + pociski"}, "lore": "Ciężki robot bojowy. Poruszanie gąsienicowe. Wyposażony w gatlingi i pociski. Wolny ale niszczycielski." },
-        { "id": "protectron", "name": "PROTECTRON", "img": "https://placehold.co/300x200/111/666?text=PROTECTRON", "specs": {"Rola": "Ochrona/usługi", "Zagrożenie": "Niskie"}, "lore": "Powszechny robot serwisowy. Projekt RobCo. Warianty policyjne, straż pożarna, budowlane. Słaby pancerz ale liczny." }
+        {
+          "id": "assaultron",
+          "name": "ASSAULTRON",
+          "img": "https://placehold.co/300x200/111/aaa?text=ASSAULTRON",
+          "specs": {
+            "Broń": "Laser w głowie",
+            "Prędkość": "Bardzo szybki"
+          },
+          "lore": "Robot wojskowy. Kobieca sylwetka do infiltracji. Niszczycielski laser montowany w głowie. Szybkie ataki wręcz."
+        },
+        {
+          "id": "sentrybot",
+          "name": "SENTRY BOT",
+          "img": "https://placehold.co/300x200/111/888?text=SENTRY",
+          "specs": {
+            "Pancerz": "Ciężki",
+            "Uzbrojenie": "Gatling + pociski"
+          },
+          "lore": "Ciężki robot bojowy. Poruszanie gąsienicowe. Wyposażony w gatlingi i pociski. Wolny ale niszczycielski."
+        },
+        {
+          "id": "protectron",
+          "name": "PROTECTRON",
+          "img": "https://placehold.co/300x200/111/666?text=PROTECTRON",
+          "specs": {
+            "Rola": "Ochrona/usługi",
+            "Zagrożenie": "Niskie"
+          },
+          "lore": "Powszechny robot serwisowy. Projekt RobCo. Warianty policyjne, straż pożarna, budowlane. Słaby pancerz ale liczny."
+        }
       ],
       "humans": [
-        { "id": "supermutant", "name": "SUPER MUTANT", "img": "https://placehold.co/300x200/227700/88ff00?text=SUPER+MUTANT", "specs": {"Pochodzenie": "FEV", "Wzrost": "Ponad 3 metry"}, "lore": "Ludzie zanurzeni w FEV. Niesamowicie silni i wytrzymali. Większość jest sterylna i ograniczona umysłowo. Szczepy Mistrza i Mariposa." },
-        { "id": "feralghouls", "name": "DZIKIE GHULE", "img": "https://placehold.co/300x200/223300/88aa44?text=FERAL+GHOUL", "specs": {"Przyczyna": "Ekstremalna radiacja", "Inteligencja": "Brak"}, "lore": "Ghule które straciły rozum przez radiację. Agresywne i dzikie. Atakują na widok. Leczone przez radiację." }
+        {
+          "id": "supermutant",
+          "name": "SUPER MUTANT",
+          "img": "https://placehold.co/300x200/227700/88ff00?text=SUPER+MUTANT",
+          "specs": {
+            "Pochodzenie": "FEV",
+            "Wzrost": "Ponad 3 metry"
+          },
+          "lore": "Ludzie zanurzeni w FEV. Niesamowicie silni i wytrzymali. Większość jest sterylna i ograniczona umysłowo. Szczepy Mistrza i Mariposa."
+        },
+        {
+          "id": "feralghouls",
+          "name": "DZIKIE GHULE",
+          "img": "https://placehold.co/300x200/223300/88aa44?text=FERAL+GHOUL",
+          "specs": {
+            "Przyczyna": "Ekstremalna radiacja",
+            "Inteligencja": "Brak"
+          },
+          "lore": "Ghule które straciły rozum przez radiację. Agresywne i dzikie. Atakują na widok. Leczone przez radiację."
+        }
       ]
     }
   },
@@ -227,15 +1104,76 @@
     "color": "text-purple-400",
     "border": "border-purple-400",
     "theme": "",
-    "categories": [{"id":"all","name":"DOKUMENTY","icon":"📝","desc":"Black Isle"}],
+    "categories": [
+      {
+        "id": "all",
+        "name": "DOKUMENTY",
+        "icon": "📝",
+        "desc": "Black Isle"
+      }
+    ],
     "items": {
       "all": [
-        { "id": "vb", "name": "PRZEGLĄD", "img": "https://placehold.co/300x200/110011/cc00cc?text=VB", "specs": {"Deweloper": "Black Isle", "Anulowano": "2003"}, "lore": "Fallout 3 Black Isle. Akcja w Arizonie, Utah, Kolorado. Gracz zaczyna jako więzień. Anulowano gdy Interplay zamknął studio." },
-        { "id": "bomb001", "name": "B.O.M.B-001", "img": "https://placehold.co/300x200/110011/cc00cc?text=ORBITAL+BASE", "specs": {"Typ": "Stacja kosmiczna", "Funkcja": "Platforma nuklearna"}, "lore": "Ballistic Orbital Missile Base. Chińska stacja kosmiczna z działającymi głowicami nuklearnymi. Gracz mógłby do niej dotrzeć." },
-        { "id": "prisoner", "name": "POCHODZENIE WIĘŹNIA", "img": "https://placehold.co/300x200/110011/cc00cc?text=PRISON", "specs": {"Start": "Więzienie Tibbets", "Zwrot akcji": "Utrata pamięci"}, "lore": "Gracz był więźniem z amnezją. Odkrywałby swoją przeszłość i zbrodnie w trakcie rozgrywki." },
-        { "id": "denver", "name": "DENVER (MIASTO PSÓW)", "img": "https://placehold.co/300x200/110011/cc00cc?text=DOGS", "specs": {"Populacja": "Zdziczałe psy", "Zagrożenie": "Ekstremalne"}, "lore": "Opanowane przez watahy dzikich psów. Ocaleni żyli w wysokich budynkach. Psy nauczyły się używać wind." },
-        { "id": "newcanaan", "name": "NEW CANAAN", "img": "https://placehold.co/300x200/110011/cc00cc?text=MORMONS", "specs": {"Religia": "Mormoni", "Przywódca": "Jeremiah Rigdon"}, "lore": "Osada mormonów w Utah. Pokojowa społeczność. Później pojawiła się w DLC Honest Hearts do New Vegas." },
-        { "id": "hooverdam", "name": "ZAPORA HOOVERA (ORYGINAŁ)", "img": "https://placehold.co/300x200/110011/cc00cc?text=HOOVER", "specs": {"Kontrola": "RNK vs Blackfoot", "Status": "Funkcjonalna"}, "lore": "Centralna lokacja. RNK vs Legion Cezara (zwany Plemieniem Blackfoot). Podobne do wersji z New Vegas." }
+        {
+          "id": "vb",
+          "name": "PRZEGLĄD",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=VB",
+          "specs": {
+            "Deweloper": "Black Isle",
+            "Anulowano": "2003"
+          },
+          "lore": "Fallout 3 Black Isle. Akcja w Arizonie, Utah, Kolorado. Gracz zaczyna jako więzień. Anulowano gdy Interplay zamknął studio."
+        },
+        {
+          "id": "bomb001",
+          "name": "B.O.M.B-001",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=ORBITAL+BASE",
+          "specs": {
+            "Typ": "Stacja kosmiczna",
+            "Funkcja": "Platforma nuklearna"
+          },
+          "lore": "Ballistic Orbital Missile Base. Chińska stacja kosmiczna z działającymi głowicami nuklearnymi. Gracz mógłby do niej dotrzeć."
+        },
+        {
+          "id": "prisoner",
+          "name": "POCHODZENIE WIĘŹNIA",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=PRISON",
+          "specs": {
+            "Start": "Więzienie Tibbets",
+            "Zwrot akcji": "Utrata pamięci"
+          },
+          "lore": "Gracz był więźniem z amnezją. Odkrywałby swoją przeszłość i zbrodnie w trakcie rozgrywki."
+        },
+        {
+          "id": "denver",
+          "name": "DENVER (MIASTO PSÓW)",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=DOGS",
+          "specs": {
+            "Populacja": "Zdziczałe psy",
+            "Zagrożenie": "Ekstremalne"
+          },
+          "lore": "Opanowane przez watahy dzikich psów. Ocaleni żyli w wysokich budynkach. Psy nauczyły się używać wind."
+        },
+        {
+          "id": "newcanaan",
+          "name": "NEW CANAAN",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=MORMONS",
+          "specs": {
+            "Religia": "Mormoni",
+            "Przywódca": "Jeremiah Rigdon"
+          },
+          "lore": "Osada mormonów w Utah. Pokojowa społeczność. Później pojawiła się w DLC Honest Hearts do New Vegas."
+        },
+        {
+          "id": "hooverdam",
+          "name": "ZAPORA HOOVERA (ORYGINAŁ)",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=HOOVER",
+          "specs": {
+            "Kontrola": "RNK vs Blackfoot",
+            "Status": "Funkcjonalna"
+          },
+          "lore": "Centralna lokacja. RNK vs Legion Cezara (zwany Plemieniem Blackfoot). Podobne do wersji z New Vegas."
+        }
       ]
     }
   }

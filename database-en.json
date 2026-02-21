@@ -24,28 +24,125 @@
     "border": "border-amber-300",
     "theme": "theme-tech",
     "categories": [
-      { "id": "pa", "name": "POWER ARMOR", "icon": "🛡️", "desc": "From T-45 to Hellfire." },
-      { "id": "energy", "name": "ENERGY WEAPONS", "icon": "⚡", "desc": "Lasers, Plasma, Gauss." },
-      { "id": "robots", "name": "ROBOTICS", "icon": "🤖", "desc": "RobCo, General Atomics." },
-      { "id": "devices", "name": "DEVICES", "icon": "💾", "desc": "Pip-Boy, Stealth-Boy, G.E.C.K." }
+      {
+        "id": "pa",
+        "name": "POWER ARMOR",
+        "icon": "🛡️",
+        "desc": "From T-45 to Hellfire."
+      },
+      {
+        "id": "energy",
+        "name": "ENERGY WEAPONS",
+        "icon": "⚡",
+        "desc": "Lasers, Plasma, Gauss."
+      },
+      {
+        "id": "robots",
+        "name": "ROBOTICS",
+        "icon": "🤖",
+        "desc": "RobCo, General Atomics."
+      },
+      {
+        "id": "devices",
+        "name": "DEVICES",
+        "icon": "💾",
+        "desc": "Pip-Boy, Stealth-Boy, G.E.C.K."
+      }
     ],
     "items": {
       "pa": [
-        { "id": "t45", "name": "T-45d POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-45d", "specs": {"Year": "2067", "Faction": "US Army"}, "lore": "First combat model used in Anchorage. Steel plating, low mobility." },
-        { "id": "t51", "name": "T-51b POWER ARMOR", "img": "https://placehold.co/400x300/111/ffb000?text=T-51b", "specs": {"Year": "2076", "Trivia": "Urine recycling"}, "lore": "Pinnacle of engineering. Polylaminate composite. Fallout 1 icon." },
-        { "id": "x01", "name": "X-01 / APA", "img": "https://placehold.co/400x300/111/ffb000?text=X-01", "specs": {"Year": "2220", "Faction": "Enclave"}, "lore": "Developed by the Enclave post-war. Far superior to pre-war models." }
+        {
+          "id": "t45",
+          "name": "T-45d POWER ARMOR",
+          "img": "https://placehold.co/400x300/111/ffb000?text=T-45d",
+          "specs": {
+            "Year": "2067",
+            "Faction": "US Army"
+          },
+          "lore": "First combat model used in Anchorage. Steel plating, low mobility."
+        },
+        {
+          "id": "t51",
+          "name": "T-51b POWER ARMOR",
+          "img": "https://placehold.co/400x300/111/ffb000?text=T-51b",
+          "specs": {
+            "Year": "2076",
+            "Trivia": "Urine recycling"
+          },
+          "lore": "Pinnacle of engineering. Polylaminate composite. Fallout 1 icon."
+        },
+        {
+          "id": "x01",
+          "name": "X-01 / APA",
+          "img": "https://placehold.co/400x300/111/ffb000?text=X-01",
+          "specs": {
+            "Year": "2220",
+            "Faction": "Enclave"
+          },
+          "lore": "Developed by the Enclave post-war. Far superior to pre-war models."
+        }
       ],
       "energy": [
-        { "id": "aer9", "name": "AER9 LASER RIFLE", "img": "https://placehold.co/400x150/111/ffb000?text=AER9", "specs": {"Type": "Laser", "Ammo": "MFC"}, "lore": "Standard army rifle. Durable and blocky." },
-        { "id": "p94", "name": "PLASMA CASTER", "img": "https://placehold.co/400x150/111/ffb000?text=P94", "specs": {"Type": "Plasma", "Ammo": "MFC"}, "lore": "Industrial Winchester P94 plasma weapon. Fires a plasma torus." }
+        {
+          "id": "aer9",
+          "name": "AER9 LASER RIFLE",
+          "img": "https://placehold.co/400x150/111/ffb000?text=AER9",
+          "specs": {
+            "Type": "Laser",
+            "Ammo": "MFC"
+          },
+          "lore": "Standard army rifle. Durable and blocky."
+        },
+        {
+          "id": "p94",
+          "name": "PLASMA CASTER",
+          "img": "https://placehold.co/400x150/111/ffb000?text=P94",
+          "specs": {
+            "Type": "Plasma",
+            "Ammo": "MFC"
+          },
+          "lore": "Industrial Winchester P94 plasma weapon. Fires a plasma torus."
+        }
       ],
       "robots": [
-        { "id": "mrhandy", "name": "MR. HANDY", "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY", "specs": {"Company": "General Atomics"}, "lore": "Domestic robot. Gutsy version served in the military." },
-        { "id": "securitron", "name": "SECURITRON", "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON", "specs": {"Company": "RobCo"}, "lore": "New Vegas guardian. Equipped with grenade launchers and lasers." }
+        {
+          "id": "mrhandy",
+          "name": "MR. HANDY",
+          "img": "https://placehold.co/300x300/111/ffb000?text=MR+HANDY",
+          "specs": {
+            "Company": "General Atomics"
+          },
+          "lore": "Domestic robot. Gutsy version served in the military."
+        },
+        {
+          "id": "securitron",
+          "name": "SECURITRON",
+          "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON",
+          "specs": {
+            "Company": "RobCo"
+          },
+          "lore": "New Vegas guardian. Equipped with grenade launchers and lasers."
+        }
       ],
       "devices": [
-        { "id": "pipboy", "name": "PIP-BOY 3000", "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY", "specs": {"Company": "RobCo"}, "lore": "Personal computer. Model 3000 has a biometric lock." },
-        { "id": "geck", "name": "G.E.C.K.", "img": "https://placehold.co/400x200/111/ffb000?text=GECK", "specs": {"Function": "Terraforming"}, "lore": "Garden of Eden Creation Kit. Suitcase with a matter replicator." }
+        {
+          "id": "pipboy",
+          "name": "PIP-BOY 3000",
+          "img": "https://placehold.co/400x200/111/ffb000?text=PIP-BOY",
+          "specs": {
+            "Company": "RobCo"
+          },
+          "lore": "Personal computer. Model 3000 has a biometric lock."
+        },
+        {
+          "id": "geck",
+          "name": "G.E.C.K.",
+          "img": "https://placehold.co/400x200/111/ffb000?text=GECK",
+          "specs": {
+            "Function": "Terraforming"
+          },
+          "lore": "Garden of Eden Creation Kit. Suitcase with a matter replicator."
+        }
       ]
     }
   },
@@ -55,33 +152,266 @@
     "border": "border-yellow-400",
     "theme": "theme-history",
     "categories": [
-      { "id": "prewar", "name": "PRE-WAR ERA (2050-2077)", "icon": "🏙️", "desc": "Resource Wars, New Plague, Canada Annexation." },
-      { "id": "greatwar", "name": "THE GREAT WAR (2077)", "icon": "🍄", "desc": "October 23rd. Doomsday and Birth of the Wasteland." },
-      { "id": "darkages", "name": "DARK AGES (2078-2160)", "icon": "💀", "desc": "Exodus, Mariposa, Master's Birth and the Hub." },
-      { "id": "heroic", "name": "HEROIC AGE (2161-2241)", "icon": "🌟", "desc": "Fallout 1 & 2. Destruction of Unity and Enclave." },
-      { "id": "modern", "name": "MODERN ERA (2250+)", "icon": "⚙️", "desc": "NCR-BOS War, Van Buren, New Vegas, Washington." }
+      {
+        "id": "prewar",
+        "name": "PRE-WAR ERA (2050-2077)",
+        "icon": "🏙️",
+        "desc": "Resource Wars, New Plague, Canada Annexation."
+      },
+      {
+        "id": "greatwar",
+        "name": "THE GREAT WAR (2077)",
+        "icon": "🍄",
+        "desc": "October 23rd. Doomsday and Birth of the Wasteland."
+      },
+      {
+        "id": "darkages",
+        "name": "DARK AGES (2078-2160)",
+        "icon": "💀",
+        "desc": "Exodus, Mariposa, Master's Birth and the Hub."
+      },
+      {
+        "id": "heroic",
+        "name": "HEROIC AGE (2161-2241)",
+        "icon": "🌟",
+        "desc": "Fallout 1 & 2. Destruction of Unity and Enclave."
+      },
+      {
+        "id": "modern",
+        "name": "MODERN ERA (2250+)",
+        "icon": "⚙️",
+        "desc": "NCR-BOS War, Van Buren, New Vegas, Washington."
+      }
     ],
     "items": {
       "prewar": [
-        { "id": "2052", "name": "2052: RESOURCE WARS", "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS", "specs": {"Result": "UN Collapse", "Reason": "No Oil"}, "lore": "The beginning of the end. Europe invades the Middle East. The UN collapses." },
-        { "id": "2077_fuel", "name": "2077: FUEL CRISIS", "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES", "specs": {"Price": "$8500 / Gallon"}, "lore": "Just before the war, gasoline prices skyrocket." }
+        {
+          "id": "2052",
+          "name": "2052: RESOURCE WARS",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=RESOURCE+WARS",
+          "specs": {
+            "Result": "UN Collapse",
+            "Reason": "No Oil"
+          },
+          "lore": "The beginning of the end. Europe invades the Middle East for the last drops of oil. The UN collapses in July. The United States closes its borders. Televisions show dried Texas oil wells."
+        },
+        {
+          "id": "2077_fuel",
+          "name": "2077: FUEL CRISIS",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=FUEL+PRICES",
+          "specs": {
+            "Price": "$8500 / Gallon"
+          },
+          "lore": "Just before the war, gasoline prices skyrocket."
+        },
+        {
+          "id": "2054_project_safehouse",
+          "name": "2054: PROJECT SAFEHOUSE INITIATED",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=PROJECT+SAFEHOUSE",
+          "specs": {
+            "Program": "Project Safehouse",
+            "Operator": "Vault-Tec"
+          },
+          "lore": "The U.S. government initiated Project Safehouse during escalating global instability. Vault-Tec received contracts to design and build the vault shelter network."
+        },
+        {
+          "id": "2066_china_invades_alaska",
+          "name": "2066: CHINA INVADES ALASKA",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=ALASKA+INVASION",
+          "specs": {
+            "Conflict": "Sino-American War",
+            "Objective": "Alaskan oil reserves"
+          },
+          "lore": "China invaded Alaska to secure strategic fuel resources, triggering the most intense phase of the Sino-American War and a prolonged U.S. military response."
+        }
       ],
       "greatwar": [
-        { "id": "2077_bombs", "name": "OCTOBER 23, 2077", "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR", "specs": {"Start": "9:47 AM", "Duration": "2 hours"}, "lore": "Nuclear exchange. Most major cities vanish. West Tek takes a direct hit." }
+        {
+          "id": "2077_bombs",
+          "name": "OCTOBER 23, 2077",
+          "img": "https://placehold.co/600x300/330000/ff0000?text=THE+GREAT+WAR",
+          "specs": {
+            "Start": "9:47 AM",
+            "Duration": "2 hours"
+          },
+          "lore": "Nuclear exchange. Most major cities vanish. West Tek takes a direct hit."
+        },
+        {
+          "id": "2077_great_war_morning",
+          "name": "OCTOBER 23, 2077: NUCLEAR EXCHANGE",
+          "img": "https://placehold.co/600x300/331100/ff3333?text=GREAT+WAR",
+          "specs": {
+            "Duration": "Approximately 2 hours",
+            "Outcome": "Global devastation"
+          },
+          "lore": "Escalating alerts became confirmed launches and full nuclear exchange. The Great War lasted roughly two hours and destroyed most organized civilization."
+        }
       ],
       "darkages": [
-        { "id": "2077_vault", "name": "2077: VAULT DWELLERS ENTER", "img": "https://placehold.co/600x300/003300/00ff00?text=VAULT+DOOR", "specs": {"Population": "~1000 per vault", "Duration": "Varies"}, "lore": "Selected citizens enter Vaults. Most experiments begin immediately. Control vaults function as designed." },
-        { "id": "2084", "name": "2084: SHADY SANDS FOUNDED", "img": "https://placehold.co/600x300/111100/ffff00?text=SHADY+SANDS", "specs": {"Founder": "Vault 15 Dwellers", "Location": "California"}, "lore": "Survivors from Vault 15 establish a small farming village. It will become the capital of NCR." },
-        { "id": "2091", "name": "2091: VAULT CITY FOUNDED", "img": "https://placehold.co/600x300/001133/33bbff?text=VAULT+CITY", "specs": {"Origin": "Vault 8", "Technology": "G.E.C.K."}, "lore": "Vault 8 opens on schedule. Using their G.E.C.K., residents build a sterile, high-tech settlement." },
-        { "id": "2102", "name": "2102: VAULT 76 OPENS", "img": "https://placehold.co/600x300/001133/33bbff?text=RECLAMATION+DAY", "specs": {"Location": "West Virginia", "Purpose": "Reclamation"}, "lore": "Control Vault opens after 25 years. Dwellers emerge to reclaim Appalachia (Fallout 76)." },
-        { "id": "2134", "name": "2134: MASTER'S EXPERIMENTS BEGIN", "img": "https://placehold.co/600x300/220000/ff0000?text=FEV+VATS", "specs": {"Location": "Mariposa", "Goal": "Super Mutant Army"}, "lore": "Richard Grey, now The Master, begins creating Super Mutants from wastelanders using FEV." },
-        { "id": "2141", "name": "2141: GREAT KHANS FOUNDED", "img": "https://placehold.co/600x300/111111/888888?text=KHANS", "specs": {"Type": "Raider Tribe", "Territory": "California"}, "lore": "Descended from Vault 15. Become one of the most notorious raider groups in the wasteland." },
-        { "id": "2152", "name": "2152: MAXSON'S DEATH", "img": "https://placehold.co/600x300/003344/0088ff?text=BOS+MOURNS", "specs": {"Cause": "Cancer", "Age": "Not recorded"}, "lore": "Roger Maxson, founder of the Brotherhood of Steel, dies. His son takes command." },
-        { "id": "2155", "name": "2155: THE HUB FLOURISHES", "img": "https://placehold.co/600x300/332200/ff8800?text=TRADE+ROUTES", "specs": {"Type": "Trade Hub", "Network": "Caravans"}, "lore": "The Hub becomes the trading center of New California. Water Merchants control the economy." }
+        {
+          "id": "2077_vault",
+          "name": "2077: VAULT DWELLERS ENTER",
+          "img": "https://placehold.co/600x300/003300/00ff00?text=VAULT+DOOR",
+          "specs": {
+            "Population": "~1000 per vault",
+            "Duration": "Varies"
+          },
+          "lore": "Selected citizens enter Vaults. Most experiments begin immediately. Control vaults function as designed."
+        },
+        {
+          "id": "2084",
+          "name": "2084: SHADY SANDS FOUNDED",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=SHADY+SANDS",
+          "specs": {
+            "Founder": "Vault 15 Dwellers",
+            "Location": "California"
+          },
+          "lore": "Survivors from Vault 15 establish a small farming village. It will become the capital of NCR."
+        },
+        {
+          "id": "2091",
+          "name": "2091: VAULT CITY FOUNDED",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=VAULT+CITY",
+          "specs": {
+            "Origin": "Vault 8",
+            "Technology": "G.E.C.K."
+          },
+          "lore": "Vault 8 opens on schedule. Using their G.E.C.K., residents build a sterile, high-tech settlement."
+        },
+        {
+          "id": "2102",
+          "name": "2102: VAULT 76 OPENS",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=RECLAMATION+DAY",
+          "specs": {
+            "Location": "West Virginia",
+            "Purpose": "Reclamation"
+          },
+          "lore": "Control Vault opens after 25 years. Dwellers emerge to reclaim Appalachia (Fallout 76)."
+        },
+        {
+          "id": "2134",
+          "name": "2134: MASTER'S EXPERIMENTS BEGIN",
+          "img": "https://placehold.co/600x300/220000/ff0000?text=FEV+VATS",
+          "specs": {
+            "Location": "Mariposa",
+            "Goal": "Super Mutant Army"
+          },
+          "lore": "Richard Grey, now The Master, begins creating Super Mutants from wastelanders using FEV."
+        },
+        {
+          "id": "2141",
+          "name": "2141: GREAT KHANS FOUNDED",
+          "img": "https://placehold.co/600x300/111111/888888?text=KHANS",
+          "specs": {
+            "Type": "Raider Tribe",
+            "Territory": "California"
+          },
+          "lore": "Descended from Vault 15. Become one of the most notorious raider groups in the wasteland."
+        },
+        {
+          "id": "2152",
+          "name": "2152: MAXSON'S DEATH",
+          "img": "https://placehold.co/600x300/003344/0088ff?text=BOS+MOURNS",
+          "specs": {
+            "Cause": "Cancer",
+            "Age": "Not recorded"
+          },
+          "lore": "Roger Maxson, founder of the Brotherhood of Steel, dies. His son takes command."
+        },
+        {
+          "id": "2155",
+          "name": "2155: THE HUB FLOURISHES",
+          "img": "https://placehold.co/600x300/332200/ff8800?text=TRADE+ROUTES",
+          "specs": {
+            "Type": "Trade Hub",
+            "Network": "Caravans"
+          },
+          "lore": "The Hub becomes the trading center of New California. Water Merchants control the economy."
+        }
       ],
       "heroic": [
-        { "id": "2161", "name": "2161: FALLOUT 1", "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER", "specs": {"Hero": "Vault Dweller", "Goal": "Water Chip"}, "lore": "Vault Dweller destroys the Master and his Cathedral in 2162." },
-        { "id": "2241", "name": "2241: FALLOUT 2", "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE", "specs": {"Hero": "Chosen One", "Enemy": "Enclave"}, "lore": "Chosen One goes for the G.E.C.K. Destroys the Oil Rig." }
+        {
+          "id": "2161",
+          "name": "2161: FALLOUT 1",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=VAULT+DWELLER",
+          "specs": {
+            "Hero": "Vault Dweller",
+            "Goal": "Water Chip"
+          },
+          "lore": "The Vault Dweller leaves Vault 13 in 2161 to find a Water Chip for their home. In 2162 they destroy the Master and his Cathedral, but upon returning they are exiled from their vault."
+        },
+        {
+          "id": "2241",
+          "name": "2241: FALLOUT 2",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=CHOSEN+ONE",
+          "specs": {
+            "Hero": "Chosen One",
+            "Enemy": "Enclave"
+          },
+          "lore": "A severe drought hits Arroyo, forcing the Chosen One to leave in search of a Garden of Eden Creation Kit. The Chosen One later destroys the Enclave's oil rig, saving their people."
+        },
+        {
+          "id": "2189_ncr_official_foundation",
+          "name": "2189: NCR OFFICIALLY FOUNDED",
+          "img": "https://placehold.co/600x300/001122/33bbff?text=NCR+FOUNDATION",
+          "specs": {
+            "Government": "Federal Republic",
+            "Capital": "Shady Sands"
+          },
+          "lore": "After a transitional period of local governance, the New California Republic was formally established as a republic centered on Shady Sands."
+        }
+      ],
+      "modern": [
+        {
+          "id": "2276_sunburst",
+          "name": "2276: OPERATION SUNBURST",
+          "img": "https://placehold.co/600x300/111100/ffff00?text=HELIOS+ONE",
+          "specs": {
+            "Site": "Helios One",
+            "Outcome": "NCR victory"
+          },
+          "lore": "NCR forces seize the HELIOS One solar plant from the Brotherhood. Mojave chapter loses half its Paladins; war ends in NCR’s favor."
+        },
+        {
+          "id": "2277_purity",
+          "name": "2277: BATTLE OF PROJECT PURITY",
+          "img": "https://placehold.co/600x300/001133/33bbff?text=PROJECT+PURITY",
+          "specs": {
+            "Location": "D.C. Jefferson Memorial",
+            "Result": "Brotherhood victory"
+          },
+          "lore": "Enclave occupies Project Purity but is repelled by Lyons’ Brotherhood. Water purifier is activated, securing clean water for the Capital Wasteland."
+        },
+        {
+          "id": "2281_dam",
+          "name": "2281: SECOND BATTLE OF HOOVER DAM",
+          "img": "https://placehold.co/600x300/332200/ff8800?text=HOOVER+DAM",
+          "specs": {
+            "Conflict": "NCR vs Caesar’s Legion",
+            "Outcome": "Dam secured"
+          },
+          "lore": "Final clash for New Vegas’s future. Caesar’s Legion’s assault is halted at Hoover Dam. The New California Republic celebrates victory, cementing its control over the Mojave."
+        },
+        {
+          "id": "2283_shady_sands_destroyed",
+          "name": "2283: SHADY SANDS DESTROYED",
+          "img": "https://placehold.co/600x300/331100/ff3333?text=SHADY+SANDS",
+          "specs": {
+            "Location": "Shady Sands",
+            "Impact": "NCR destabilization"
+          },
+          "lore": "Shady Sands, the first NCR capital, was destroyed by nuclear detonation. The loss accelerated fragmentation and instability across NCR territory."
+        },
+        {
+          "id": "2296_tv_series_events",
+          "name": "2296: FALLOUT TV SEASON 1 EVENTS",
+          "img": "https://placehold.co/600x300/112200/33ff33?text=2296+VAULT+33",
+          "specs": {
+            "Medium": "Television canon",
+            "Key development": "Lucy leaves Vault 33"
+          },
+          "lore": "In 2296, events around Vault 33 drive Lucy into the wasteland, linking vault politics, NCR remnants, and pre-war corporate legacies."
+        }
       ]
     }
   },
@@ -91,35 +421,209 @@
     "border": "border-blue-400",
     "theme": "theme-vaults",
     "categories": [
-      { "id": "control", "name": "CONTROL GROUPS", "icon": "✅", "desc": "Vaults working as advertised." },
-      { "id": "social", "name": "SOCIAL EXPERIMENTS", "icon": "🎭", "desc": "Behavior, power, stress tests." },
-      { "id": "science", "name": "MEDICAL/PHYSICAL", "icon": "🧬", "desc": "FEV, diseases, radiation, cloning." },
-      { "id": "esoteric", "name": "ESOTERIC / WEIRD", "icon": "🌀", "desc": "Enclave's most absurd ideas." }
+      {
+        "id": "control",
+        "name": "CONTROL GROUPS",
+        "icon": "✅",
+        "desc": "Vaults working as advertised."
+      },
+      {
+        "id": "social",
+        "name": "SOCIAL EXPERIMENTS",
+        "icon": "🎭",
+        "desc": "Behavior, power, stress tests."
+      },
+      {
+        "id": "science",
+        "name": "MEDICAL/PHYSICAL",
+        "icon": "🧬",
+        "desc": "FEV, diseases, radiation, cloning."
+      },
+      {
+        "id": "esoteric",
+        "name": "ESOTERIC / WEIRD",
+        "icon": "🌀",
+        "desc": "Enclave's most absurd ideas."
+      }
     ],
     "items": {
       "control": [
-        { "id": "v8", "name": "VAULT 8", "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY", "specs": {"Location": "Nevada", "Result": "Success"}, "lore": "Perfect Vault. Opened after 10 years. Residents built Vault City with G.E.C.K." },
-        { "id": "v13", "name": "VAULT 13", "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN", "specs": {"Location": "California", "Goal": "Isolation"}, "lore": "Home of the Vault Dweller (Fallout 1). Intended to stay closed for 200 years. Water chip failure." },
-        { "id": "v76", "name": "VAULT 76", "img": "https://placehold.co/300x200/001133/33bbff?text=RECLAMATION", "specs": {"Location": "West Virginia", "Opened": "2102"}, "lore": "Control vault. Opened after 25 years. Dwellers emerged to reclaim Appalachia. Featured in Fallout 76." }
+        {
+          "id": "v8",
+          "name": "VAULT 8",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+CITY",
+          "specs": {
+            "Location": "Nevada",
+            "Result": "Success"
+          },
+          "lore": "Perfect Vault. Opened after 10 years. Residents built Vault City with G.E.C.K."
+        },
+        {
+          "id": "v13",
+          "name": "VAULT 13",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V13+ORIGIN",
+          "specs": {
+            "Location": "California",
+            "Goal": "Isolation"
+          },
+          "lore": "Home of the Vault Dweller (Fallout 1). Intended to stay closed for 200 years. Water chip failure."
+        },
+        {
+          "id": "v76",
+          "name": "VAULT 76",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=RECLAMATION",
+          "specs": {
+            "Location": "West Virginia",
+            "Opened": "2102"
+          },
+          "lore": "Control vault. Opened after 25 years. Dwellers emerged to reclaim Appalachia. Featured in Fallout 76."
+        }
       ],
       "social": [
-        { "id": "v11", "name": "VAULT 11", "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE", "specs": {"Experiment": "Obedience", "Result": "Tragedy"}, "lore": "They were told to sacrifice one person each year. Eventually only 5 residents remained." },
-        { "id": "v77", "name": "VAULT 77", "img": "https://placehold.co/300x200/001133/33bbff?text=PUPPET+MAN", "specs": {"Location": "Unknown", "Population": "1"}, "lore": "One man and a crate of puppets. Psychological isolation experiment. The man went insane." },
-        { "id": "v101", "name": "VAULT 101", "img": "https://placehold.co/300x200/001133/33bbff?text=V101", "specs": {"Location": "Capital Wasteland", "Motto": "No one ever leaves"}, "lore": "Isolated from outside. Overseer had absolute power. Home of Lone Wanderer (Fallout 3)." },
-        { "id": "v19", "name": "VAULT 19", "img": "https://placehold.co/300x200/001133/33bbff?text=RED+VS+BLUE", "specs": {"Experiment": "Paranoia", "Method": "Color-coded sectors"}, "lore": "Divided into Red and Blue sectors. Subliminal messages created paranoia. Residents turned on each other." },
-        { "id": "v27", "name": "VAULT 27", "img": "https://placehold.co/300x200/001133/33bbff?text=OVERCROWDED", "specs": {"Population": "2000", "Capacity": "500"}, "lore": "Designed for 500 but crammed with 2000 people. No privacy. Extreme stress and conflict." },
-        { "id": "v68", "name": "VAULT 68", "img": "https://placehold.co/300x200/001133/33bbff?text=999+MEN", "specs": {"Men": "999", "Women": "1"}, "lore": "Social experiment. 999 men and only 1 woman. Results unknown but presumed catastrophic." },
-        { "id": "v69", "name": "VAULT 69", "img": "https://placehold.co/300x200/001133/33bbff?text=999+WOMEN", "specs": {"Women": "999", "Men": "1"}, "lore": "Inverse of Vault 68. 999 women and only 1 man. Social dynamics experiment." }
+        {
+          "id": "v11",
+          "name": "VAULT 11",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V11+SACRIFICE",
+          "specs": {
+            "Experiment": "Obedience",
+            "Result": "Tragedy"
+          },
+          "lore": "They were told to sacrifice one person each year. Eventually only 5 residents remained."
+        },
+        {
+          "id": "v77",
+          "name": "VAULT 77",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=PUPPET+MAN",
+          "specs": {
+            "Location": "Unknown",
+            "Population": "1"
+          },
+          "lore": "One man and a crate of puppets. Psychological isolation experiment. The man went insane."
+        },
+        {
+          "id": "v101",
+          "name": "VAULT 101",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=V101",
+          "specs": {
+            "Location": "Capital Wasteland",
+            "Motto": "No one ever leaves"
+          },
+          "lore": "Isolated from outside. Overseer had absolute power. Home of Lone Wanderer (Fallout 3)."
+        },
+        {
+          "id": "v19",
+          "name": "VAULT 19",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=RED+VS+BLUE",
+          "specs": {
+            "Experiment": "Paranoia",
+            "Method": "Color-coded sectors"
+          },
+          "lore": "Divided into Red and Blue sectors. Subliminal messages created paranoia. Residents turned on each other."
+        },
+        {
+          "id": "v27",
+          "name": "VAULT 27",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=OVERCROWDED",
+          "specs": {
+            "Population": "2000",
+            "Capacity": "500"
+          },
+          "lore": "Designed for 500 but crammed with 2000 people. No privacy. Extreme stress and conflict."
+        },
+        {
+          "id": "v68",
+          "name": "VAULT 68",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=999+MEN",
+          "specs": {
+            "Men": "999",
+            "Women": "1"
+          },
+          "lore": "Social experiment. 999 men and only 1 woman. Results unknown but presumed catastrophic."
+        },
+        {
+          "id": "v69",
+          "name": "VAULT 69",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=999+WOMEN",
+          "specs": {
+            "Women": "999",
+            "Men": "1"
+          },
+          "lore": "Inverse of Vault 68. 999 women and only 1 man. Social dynamics experiment."
+        }
       ],
       "science": [
-        { "id": "v111", "name": "VAULT 111", "img": "https://placehold.co/300x200/001133/33bbff?text=CRYOGENIC", "specs": {"Location": "Commonwealth", "Tech": "Cryogenic pods"}, "lore": "Cryogenic suspension experiment. Sole Survivor's home (Fallout 4). Most residents died when life support failed." },
-        { "id": "v22", "name": "VAULT 22", "img": "https://placehold.co/300x200/001133/33bbff?text=SPORES", "specs": {"Experiment": "Plant growth", "Result": "Disaster"}, "lore": "Tested fungal-based pest control. Spores mutated and infected residents. Turned them into plant hybrids." },
-        { "id": "v108", "name": "VAULT 108", "img": "https://placehold.co/300x200/001133/33bbff?text=GARY", "specs": {"Experiment": "Cloning", "Subject": "Gary"}, "lore": "Cloning experiment. Subject Gary was cloned hundreds of times. All clones say only 'Gary'." }
+        {
+          "id": "v111",
+          "name": "VAULT 111",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=CRYOGENIC",
+          "specs": {
+            "Location": "Commonwealth",
+            "Tech": "Cryogenic pods"
+          },
+          "lore": "Cryogenic suspension experiment. Sole Survivor's home (Fallout 4). Most residents died when life support failed."
+        },
+        {
+          "id": "v22",
+          "name": "VAULT 22",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=SPORES",
+          "specs": {
+            "Experiment": "Plant growth",
+            "Result": "Disaster"
+          },
+          "lore": "Tested fungal-based pest control. Spores mutated and infected residents. Turned them into plant hybrids."
+        },
+        {
+          "id": "v108",
+          "name": "VAULT 108",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=GARY",
+          "specs": {
+            "Experiment": "Cloning",
+            "Subject": "Gary"
+          },
+          "lore": "Cloning experiment. Subject Gary was cloned hundreds of times. All clones say only 'Gary'."
+        },
+        {
+          "id": "vault_program_scope",
+          "name": "VAULT PROGRAM SCOPE",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=VAULT+PROGRAM",
+          "specs": {
+            "Sponsor": "Vault-Tec",
+            "Primary design": "Controlled social experiments"
+          },
+          "lore": "The vault network was presented as a civil defense system, but many facilities were designed for controlled long-term experimentation on residents."
+        }
       ],
       "esoteric": [
-        { "id": "v12", "name": "VAULT 12", "img": "https://placehold.co/300x200/001133/33bbff?text=NECROPOLIS", "specs": {"Location": "Bakersfield", "Defect": "Door wouldn't close"}, "lore": "Door designed to never fully close. Residents exposed to radiation. All became ghouls. Became Necropolis." },
-        { "id": "v92", "name": "VAULT 92", "img": "https://placehold.co/300x200/001133/33bbff?text=WHITE+NOISE", "specs": {"Experiment": "Hypnosis", "Method": "White noise"}, "lore": "Create super-soldiers via subliminal suggestion. White noise in speakers. Residents went violently insane." },
-        { "id": "v34", "name": "VAULT 34", "img": "https://placehold.co/300x200/001133/33bbff?text=ARMORY", "specs": {"Location": "Mojave", "Issue": "Overstocked weapons"}, "lore": "Oversupplied with weapons but strict rationing. Reactor flooded. Residents became ghouls trapped inside." }
+        {
+          "id": "v12",
+          "name": "VAULT 12",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=NECROPOLIS",
+          "specs": {
+            "Location": "Bakersfield",
+            "Defect": "Door wouldn't close"
+          },
+          "lore": "Door designed to never fully close. Residents exposed to radiation. All became ghouls. Became Necropolis."
+        },
+        {
+          "id": "v92",
+          "name": "VAULT 92",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=WHITE+NOISE",
+          "specs": {
+            "Experiment": "Hypnosis",
+            "Method": "White noise"
+          },
+          "lore": "Create super-soldiers via subliminal suggestion. White noise in speakers. Residents went violently insane."
+        },
+        {
+          "id": "v34",
+          "name": "VAULT 34",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=ARMORY",
+          "specs": {
+            "Location": "Mojave",
+            "Issue": "Overstocked weapons"
+          },
+          "lore": "Oversupplied with weapons but strict rationing. Reactor flooded. Residents became ghouls trapped inside."
+        }
       ]
     }
   },
@@ -129,36 +633,231 @@
     "border": "border-gray-500",
     "theme": "",
     "categories": [
-      { "id": "west", "name": "WEST (CORE)", "icon": "🐻", "desc": "California (NCR)." },
-      { "id": "mojave", "name": "MOJAVE", "icon": "🎰", "desc": "Nevada, Vegas." },
-      { "id": "east", "name": "EAST", "icon": "🗽", "desc": "D.C. and Boston." }
+      {
+        "id": "west",
+        "name": "WEST (CORE)",
+        "icon": "🐻",
+        "desc": "California (NCR)."
+      },
+      {
+        "id": "mojave",
+        "name": "MOJAVE",
+        "icon": "🎰",
+        "desc": "Nevada, Vegas."
+      },
+      {
+        "id": "east",
+        "name": "EAST",
+        "icon": "🗽",
+        "desc": "D.C. and Boston."
+      }
     ],
     "items": {
       "west": [
-        { "id": "glow", "name": "THE GLOW", "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK", "specs": {"Type": "Crater", "Radiation": "Extreme"}, "lore": "West Tek research facility ruins. Direct nuclear hit. Highly irradiated. FEV research site." },
-        { "id": "hub", "name": "THE HUB", "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB", "specs": {"Type": "City", "Economy": "Trading"}, "lore": "Major trading center. Water Merchants Guild controls economy. Crossroads of the wasteland." },
-        { "id": "shadysands", "name": "SHADY SANDS / NCR CAPITAL", "img": "https://placehold.co/300x200/003311/33ff88?text=NCR", "specs": {"Founded": "2084", "Status": "Capital"}, "lore": "Founded by Vault 15 dwellers. Grew into NCR capital. Symbol of post-war civilization and democracy." },
-        { "id": "newreno", "name": "NEW RENO", "img": "https://placehold.co/300x200/330011/ff3366?text=NEW+RENO", "specs": {"Type": "City", "Control": "Crime families"}, "lore": "Sin city of the wasteland. Controlled by mob families. Casinos, drugs, and prostitution." },
-        { "id": "sanfrancisco", "name": "SAN FRANCISCO", "img": "https://placehold.co/300x200/001133/3388ff?text=SAN+FRAN", "specs": {"Faction": "Shi", "Tech": "Pre-war submarine"}, "lore": "Controlled by the Shi. Descendants of Chinese submarine crew. Advanced technology and Hubologists." },
-        { "id": "cathedral", "name": "THE CATHEDRAL", "img": "https://placehold.co/300x200/220000/ff0000?text=CATHEDRAL", "specs": {"Faction": "Children of Cathedral", "Destroyed": "2162"}, "lore": "Master's base in Los Angeles. Front for FEV experiments. Destroyed by Vault Dweller with nuclear bomb." },
-        { "id": "boneyard", "name": "THE BONEYARD", "img": "https://placehold.co/300x200/111100/888866?text=LA+RUINS", "specs": {"Location": "Los Angeles", "Faction": "Gun Runners"}, "lore": "Ruins of Los Angeles. Home to Gun Runners and Followers of the Apocalypse. Scavenger territory." }
+        {
+          "id": "glow",
+          "name": "THE GLOW",
+          "img": "https://placehold.co/300x200/001100/33ff33?text=WEST+TEK",
+          "specs": {
+            "Type": "Crater",
+            "Radiation": "Extreme"
+          },
+          "lore": "West Tek research facility ruins. Direct nuclear hit. Highly irradiated. FEV research site."
+        },
+        {
+          "id": "hub",
+          "name": "THE HUB",
+          "img": "https://placehold.co/300x200/001100/33ff33?text=THE+HUB",
+          "specs": {
+            "Type": "City",
+            "Economy": "Trading"
+          },
+          "lore": "Major trading center. Water Merchants Guild controls economy. Crossroads of the wasteland."
+        },
+        {
+          "id": "shadysands",
+          "name": "SHADY SANDS / NCR CAPITAL",
+          "img": "https://placehold.co/300x200/003311/33ff88?text=NCR",
+          "specs": {
+            "Founded": "2084",
+            "Status": "Capital"
+          },
+          "lore": "Founded by Vault 15 dwellers. Grew into NCR capital. Symbol of post-war civilization and democracy."
+        },
+        {
+          "id": "newreno",
+          "name": "NEW RENO",
+          "img": "https://placehold.co/300x200/330011/ff3366?text=NEW+RENO",
+          "specs": {
+            "Type": "City",
+            "Control": "Crime families"
+          },
+          "lore": "Sin city of the wasteland. Controlled by mob families. Casinos, drugs, and prostitution."
+        },
+        {
+          "id": "sanfrancisco",
+          "name": "SAN FRANCISCO",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=SAN+FRAN",
+          "specs": {
+            "Faction": "Shi",
+            "Tech": "Pre-war submarine"
+          },
+          "lore": "Controlled by the Shi. Descendants of Chinese submarine crew. Advanced technology and Hubologists."
+        },
+        {
+          "id": "cathedral",
+          "name": "THE CATHEDRAL",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=CATHEDRAL",
+          "specs": {
+            "Faction": "Children of Cathedral",
+            "Destroyed": "2162"
+          },
+          "lore": "Master's base in Los Angeles. Front for FEV experiments. Destroyed by Vault Dweller with nuclear bomb."
+        },
+        {
+          "id": "boneyard",
+          "name": "THE BONEYARD",
+          "img": "https://placehold.co/300x200/111100/888866?text=LA+RUINS",
+          "specs": {
+            "Location": "Los Angeles",
+            "Faction": "Gun Runners"
+          },
+          "lore": "Ruins of Los Angeles. Home to Gun Runners and Followers of the Apocalypse. Scavenger territory."
+        }
       ],
       "mojave": [
-        { "id": "strip", "name": "NEW VEGAS STRIP", "img": "https://placehold.co/300x200/332200/ffcc00?text=THE+STRIP", "specs": {"Owner": "Mr. House", "Status": "Operational"}, "lore": "Preserved by Mr. House. Three families run casinos. Pinnacle of luxury in the wasteland." },
-        { "id": "hooverdam2", "name": "HOOVER DAM", "img": "https://placehold.co/300x200/003344/0088ff?text=HOOVER+DAM", "specs": {"Power": "Entire region", "Control": "Contested"}, "lore": "Provides electricity to Vegas and NCR. Fought over by NCR and Legion. Site of two battles." },
-        { "id": "mccarran", "name": "CAMP MCCARRAN", "img": "https://placehold.co/300x200/331100/ff8800?text=MCCARRAN", "specs": {"Type": "Military base", "Faction": "NCR"}, "lore": "Pre-war airport. NCR military headquarters in Mojave. Major staging area near Vegas." },
-        { "id": "nellis", "name": "NELLIS AIR FORCE BASE", "img": "https://placehold.co/300x200/001133/3388ff?text=NELLIS", "specs": {"Faction": "Boomers", "Defense": "Artillery"}, "lore": "Home of the Boomers. Isolated tribals obsessed with explosives. Protected by artillery bombardment." },
-        { "id": "bigmt", "name": "BIG MT (BIG EMPTY)", "img": "https://placehold.co/300x200/110033/8800ff?text=BIG+MT", "specs": {"Type": "Research facility", "AI": "Think Tank"}, "lore": "Pre-war research dome. Run by brain-in-jar scientists. Created cazadores and nightstalkers." },
-        { "id": "zion", "name": "ZION CANYON", "img": "https://placehold.co/300x200/113300/66ff33?text=ZION", "specs": {"Tribes": "Dead Horses, Sorrows", "Beauty": "Pristine"}, "lore": "Untouched by war. Home to tribal communities. Joshua Graham's refuge. Featured in Honest Hearts." },
-        { "id": "jacobstown", "name": "JACOBSTOWN", "img": "https://placehold.co/300x200/227700/88ff00?text=JACOBSTOWN", "specs": {"Population": "Super Mutants", "Leader": "Marcus"}, "lore": "Peaceful super mutant settlement. Led by Marcus from Fallout 2. Refuge for outcasts." }
+        {
+          "id": "strip",
+          "name": "NEW VEGAS STRIP",
+          "img": "https://placehold.co/300x200/332200/ffcc00?text=THE+STRIP",
+          "specs": {
+            "Owner": "Mr. House",
+            "Status": "Operational"
+          },
+          "lore": "Preserved by Mr. House. Three families run casinos. Pinnacle of luxury in the wasteland."
+        },
+        {
+          "id": "hooverdam2",
+          "name": "HOOVER DAM",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=HOOVER+DAM",
+          "specs": {
+            "Power": "Entire region",
+            "Control": "Contested"
+          },
+          "lore": "Provides electricity to Vegas and NCR. Fought over by NCR and Legion. Site of two battles."
+        },
+        {
+          "id": "mccarran",
+          "name": "CAMP MCCARRAN",
+          "img": "https://placehold.co/300x200/331100/ff8800?text=MCCARRAN",
+          "specs": {
+            "Type": "Military base",
+            "Faction": "NCR"
+          },
+          "lore": "Pre-war airport. NCR military headquarters in Mojave. Major staging area near Vegas."
+        },
+        {
+          "id": "nellis",
+          "name": "NELLIS AIR FORCE BASE",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=NELLIS",
+          "specs": {
+            "Faction": "Boomers",
+            "Defense": "Artillery"
+          },
+          "lore": "Home of the Boomers. Isolated tribals obsessed with explosives. Protected by artillery bombardment."
+        },
+        {
+          "id": "bigmt",
+          "name": "BIG MT (BIG EMPTY)",
+          "img": "https://placehold.co/300x200/110033/8800ff?text=BIG+MT",
+          "specs": {
+            "Type": "Research facility",
+            "AI": "Think Tank"
+          },
+          "lore": "Pre-war research dome. Run by brain-in-jar scientists. Created cazadores and nightstalkers."
+        },
+        {
+          "id": "zion",
+          "name": "ZION CANYON",
+          "img": "https://placehold.co/300x200/113300/66ff33?text=ZION",
+          "specs": {
+            "Tribes": "Dead Horses, Sorrows",
+            "Beauty": "Pristine"
+          },
+          "lore": "Untouched by war. Home to tribal communities. Joshua Graham's refuge. Featured in Honest Hearts."
+        },
+        {
+          "id": "jacobstown",
+          "name": "JACOBSTOWN",
+          "img": "https://placehold.co/300x200/227700/88ff00?text=JACOBSTOWN",
+          "specs": {
+            "Population": "Super Mutants",
+            "Leader": "Marcus"
+          },
+          "lore": "Peaceful super mutant settlement. Led by Marcus from Fallout 2. Refuge for outcasts."
+        }
       ],
       "east": [
-        { "id": "capitaldc", "name": "CAPITAL WASTELAND (D.C.)", "img": "https://placehold.co/300x200/112200/666633?text=DC+RUINS", "specs": {"Status": "Highly irradiated", "Game": "Fallout 3"}, "lore": "Washington D.C. ruins. Brotherhood stronghold. Super mutants everywhere. Site of Project Purity." },
-        { "id": "diamondcity", "name": "DIAMOND CITY", "img": "https://placehold.co/300x200/003311/33ff66?text=DIAMOND", "specs": {"Location": "Fenway Park", "Type": "Settlement"}, "lore": "Built in Fenway Park stadium. Largest settlement in Commonwealth. Anti-synth paranoia." },
-        { "id": "institutecity", "name": "THE INSTITUTE", "img": "https://placehold.co/300x200/001133/3388ff?text=UNDERGROUND", "specs": {"Location": "Under MIT", "Tech": "Most advanced"}, "lore": "Underground city beneath CIT ruins. Most advanced technology in wasteland. Create synths." },
-        { "id": "rivetcity", "name": "RIVET CITY", "img": "https://placehold.co/300x200/002233/0088cc?text=CARRIER", "specs": {"Type": "Aircraft carrier", "Location": "Potomac"}, "lore": "Settlement in beached aircraft carrier. One of largest communities in Capital Wasteland. Science community." },
-        { "id": "farharbor", "name": "FAR HARBOR", "img": "https://placehold.co/300x200/112233/445566?text=ISLAND", "specs": {"Location": "Maine island", "Threat": "The Fog"}, "lore": "Island off Maine coast. Covered in radioactive fog. Conflict between locals, Children of Atom, and synths." },
-        { "id": "thepitt", "name": "THE PITT", "img": "https://placehold.co/300x200/221100/aa6633?text=PITTSBURGH", "specs": {"Location": "Pittsburgh", "Industry": "Steel mills"}, "lore": "Industrial hellscape. Slaves work steel mills. Raiders rule. Featured in Fallout 3 DLC." }
+        {
+          "id": "capitaldc",
+          "name": "CAPITAL WASTELAND (D.C.)",
+          "img": "https://placehold.co/300x200/112200/666633?text=DC+RUINS",
+          "specs": {
+            "Status": "Highly irradiated",
+            "Game": "Fallout 3"
+          },
+          "lore": "Washington D.C. ruins. Brotherhood stronghold. Super mutants everywhere. Site of Project Purity."
+        },
+        {
+          "id": "diamondcity",
+          "name": "DIAMOND CITY",
+          "img": "https://placehold.co/300x200/003311/33ff66?text=DIAMOND",
+          "specs": {
+            "Location": "Fenway Park",
+            "Type": "Settlement"
+          },
+          "lore": "Built in Fenway Park stadium. Largest settlement in Commonwealth. Anti-synth paranoia."
+        },
+        {
+          "id": "institutecity",
+          "name": "THE INSTITUTE",
+          "img": "https://placehold.co/300x200/001133/3388ff?text=UNDERGROUND",
+          "specs": {
+            "Location": "Under MIT",
+            "Tech": "Most advanced"
+          },
+          "lore": "Underground city beneath CIT ruins. Most advanced technology in wasteland. Create synths."
+        },
+        {
+          "id": "rivetcity",
+          "name": "RIVET CITY",
+          "img": "https://placehold.co/300x200/002233/0088cc?text=CARRIER",
+          "specs": {
+            "Type": "Aircraft carrier",
+            "Location": "Potomac"
+          },
+          "lore": "Settlement in beached aircraft carrier. One of largest communities in Capital Wasteland. Science community."
+        },
+        {
+          "id": "farharbor",
+          "name": "FAR HARBOR",
+          "img": "https://placehold.co/300x200/112233/445566?text=ISLAND",
+          "specs": {
+            "Location": "Maine island",
+            "Threat": "The Fog"
+          },
+          "lore": "Island off Maine coast. Covered in radioactive fog. Conflict between locals, Children of Atom, and synths."
+        },
+        {
+          "id": "thepitt",
+          "name": "THE PITT",
+          "img": "https://placehold.co/300x200/221100/aa6633?text=PITTSBURGH",
+          "specs": {
+            "Location": "Pittsburgh",
+            "Industry": "Steel mills"
+          },
+          "lore": "Industrial hellscape. Slaves work steel mills. Raiders rule. Featured in Fallout 3 DLC."
+        }
       ]
     }
   },
@@ -168,26 +867,161 @@
     "border": "border-white",
     "theme": "",
     "categories": [
-      { "id": "major", "name": "MAJOR POWERS", "icon": "🏴", "desc": "Continent-spanning forces" },
-      { "id": "regional", "name": "REGIONAL FACTIONS", "icon": "🏛️", "desc": "Local governments" },
-      { "id": "raiders", "name": "RAIDERS & GANGS", "icon": "💀", "desc": "Hostile groups" }
+      {
+        "id": "major",
+        "name": "MAJOR POWERS",
+        "icon": "🏴",
+        "desc": "Continent-spanning forces"
+      },
+      {
+        "id": "regional",
+        "name": "REGIONAL FACTIONS",
+        "icon": "🏛️",
+        "desc": "Local governments"
+      },
+      {
+        "id": "raiders",
+        "name": "RAIDERS & GANGS",
+        "icon": "💀",
+        "desc": "Hostile groups"
+      }
     ],
     "items": {
       "major": [
-        { "id": "bos", "name": "BROTHERHOOD OF STEEL", "img": "https://placehold.co/300x200/003344/0088ff?text=BOS", "specs": {"Founded": "2077", "Leader": "Elder Council"}, "lore": "Tech-hoarding military order founded by Roger Maxson. Protect technology from misuse. Based in Lost Hills bunker." },
-        { "id": "ncr", "name": "NEW CALIFORNIA REPUBLIC", "img": "https://placehold.co/300x200/331100/ff8800?text=NCR", "specs": {"Founded": "2189", "Capital": "Shady Sands"}, "lore": "Democratic federation. Largest post-war nation. Expansionist policies. Based on old-world democracy." },
-        { "id": "legion", "name": "CAESAR'S LEGION", "img": "https://placehold.co/300x200/330000/ff0000?text=LEGION", "specs": {"Founded": "2247", "Leader": "Caesar"}, "lore": "Autocratic empire based on Roman culture. Founded by Edward Sallow. Brutal slavers. Controls Arizona." },
-        { "id": "enclave", "name": "THE ENCLAVE", "img": "https://placehold.co/300x200/111/333?text=ENCLAVE", "specs": {"Origin": "Pre-war government", "Status": "Near extinct"}, "lore": "Remnants of US government. Advanced power armor. Consider themselves true America. Oil Rig destroyed 2242." }
+        {
+          "id": "bos",
+          "name": "BROTHERHOOD OF STEEL",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=BOS",
+          "specs": {
+            "Founded": "2077",
+            "Leader": "Elder Council"
+          },
+          "lore": "Tech-hoarding military order founded by Roger Maxson. Protect technology from misuse. Based in Lost Hills bunker."
+        },
+        {
+          "id": "ncr",
+          "name": "NEW CALIFORNIA REPUBLIC",
+          "img": "https://placehold.co/300x200/331100/ff8800?text=NCR",
+          "specs": {
+            "Founded": "2189",
+            "Capital": "Shady Sands"
+          },
+          "lore": "Democratic federation. Largest post-war nation. Expansionist policies. Based on old-world democracy."
+        },
+        {
+          "id": "legion",
+          "name": "CAESAR'S LEGION",
+          "img": "https://placehold.co/300x200/330000/ff0000?text=LEGION",
+          "specs": {
+            "Founded": "2247",
+            "Leader": "Caesar"
+          },
+          "lore": "Autocratic empire based on Roman culture. Founded by Edward Sallow. Brutal slavers. Controls Arizona."
+        },
+        {
+          "id": "enclave",
+          "name": "THE ENCLAVE",
+          "img": "https://placehold.co/300x200/111/333?text=ENCLAVE",
+          "specs": {
+            "Origin": "Pre-war government",
+            "Status": "Near extinct"
+          },
+          "lore": "Remnants of US government. Advanced power armor. Consider themselves true America. Oil Rig destroyed 2242."
+        },
+        {
+          "id": "ncr_foundation_profile",
+          "name": "NCR FOUNDATION PROFILE",
+          "img": "https://placehold.co/300x200/003344/0088ff?text=NCR+PROFILE",
+          "specs": {
+            "Origins": "Shady Sands",
+            "Formalized": "2189"
+          },
+          "lore": "The NCR grew from post-war settlements linked to Vault 15 descendants. It developed into a large federal republic with expansionist military and political institutions."
+        }
       ],
       "regional": [
-        { "id": "institute", "name": "THE INSTITUTE", "img": "https://placehold.co/300x200/001133/33bbff?text=INSTITUTE", "specs": {"Location": "Commonwealth", "Technology": "Synths"}, "lore": "Underground scientists. Create synthetic humans. Descended from MIT. Hidden beneath Boston ruins." },
-        { "id": "minutemen", "name": "MINUTEMEN", "img": "https://placehold.co/300x200/111100/ffff00?text=MINUTEMEN", "specs": {"Region": "Commonwealth", "Type": "Militia"}, "lore": "Volunteer defense force. Protect settlements. Based on colonial minutemen. Nearly destroyed before Sole Survivor." },
-        { "id": "railroad", "name": "THE RAILROAD", "img": "https://placehold.co/300x200/220000/ff0000?text=RAILROAD", "specs": {"Goal": "Synth liberation", "Method": "Underground"}, "lore": "Secret organization. Free synths from Institute. Use dead drops and safehouses. Named after Underground Railroad." },
-        { "id": "rangers", "name": "DESERT RANGERS", "img": "https://placehold.co/300x200/332200/ff8800?text=RANGERS", "specs": {"Region": "Southwest", "Status": "Merged with NCR"}, "lore": "Lawmen of the wasteland. Merged with NCR in 2271. Became NCR Rangers. Iconic dusters and masks." }
+        {
+          "id": "institute",
+          "name": "THE INSTITUTE",
+          "img": "https://placehold.co/300x200/001133/33bbff?text=INSTITUTE",
+          "specs": {
+            "Location": "Commonwealth",
+            "Technology": "Synths"
+          },
+          "lore": "Underground scientists. Create synthetic humans. Descended from MIT. Hidden beneath Boston ruins."
+        },
+        {
+          "id": "minutemen",
+          "name": "MINUTEMEN",
+          "img": "https://placehold.co/300x200/111100/ffff00?text=MINUTEMEN",
+          "specs": {
+            "Region": "Commonwealth",
+            "Type": "Militia"
+          },
+          "lore": "Volunteer defense force. Protect settlements. Based on colonial minutemen. Nearly destroyed before Sole Survivor."
+        },
+        {
+          "id": "railroad",
+          "name": "THE RAILROAD",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=RAILROAD",
+          "specs": {
+            "Goal": "Synth liberation",
+            "Method": "Underground"
+          },
+          "lore": "Secret organization. Free synths from Institute. Use dead drops and safehouses. Named after Underground Railroad."
+        },
+        {
+          "id": "rangers",
+          "name": "DESERT RANGERS",
+          "img": "https://placehold.co/300x200/332200/ff8800?text=RANGERS",
+          "specs": {
+            "Region": "Southwest",
+            "Status": "Merged with NCR"
+          },
+          "lore": "Lawmen of the wasteland. Merged with NCR in 2271. Became NCR Rangers. Iconic dusters and masks."
+        }
       ],
       "raiders": [
-        { "id": "khans", "name": "GREAT KHANS", "img": "https://placehold.co/300x200/111/888?text=KHANS", "specs": {"Type": "Nomadic tribe", "Business": "Drug manufacturing"}, "lore": "Descended from Vault 15. Produce chems. Bitter rivalry with NCR. Based in Red Rock Canyon." },
-        { "id": "fiends", "name": "FIENDS", "img": "https://placehold.co/300x200/220000/ff3333?text=FIENDS", "specs": {"Location": "Mojave", "Addiction": "All chems"}, "lore": "Chem-addicted raiders. Extremely violent. Control Vault 3. Supplied by Motor-Runner." }
+        {
+          "id": "khans",
+          "name": "GREAT KHANS",
+          "img": "https://placehold.co/300x200/111/888?text=KHANS",
+          "specs": {
+            "Type": "Nomadic tribe",
+            "Business": "Drug manufacturing"
+          },
+          "lore": "Descended from Vault 15. Produce chems. Bitter rivalry with NCR. Based in Red Rock Canyon."
+        },
+        {
+          "id": "fiends",
+          "name": "FIENDS",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=FIENDS",
+          "specs": {
+            "Location": "Mojave",
+            "Addiction": "All chems"
+          },
+          "lore": "Chem-addicted raiders. Extremely violent. Control Vault 3. Supplied by Motor-Runner."
+        },
+        {
+          "id": "vipers",
+          "name": "VIPERS",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=VIPERS",
+          "specs": {
+            "Origin": "Vault 15 tribe",
+            "Specialty": "Poisoned weapons"
+          },
+          "lore": "Cult of snake-worshiping raiders. Nearly exterminated by the Brotherhood in 2155. Surviving Vipers fragmented into small bands, never regaining their former strength."
+        },
+        {
+          "id": "gunners",
+          "name": "GUNNERS",
+          "img": "https://placehold.co/300x200/220000/ff3333?text=GUNNERS",
+          "specs": {
+            "Type": "Mercenary army",
+            "Base": "Commonwealth"
+          },
+          "lore": "Ruthless mercenary company operating in the Commonwealth. Essentially well-armed raiders-for-hire – they take any contract and show no mercy. Better organized and equipped than typical raiders, with strongholds like Gunners Plaza in Boston."
+        }
       ]
     }
   },
@@ -197,28 +1031,151 @@
     "border": "border-red-400",
     "theme": "",
     "categories": [
-      { "id": "mutants", "name": "MUTANT CREATURES", "icon": "🦎", "desc": "Radiation-mutated fauna" },
-      { "id": "robots", "name": "HOSTILE ROBOTS", "icon": "🤖", "desc": "Malfunctioning machines" },
-      { "id": "humans", "name": "MUTANT HUMANOIDS", "icon": "👤", "desc": "Changed by FEV or rads" }
+      {
+        "id": "mutants",
+        "name": "MUTANT CREATURES",
+        "icon": "🦎",
+        "desc": "Radiation-mutated fauna"
+      },
+      {
+        "id": "robots",
+        "name": "HOSTILE ROBOTS",
+        "icon": "🤖",
+        "desc": "Malfunctioning machines"
+      },
+      {
+        "id": "humans",
+        "name": "MUTANT HUMANOIDS",
+        "icon": "👤",
+        "desc": "Changed by FEV or rads"
+      }
     ],
     "items": {
       "mutants": [
-        { "id": "claw", "name": "DEATHCLAW", "img": "https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW", "specs": {"Origin": "Pre-war bioweapon", "Danger": "Extreme"}, "lore": "Apex predator. Created from chameleon DNA. Intelligent pack hunters. Horns and claws can pierce armor." },
-        { "id": "radscorpion", "name": "RADSCORPION", "img": "https://placehold.co/300x200/220000/ff6600?text=RADSCORPION", "specs": {"Size": "Giant", "Weapon": "Venomous tail"}, "lore": "Mutated emperor scorpion. Size of a car. Poison tail and tough carapace. Burrows underground." },
-        { "id": "mirelurk", "name": "MIRELURK", "img": "https://placehold.co/300x200/003322/00ff88?text=MIRELURK", "specs": {"Type": "Crustacean", "Habitat": "Coastal"}, "lore": "Mutated crabs. Hard shell resists damage. Spit acid. Queens are massive and spawn eggs." },
-        { "id": "cazador", "name": "CAZADOR", "img": "https://placehold.co/300x200/332200/ffaa00?text=CAZADOR", "specs": {"Origin": "Big MT", "Venom": "Paralyzing"}, "lore": "Genetically engineered wasp. Created at Big MT. Extremely aggressive. Venom causes paralysis." },
-        { "id": "bloatfly", "name": "BLOATFLY", "img": "https://placehold.co/300x200/221100/aa6600?text=BLOATFLY", "specs": {"Size": "Large", "Attack": "Larvae spit"}, "lore": "Mutated blowfly. Bloated with radiation. Spits maggot larvae as projectiles. Explodes when killed." },
-        { "id": "centaur", "name": "CENTAUR", "img": "https://placehold.co/300x200/221100/886644?text=CENTAUR", "specs": {"Origin": "FEV experiments", "Status": "Abomination"}, "lore": "Failed FEV experiments. Multiple creatures fused together. Loyal to Super Mutants. Spits radioactive sludge." },
-        { "id": "radroach", "name": "RADROACH", "img": "https://placehold.co/300x200/110000/663300?text=RADROACH", "specs": {"Size": "Dog-sized", "Commonality": "Very high"}, "lore": "Mutated cockroach. Highly resistant to radiation. Found everywhere. Relatively harmless but numerous." }
+        {
+          "id": "claw",
+          "name": "DEATHCLAW",
+          "img": "https://placehold.co/300x200/220000/ff0000?text=DEATHCLAW",
+          "specs": {
+            "Origin": "Pre-war bioweapon",
+            "Danger": "Extreme"
+          },
+          "lore": "Apex predator. Created from chameleon DNA. Intelligent pack hunters. Horns and claws can pierce armor."
+        },
+        {
+          "id": "radscorpion",
+          "name": "RADSCORPION",
+          "img": "https://placehold.co/300x200/220000/ff6600?text=RADSCORPION",
+          "specs": {
+            "Size": "Giant",
+            "Weapon": "Venomous tail"
+          },
+          "lore": "Mutated emperor scorpion. Size of a car. Poison tail and tough carapace. Burrows underground."
+        },
+        {
+          "id": "mirelurk",
+          "name": "MIRELURK",
+          "img": "https://placehold.co/300x200/003322/00ff88?text=MIRELURK",
+          "specs": {
+            "Type": "Crustacean",
+            "Habitat": "Coastal"
+          },
+          "lore": "Mutated crabs. Hard shell resists damage. Spit acid. Queens are massive and spawn eggs."
+        },
+        {
+          "id": "cazador",
+          "name": "CAZADOR",
+          "img": "https://placehold.co/300x200/332200/ffaa00?text=CAZADOR",
+          "specs": {
+            "Origin": "Big MT",
+            "Venom": "Paralyzing"
+          },
+          "lore": "Genetically engineered wasp. Created at Big MT. Extremely aggressive. Venom causes paralysis."
+        },
+        {
+          "id": "bloatfly",
+          "name": "BLOATFLY",
+          "img": "https://placehold.co/300x200/221100/aa6600?text=BLOATFLY",
+          "specs": {
+            "Size": "Large",
+            "Attack": "Larvae spit"
+          },
+          "lore": "Mutated blowfly. Bloated with radiation. Spits maggot larvae as projectiles. Explodes when killed."
+        },
+        {
+          "id": "centaur",
+          "name": "CENTAUR",
+          "img": "https://placehold.co/300x200/221100/886644?text=CENTAUR",
+          "specs": {
+            "Origin": "FEV experiments",
+            "Status": "Abomination"
+          },
+          "lore": "Failed FEV experiments. Multiple creatures fused together. Loyal to Super Mutants. Spits radioactive sludge."
+        },
+        {
+          "id": "radroach",
+          "name": "RADROACH",
+          "img": "https://placehold.co/300x200/110000/663300?text=RADROACH",
+          "specs": {
+            "Size": "Dog-sized",
+            "Commonality": "Very high"
+          },
+          "lore": "Mutated cockroach. Highly resistant to radiation. Found everywhere. Relatively harmless but numerous."
+        }
       ],
       "robots": [
-        { "id": "assaultron", "name": "ASSAULTRON", "img": "https://placehold.co/300x200/111/aaa?text=ASSAULTRON", "specs": {"Weapon": "Head laser", "Speed": "Very fast"}, "lore": "Military robot. Feminine silhouette for infiltration. Devastating head-mounted laser. Fast melee attacks." },
-        { "id": "sentrybot", "name": "SENTRY BOT", "img": "https://placehold.co/300x200/111/888?text=SENTRY", "specs": {"Armor": "Heavy", "Weapons": "Gatling + missiles"}, "lore": "Heavy combat robot. Treaded movement. Equipped with gatling guns and missiles. Slow but devastating." },
-        { "id": "protectron", "name": "PROTECTRON", "img": "https://placehold.co/300x200/111/666?text=PROTECTRON", "specs": {"Role": "Security/service", "Threat": "Low"}, "lore": "Common service robot. RobCo design. Police, fire, construction variants. Weak armor but numerous." }
+        {
+          "id": "assaultron",
+          "name": "ASSAULTRON",
+          "img": "https://placehold.co/300x200/111/aaa?text=ASSAULTRON",
+          "specs": {
+            "Weapon": "Head laser",
+            "Speed": "Very fast"
+          },
+          "lore": "Military robot. Feminine silhouette for infiltration. Devastating head-mounted laser. Fast melee attacks."
+        },
+        {
+          "id": "sentrybot",
+          "name": "SENTRY BOT",
+          "img": "https://placehold.co/300x200/111/888?text=SENTRY",
+          "specs": {
+            "Armor": "Heavy",
+            "Weapons": "Gatling + missiles"
+          },
+          "lore": "Heavy combat robot. Treaded movement. Equipped with gatling guns and missiles. Slow but devastating."
+        },
+        {
+          "id": "protectron",
+          "name": "PROTECTRON",
+          "img": "https://placehold.co/300x200/111/666?text=PROTECTRON",
+          "specs": {
+            "Role": "Security/service",
+            "Threat": "Low"
+          },
+          "lore": "Common service robot. RobCo design. Police, fire, construction variants. Weak armor but numerous."
+        }
       ],
       "humans": [
-        { "id": "supermutant", "name": "SUPER MUTANT", "img": "https://placehold.co/300x200/227700/88ff00?text=SUPER+MUTANT", "specs": {"Origin": "FEV", "Height": "10+ feet"}, "lore": "Humans dipped in FEV. Incredibly strong and durable. Most are sterile and dim-witted. Masters and Mariposa strains." },
-        { "id": "feralghouls", "name": "FERAL GHOULS", "img": "https://placehold.co/300x200/223300/88aa44?text=FERAL+GHOUL", "specs": {"Cause": "Extreme radiation", "Intelligence": "None"}, "lore": "Ghouls who lost their mind to radiation. Aggressive and feral. Attack on sight. Healed by radiation." }
+        {
+          "id": "supermutant",
+          "name": "SUPER MUTANT",
+          "img": "https://placehold.co/300x200/227700/88ff00?text=SUPER+MUTANT",
+          "specs": {
+            "Origin": "FEV",
+            "Height": "10+ feet"
+          },
+          "lore": "Humans dipped in FEV. Incredibly strong and durable. Most are sterile and dim-witted. Masters and Mariposa strains."
+        },
+        {
+          "id": "feralghouls",
+          "name": "FERAL GHOULS",
+          "img": "https://placehold.co/300x200/223300/88aa44?text=FERAL+GHOUL",
+          "specs": {
+            "Cause": "Extreme radiation",
+            "Intelligence": "None"
+          },
+          "lore": "Ghouls who lost their mind to radiation. Aggressive and feral. Attack on sight. Healed by radiation."
+        }
       ]
     }
   },
@@ -227,15 +1184,76 @@
     "color": "text-purple-400",
     "border": "border-purple-400",
     "theme": "",
-    "categories": [{"id":"all","name":"DOCUMENTS","icon":"📝","desc":"Black Isle"}],
+    "categories": [
+      {
+        "id": "all",
+        "name": "DOCUMENTS",
+        "icon": "📝",
+        "desc": "Black Isle"
+      }
+    ],
     "items": {
       "all": [
-        { "id": "vb", "name": "OVERVIEW", "img": "https://placehold.co/300x200/110011/cc00cc?text=VB", "specs": {"Developer": "Black Isle", "Cancelled": "2003"}, "lore": "Black Isle's Fallout 3. Set in Arizona, Utah, Colorado. Player starts as a prisoner. Cancelled when Interplay shut down." },
-        { "id": "bomb001", "name": "B.O.M.B-001", "img": "https://placehold.co/300x200/110011/cc00cc?text=ORBITAL+BASE", "specs": {"Type": "Space Station", "Function": "Nuclear Platform"}, "lore": "Ballistic Orbital Missile Base. Chinese space station with working nukes. Player could access it." },
-        { "id": "prisoner", "name": "PRISONER ORIGIN", "img": "https://placehold.co/300x200/110011/cc00cc?text=PRISON", "specs": {"Start": "Tibbets Prison", "Twist": "Memory loss"}, "lore": "Player was a prisoner with amnesia. Would discover their past crimes as the story progressed." },
-        { "id": "denver", "name": "DENVER (DOG CITY)", "img": "https://placehold.co/300x200/110011/cc00cc?text=DOGS", "specs": {"Population": "Feral dogs", "Danger": "Extreme"}, "lore": "Overrun by packs of wild dogs. Survivors lived in high buildings. Dogs learned to use elevators." },
-        { "id": "newcanaan", "name": "NEW CANAAN", "img": "https://placehold.co/300x200/110011/cc00cc?text=MORMONS", "specs": {"Religion": "Mormon", "Leader": "Jeremiah Rigdon"}, "lore": "Mormon settlement in Utah. Peaceful community. Later appeared in Honest Hearts DLC for New Vegas." },
-        { "id": "hooverdam", "name": "HOOVER DAM (ORIGINAL)", "img": "https://placehold.co/300x200/110011/cc00cc?text=HOOVER", "specs": {"Control": "NCR vs Blackfoot", "Status": "Functional"}, "lore": "Central location. NCR vs Caesar's Legion (called Blackfoot Tribe). Similar to New Vegas version." }
+        {
+          "id": "vb",
+          "name": "OVERVIEW",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=VB",
+          "specs": {
+            "Developer": "Black Isle",
+            "Cancelled": "2003"
+          },
+          "lore": "Black Isle's Fallout 3. Set in Arizona, Utah, Colorado. Player starts as a prisoner. Cancelled when Interplay shut down."
+        },
+        {
+          "id": "bomb001",
+          "name": "B.O.M.B-001",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=ORBITAL+BASE",
+          "specs": {
+            "Type": "Space Station",
+            "Function": "Nuclear Platform"
+          },
+          "lore": "Ballistic Orbital Missile Base. Chinese space station with working nukes. Player could access it."
+        },
+        {
+          "id": "prisoner",
+          "name": "PRISONER ORIGIN",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=PRISON",
+          "specs": {
+            "Start": "Tibbets Prison",
+            "Twist": "Memory loss"
+          },
+          "lore": "Player was a prisoner with amnesia. Would discover their past crimes as the story progressed."
+        },
+        {
+          "id": "denver",
+          "name": "DENVER (DOG CITY)",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=DOGS",
+          "specs": {
+            "Population": "Feral dogs",
+            "Danger": "Extreme"
+          },
+          "lore": "Overrun by packs of wild dogs. Survivors lived in high buildings. Dogs learned to use elevators."
+        },
+        {
+          "id": "newcanaan",
+          "name": "NEW CANAAN",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=MORMONS",
+          "specs": {
+            "Religion": "Mormon",
+            "Leader": "Jeremiah Rigdon"
+          },
+          "lore": "Mormon settlement in Utah. Peaceful community. Later appeared in Honest Hearts DLC for New Vegas."
+        },
+        {
+          "id": "hooverdam",
+          "name": "HOOVER DAM (ORIGINAL)",
+          "img": "https://placehold.co/300x200/110011/cc00cc?text=HOOVER",
+          "specs": {
+            "Control": "NCR vs Blackfoot",
+            "Status": "Functional"
+          },
+          "lore": "Central location. NCR vs Caesar's Legion (called Blackfoot Tribe). Similar to New Vegas version."
+        }
       ]
     }
   }
