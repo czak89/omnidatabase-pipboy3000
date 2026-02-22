@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Crawl fallout.fandom.com via MediaWiki API and emit raw page records as JSONL.
+Crawl fallout.fandom.com via MediaWiki API and emit enriched raw page records as JSONL.
 """
 
 from __future__ import annotations
@@ -74,15 +74,14 @@ def api_request(params: Dict[str, Any], timeout: int, user_agent: str) -> Dict[s
     return json.loads(body)
 
 
-def fetch_page(title: str, timeout: int, user_agent: str) -> Optional[Dict[str, Any]]:
-    params = {
+def fetch_page_common(title: str, timeout: int, user_agent: str, exintro: bool) -> Optional[Dict[str, Any]]:
+    params: Dict[str, Any] = {
         "action": "query",
         "format": "json",
         "formatversion": 2,
         "redirects": 1,
         "prop": "extracts|pageimages|categories|revisions|info",
         "titles": title,
-        "exintro": 1,
         "explaintext": 1,
         "piprop": "thumbnail",
         "pithumbsize": 600,
@@ -92,6 +91,8 @@ def fetch_page(title: str, timeout: int, user_agent: str) -> Optional[Dict[str, 
         "rvlimit": 1,
         "inprop": "url",
     }
+    if exintro:
+        params["exintro"] = 1
     data = api_request(params, timeout=timeout, user_agent=user_agent)
     pages = data.get("query", {}).get("pages", [])
     if not pages:
@@ -108,16 +109,66 @@ def fetch_page(title: str, timeout: int, user_agent: str) -> Optional[Dict[str, 
             categories.append(title_value)
     rev = (page.get("revisions") or [{}])[0]
     thumb = page.get("thumbnail") or {}
-    summary = (page.get("extract") or "").strip()
+    extract = (page.get("extract") or "").strip()
     return {
         "page_id": page.get("pageid"),
         "title": page.get("title", title),
         "url": page.get("fullurl") or title_to_url(page.get("title", title)),
-        "summary": summary,
+        "extract": extract,
         "categories": categories,
         "image": thumb.get("source"),
         "revision_id": rev.get("revid"),
         "revision_timestamp": rev.get("timestamp"),
+    }
+
+
+def fetch_sections(title: str, timeout: int, user_agent: str, sections_limit: int) -> List[Dict[str, Any]]:
+    params = {
+        "action": "parse",
+        "format": "json",
+        "formatversion": 2,
+        "page": title,
+        "prop": "sections",
+    }
+    data = api_request(params, timeout=timeout, user_agent=user_agent)
+    rows = data.get("parse", {}).get("sections", []) or []
+    out: List[Dict[str, Any]] = []
+    for row in rows[:sections_limit]:
+        out.append(
+            {
+                "index": row.get("index"),
+                "line": row.get("line"),
+                "toclevel": row.get("toclevel"),
+                "number": row.get("number"),
+            }
+        )
+    return out
+
+
+def fetch_page(title: str, timeout: int, user_agent: str, sections_limit: int) -> Optional[Dict[str, Any]]:
+    lead = fetch_page_common(title=title, timeout=timeout, user_agent=user_agent, exintro=True)
+    if not lead:
+        return None
+    full = fetch_page_common(title=title, timeout=timeout, user_agent=user_agent, exintro=False) or {}
+    try:
+        sections = fetch_sections(title=lead.get("title", title), timeout=timeout, user_agent=user_agent, sections_limit=sections_limit)
+    except Exception:
+        sections = []
+
+    lead_summary = lead.get("extract", "")
+    full_text = full.get("extract", "")
+    return {
+        "page_id": lead.get("page_id"),
+        "title": lead.get("title", title),
+        "url": lead.get("url") or title_to_url(lead.get("title", title)),
+        "lead_summary": lead_summary,
+        "full_text": full_text,
+        "summary": lead_summary,  # Backward compatibility for older normalizers.
+        "categories": lead.get("categories", []),
+        "image": lead.get("image"),
+        "revision_id": lead.get("revision_id"),
+        "revision_timestamp": lead.get("revision_timestamp"),
+        "sections": sections,
     }
 
 
@@ -176,7 +227,12 @@ def run(args: argparse.Namespace) -> int:
         visited.add(title)
 
         try:
-            page = fetch_page(title, timeout=args.timeout, user_agent=args.user_agent)
+            page = fetch_page(
+                title=title,
+                timeout=args.timeout,
+                user_agent=args.user_agent,
+                sections_limit=args.sections_limit,
+            )
         except Exception:
             errors += 1
             continue
@@ -231,6 +287,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-pages", type=int, default=500, help="Hard cap on crawled pages")
     parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout seconds")
     parser.add_argument("--sleep-ms", type=int, default=75, help="Delay between page crawl steps")
+    parser.add_argument("--sections-limit", type=int, default=25, help="Max section rows to keep per page")
     parser.add_argument("--out", required=True, help="Output JSONL path")
     parser.add_argument(
         "--user-agent",
@@ -242,4 +299,3 @@ def build_parser() -> argparse.ArgumentParser:
 
 if __name__ == "__main__":
     raise SystemExit(run(build_parser().parse_args()))
-

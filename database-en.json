@@ -80,6 +80,112 @@
             "Faction": "Enclave"
           },
           "lore": "Developed by the Enclave post-war. Far superior to pre-war models."
+        },
+        {
+          "id": "assault_rifle",
+          "name": "ASSAULT RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/a/a1/Chinese_assault_rifle.png/revision/latest/scale-to-width-down/600?cb=20110211025816",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2281",
+            "Revision": "4597348"
+          },
+          "lore": "An assault rifle is a selective fire rifle that uses an intermediate cartridge and a detachable magazine. Assault rifles are the standard infantry weapons in most modern armies."
+        },
+        {
+          "id": "electromagnetic_pulse",
+          "name": "ELECTROMAGNETIC PULSE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/00/PulseGrenade.png/revision/latest/scale-to-width-down/577?cb=20191230170459",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "3903823"
+          },
+          "lore": "An electromagnetic pulse (EMP) is a short burst of electromagnetic energy capable of disabling or damaging electrical and electronic equipment. This property led to its weaponization by the military, from man-portable weapons to the mighty nuclear weapons."
+        },
+        {
+          "id": "machine_gun",
+          "name": "MACHINE GUN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/6c/Automatic_rifle.png/revision/latest/scale-to-width-down/600?cb=20110223001520",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1917",
+            "Revision": "4461964"
+          },
+          "lore": "A machine gun is a fully automatic mounted or portable firearm, usually designed to provide sustained automatic fire, appearing in several Fallout titles."
+        },
+        {
+          "id": "power_armor",
+          "name": "POWER ARMOR",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/61/Mainmenured.gif/revision/latest/scale-to-width-down/600?cb=20111025173429",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2065",
+            "Revision": "4621167"
+          },
+          "lore": "Power armor, also referred to as powered armor, powered combat infantry armor, and powered infantry armor, is a type of personal infantry suit intended for combat and heavy-labor roles, similar to that of an infantry fighting vehicle. Power armor development first began before the Great War in 2065 by United States defense contractors, including West Tek."
+        },
+        {
+          "id": "power_fist",
+          "name": "POWER FIST",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/bb/POWERFIST.png/revision/latest/scale-to-width-down/600?cb=20110210224044",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4604590"
+          },
+          "lore": "A power fist is a type of glove or armored gauntlet, with a powered ram or similar device which improves the impact of the wielder's Unarmed strikes."
+        },
+        {
+          "id": "pulse_pistol",
+          "name": "PULSE PISTOL",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=PULSE+PISTOL",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4525833"
+          },
+          "lore": "Pulse pistols, sometimes called Pulse guns, are energy weapons designed to fire electrical pulses at their targets, and depending on the model can damage or disable electronics such as robots or power armor."
+        },
+        {
+          "id": "sonic_emitter_weapon",
+          "name": "SONIC EMITTER (WEAPON)",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=SONIC+EMITTER+%28WEAPON%29",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4514689"
+          },
+          "lore": "The sonic-soundwave-emitter-projecto-gun, or more simply the sonic emitter, is a weapon in the Fallout: New Vegas add-on Old World Blues."
+        },
+        {
+          "id": "t60_pistol",
+          "name": "T60 PISTOL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/e1/FOS_T60_pistol.png/revision/latest?cb=20240412205916",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2296",
+            "Revision": "4612113"
+          },
+          "lore": "The T60 pistol is a handgun in the Fallout TV series and Fallout Shelter."
+        },
+        {
+          "id": "medical_malpractice",
+          "name": "MEDICAL MALPRACTICE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/3/3a/FO76L%26L_weapon_medmalpractice.webp/revision/latest/scale-to-width-down/600?cb=20210520162337",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2019",
+            "Revision": "4535875"
+          },
+          "lore": "Medical Malpractice is a non-automatic pistol in Fallout 76, first introduced with the Wild Appalachia update. It was made available for crafting by a plan from Daily Ops with the Locked & Loaded update. == Background == Medical Malpractice is a .44 pistol variant manufactured by Red Raptor Firearms, a company based out of Austin, Texas."
+        },
+        {
+          "id": "armor_piercing_10mm_pistol",
+          "name": "ARMOR PIERCING 10MM PISTOL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/ec/FoS_10mm_pistol.png/revision/latest?cb=20150825164701",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2051",
+            "Revision": "4502254"
+          },
+          "lore": "The armor piercing 10mm pistol is a weapon that appears in Fallout Shelter. == Background == The large-framed N99 was selected as the standard issue conventional sidearm of the United States military, following the phaseout of the N80 in 2051. The long-barreled pistol remained in service for 26 years, until the Great War destroyed the United States."
         }
       ],
       "energy": [
@@ -102,6 +208,173 @@
             "Ammo": "MFC"
           },
           "lore": "Industrial Winchester P94 plasma weapon. Fires a plasma torus."
+        },
+        {
+          "id": "10mm_pistol",
+          "name": "10MM PISTOL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b3/Art_of_Fallout_4_10mm_pistol.jpg/revision/latest/scale-to-width-down/600?cb=20170522180819",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2051",
+            "Revision": "4592575"
+          },
+          "lore": "10mm pistols are pistols that appear in Fallout, Fallout 2, Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76, Fallout Shelter, Fallout: New California and Van Buren, as well as the Fallout TV series."
+        },
+        {
+          "id": "alien_blaster",
+          "name": "ALIEN BLASTER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/00/F3Firelance.png/revision/latest/scale-to-width-down/600?cb=20110207053519",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4599027"
+          },
+          "lore": "The alien blaster is a powerful, compact energy weapon of alien origin which appears in Fallout, Fallout 2, Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76, Fallout Shelter, and Fallout: The Board Game."
+        },
+        {
+          "id": "flamer",
+          "name": "FLAMER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/02/Art_of_Fallout_4_flamer.jpg/revision/latest/scale-to-width-down/600?cb=20170522174845",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4526454"
+          },
+          "lore": "A flamer or flamethrower is a large weapon that projects an ignited stream of flammable liquid, and requires a source of fuel to operate. In Fallout 3, flamers use the Big Guns skill, whereas in Fallout: New Vegas, they are moved to the Energy Weapons skill."
+        },
+        {
+          "id": "gatling_laser",
+          "name": "GATLING LASER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/53/Gatling_laser_CA1.jpg/revision/latest/scale-to-width-down/600?cb=20120229182202",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4526458"
+          },
+          "lore": "The Gatling laser is an energy weapon that appears in Fallout, Fallout 2, Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76 and Fallout Tactics."
+        },
+        {
+          "id": "gauss_rifle",
+          "name": "GAUSS RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/4d/FO3_Gauss_rifle.png/revision/latest/scale-to-width-down/600?cb=20110318031505",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2241",
+            "Revision": "4614599"
+          },
+          "lore": "Gauss rifles are a class of magnetic projectile weapons that have appeared multiple times in the Fallout series."
+        },
+        {
+          "id": "grenade_launcher",
+          "name": "GRENADE LAUNCHER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/f0/AutoGrenadeLauncher.png/revision/latest/scale-to-width-down/600?cb=20190929165755",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4593586"
+          },
+          "lore": "A grenade launcher is a weapon that propels a grenade with more accuracy, higher velocity and to greater distances than a soldier could throw it by hand. The term encompasses a broad array of weapons, from small, handheld launchers to crew-served automatic weapons, all being man-portable weapons firing grenade rounds."
+        },
+        {
+          "id": "hand_grenade",
+          "name": "HAND GRENADE",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=HAND+GRENADE",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4224187"
+          },
+          "lore": "A hand grenade is a thrown weapon that appears in all of the Fallout games. Most contain explosives designed to inflict damage in a wide blast radius by the fragmentation of their outer cases."
+        },
+        {
+          "id": "laser_musket",
+          "name": "LASER MUSKET",
+          "img": "https://static.wikia.nocookie.net/fallout/images/1/16/FO4LaserMusket.png/revision/latest/scale-to-width-down/600?cb=20180104230937",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4526467"
+          },
+          "lore": "The laser musket is a weapon in Fallout 4, Fallout 76, Fallout Shelter, and the Fallout TV series."
+        },
+        {
+          "id": "laser_pistol",
+          "name": "LASER PISTOL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/3/3c/Fallout4_laser_pistol.png/revision/latest/scale-to-width-down/600?cb=20190808164830",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2161",
+            "Revision": "4526468"
+          },
+          "lore": "Laser pistols are high-tech sidearms that emit a concentrated beam of coherent light, with sufficient wattage to do considerable damage. They can be powered by various power sources, but most models use an internal capacitor, charged by a small energy cell."
+        },
+        {
+          "id": "laser_rifle",
+          "name": "LASER RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/6d/F76_Clarksburg_P_1.png/revision/latest?cb=20200725010729",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2000",
+            "Revision": "4610336"
+          },
+          "lore": "Laser rifles are high-tech weapons that emit a concentrated beam of coherent light, with sufficient wattage to do considerable damage. They can be powered by battery packs, fusion cells, or cabled power systems, but most models use an internal capacitor, charged with microfusion cells."
+        },
+        {
+          "id": "plasma_grenade",
+          "name": "PLASMA GRENADE",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=PLASMA+GRENADE",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4593592"
+          },
+          "lore": "A plasma grenade is a thrown weapon that appears in all of the Fallout games. Plasma grenades release a burst of ionized plasma gas when detonated, rather than the typical explosion propelling fragments of normal hand grenades."
+        },
+        {
+          "id": "plasma_pistol",
+          "name": "PLASMA PISTOL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/53/PlasmaDefenderFNV.png/revision/latest/scale-to-width-down/600?cb=20110208221930",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2024",
+            "Revision": "4616037"
+          },
+          "lore": "Plasma pistols are high-tech weapons firing superheated bolts of plasma, powered by small energy cells, energy cells or plasma cartridges."
+        },
+        {
+          "id": "plasma_rifle",
+          "name": "PLASMA RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b8/FO76_Winchester_P94_plasma_rifle.png/revision/latest/scale-to-width-down/600?cb=20190909165556",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4526504"
+          },
+          "lore": "Plasma rifles or plasma casters are energy based weapons that appear in Fallout, Fallout 2, Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76, Fallout Tactics, Fallout: Brotherhood of Steel, Fallout Shelter and Fallout: The Board Game."
+        },
+        {
+          "id": "pulse_rifle",
+          "name": "PULSE RIFLE",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=PULSE+RIFLE",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4515039"
+          },
+          "lore": "The pulse rifle is an energy weapon in Fallout 2 and Fallout Tactics."
+        },
+        {
+          "id": "tesla_cannon",
+          "name": "TESLA CANNON",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/5d/Tesla_cannon.png/revision/latest/scale-to-width-down/600?cb=20110209022537",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2277",
+            "Revision": "4582341"
+          },
+          "lore": "The Tesla cannon is a series of shoulder-mounted directed energy weapons that have appeared multiple times in the Fallout series."
+        },
+        {
+          "id": "turbo_plasma_rifle",
+          "name": "TURBO PLASMA RIFLE",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=TURBO+PLASMA+RIFLE",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4526605"
+          },
+          "lore": "Turbo plasma rifles are energy based weapons that appear in Fallout, Fallout 2, and Fallout: Brotherhood of Steel."
         }
       ],
       "robots": [
@@ -117,21 +390,27 @@
         {
           "id": "securitron",
           "name": "SECURITRON",
-          "img": "https://placehold.co/300x300/111/ffb000?text=SECURITRON",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/7e/Securitron.png/revision/latest/scale-to-width-down/571?cb=20101110013529",
           "specs": {
-            "Company": "RobCo"
+            "Company": "RobCo",
+            "Source": "Fallout Wiki",
+            "Year": "2060",
+            "Revision": "4624752"
           },
-          "lore": "New Vegas guardian. Equipped with grenade launchers and lasers."
+          "lore": "The PDQ-88b Securitron (RobCo security model 2060-B) is a private security robot. They are charged with protecting the Strip and can be found there alongside the Lucky 38 and Big MT in Fallout: New Vegas and its add-on Old World Blues, respectively. They also appear in the Fallout TV series and Fallout Shelter, and variants of the Securitron appear as Atomic Shop items in Fallout 76, known as the A&D Vendo-Tron."
         },
         {
           "id": "liberty_prime",
           "name": "LIBERTY PRIME",
-          "img": "https://placehold.co/300x200/003344/0088ff?text=LIBERTY+PRIME",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/c1/Fo4_Liberty_Prime.jpg/revision/latest/scale-to-width-down/396?cb=20151209232136",
           "specs": {
             "Type": "Strategic war robot",
-            "Affiliation": "Brotherhood of Steel"
+            "Affiliation": "Brotherhood of Steel",
+            "Source": "Fallout Wiki",
+            "Year": "2277",
+            "Revision": "4626607"
           },
-          "lore": "A giant anti-communist war robot deployed by the Brotherhood in major East Coast conflicts."
+          "lore": "Liberty Prime, later renamed to Liberty Prime Mark II, is a giant combat robot originally constructed by the Strategic Arms Division of the United States Army as a superweapon to achieve victory against China in the Sino-American War. It was intended to be deployed in combat as the spearhead of the liberation of Anchorage, Alaska from PLA occupation, but never saw deployment due to its lack of a suitable power source. Left dormant within the Pentagon in Washington, D.C."
         },
         {
           "id": "robobrain_platform",
@@ -152,6 +431,27 @@
             "Role": "Broadcast/scouting support"
           },
           "lore": "A floating utility and reconnaissance robot used for broadcasting, scouting, and field support."
+        },
+        {
+          "id": "robobrain",
+          "name": "ROBOBRAIN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/7b/RobobrainFO1.png/revision/latest?cb=20110801195114",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4615006"
+          },
+          "lore": "The Robobrain is a next-generation brain bot-type cyborg appearing throughout the Fallout series. Developed by General Atomics International and the US Army with indirect support from RobCo Industries, the Robobrain was designed from the ground up as a multirole platform for use by military and civilian clients."
+        },
+        {
+          "id": "the_art_of_fallout_4",
+          "name": "THE ART OF FALLOUT 4",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/5b/FO4ArtBookCover.jpg/revision/latest/scale-to-width-down/455?cb=20151021130954",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2015",
+            "Revision": "4586515"
+          },
+          "lore": "The Art of Fallout 4 is an art book accompanying Fallout 4. == Contents == The Art of Fallout 4 has 368 pages and features never before seen designs and concept art from the game's environments, characters, weapons, and more, along with commentary from the developers themselves. It was made available on December 22, 2015."
         }
       ],
       "devices": [
@@ -172,6 +472,123 @@
             "Function": "Terraforming"
           },
           "lore": "Garden of Eden Creation Kit. Suitcase with a matter replicator."
+        },
+        {
+          "id": "dom_pedro_weapon",
+          "name": "DOM PEDRO (WEAPON)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/65/FoTV_ghouls_revolver_The_Head_closeup.jpg/revision/latest/scale-to-width-down/600?cb=20240510182844",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2296",
+            "Revision": "4604515"
+          },
+          "lore": "Dom Pedro is a unique weapon owned by the Ghoul."
+        },
+        {
+          "id": "fat_man",
+          "name": "FAT MAN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/fe/FatManCA.jpg/revision/latest/scale-to-width-down/600?cb=20120220224118",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2076",
+            "Revision": "4518114"
+          },
+          "lore": "The M42 \"Fat Man\" Launcher, also referred to as the Fat Man Tactical Nuclear Catapult, is a man-portable, shoulder-fired catapult weapon system that launches tactical nuclear ordnance, the mini nuke. It appears in Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76, Fallout Shelter and Fallout: The Board Game."
+        },
+        {
+          "id": "katana",
+          "name": "KATANA",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b3/Katana2.png/revision/latest/scale-to-width-down/600?cb=20110927225512",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2281",
+            "Revision": "4627094"
+          },
+          "lore": "The katana (刀 or かたな) is a type of melee weapon which has appeared multiple times in the Fallout series."
+        },
+        {
+          "id": "land_mine",
+          "name": "LAND MINE",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=LAND+MINE",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4238644"
+          },
+          "lore": "Land mines are explosive devices used as weapons in Fallout 3, Fallout: New Vegas, Fallout 4, and Fallout 76. When armed, the mine is placed on the ground, where it will lie dormant until an enemy strays too close, upon which its proximity fuse will trip, detonating the mine shortly thereafter."
+        },
+        {
+          "id": "nuclear_weapons",
+          "name": "NUCLEAR WEAPONS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/67/Fo1_Nuclear_Bomb.png/revision/latest?cb=20090709100233",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1945",
+            "Revision": "4591077"
+          },
+          "lore": "A nuclear weapon is an explosive device that derives its destructive force from nuclear reactions, either fission or a combination of fission and fusion. They are often colloquially referred to as a nuke or nukes, and are the primary source of nuclear fallout."
+        },
+        {
+          "id": "railgun",
+          "name": "RAILGUN",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=RAILGUN",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "3849667"
+          },
+          "lore": "Railguns, also known as rail guns or rail cannons, are weapons seen throughout the Fallout series."
+        },
+        {
+          "id": "railway_rifle",
+          "name": "RAILWAY RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/6f/Railway_rifle_%28Fallout_4%29.png/revision/latest/scale-to-width-down/600?cb=20151116002826",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4530218"
+          },
+          "lore": "The railway rifle is a improvised weapon that pneumatically fires railway spikes at high velocities, typically with enough force to sever and pin limbs to nearby walls or objects."
+        },
+        {
+          "id": "sword",
+          "name": "SWORD",
+          "img": "https://static.wikia.nocookie.net/fallout/images/8/82/Chinese_officer%27s_sword.png/revision/latest/scale-to-width-down/600?cb=20110211050224",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2241",
+            "Revision": "4441298"
+          },
+          "lore": "Various swords serve as melee weapons in Fallout 2, Fallout 3, Fallout: New Vegas, Fallout 4, Fallout 76 and Fallout Shelter. The label of \"sword\" encompasses a wide variety of blades used for slashing and thrusting attacks."
+        },
+        {
+          "id": "unique_weapons",
+          "name": "UNIQUE WEAPONS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/ff/1005_WalkingArsenal.png/revision/latest?cb=20200929203312",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4496588"
+          },
+          "lore": "Unique weapons are one-of-a-kind weapons that are found only once in a specific game. Unique weapons generally have better stats than their common counterparts and may have a unique effect."
+        },
+        {
+          "id": "weapon",
+          "name": "WEAPON",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/ff/1005_WalkingArsenal.png/revision/latest?cb=20200929203312",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4295528"
+          },
+          "lore": "Weapons are items used to attack a target and deliver damage."
+        },
+        {
+          "id": "citadel_terminal_entries",
+          "name": "CITADEL TERMINAL ENTRIES",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=CITADEL+TERMINAL+ENTRIES",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2072",
+            "Revision": "4604199"
+          },
+          "lore": "The Citadel terminal entries are a series of entries found on terminals in the Citadel in Fallout 3."
         }
       ]
     }
@@ -253,6 +670,61 @@
             "Objective": "Alaskan oil reserves"
           },
           "lore": "China invaded Alaska to secure strategic fuel resources, triggering the most intense phase of the Sino-American War and a prolonged U.S. military response."
+        },
+        {
+          "id": "battle_rifle",
+          "name": "BATTLE RIFLE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/71/Battle_rifle.png/revision/latest/scale-to-width-down/600?cb=20110929193850",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1947",
+            "Revision": "4316868"
+          },
+          "lore": "A battle rifle is a military service rifle that fires a full power rifle cartridge, such as 7.62x51mm NATO. This designation is usually given to post-World War II select-fire infantry rifles, such as the FN FAL or the M14."
+        },
+        {
+          "id": "sino_american_war",
+          "name": "SINO-AMERICAN WAR",
+          "img": "https://static.wikia.nocookie.net/fallout/images/a/a1/Fo_SinoAmerican_War_Collage.png/revision/latest/scale-to-width-down/600?cb=20190924055922",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2060",
+            "Revision": "4613667"
+          },
+          "lore": "The Sino-American War was a pivotal event in the timeline of the Fallout series: a global war between the People's Republic of China and the United States of America as the two leading superpowers in the late 20th century and throughout most of the 21st century following World War II and the Divergence. As resources began to dwindle, both nations clashed over control of the last remaining energy resources on Earth, drawing in client states and annexed territories as both civilian and military resources were harnessed to achieve victory over the other side, all in a struggle that was as much about resources as it was about ideology. The war was marked by atrocities on both sides against foreign and domestic populations, steady escalation of hostilities up to and including the use of nuclear, biological, and chemical weapons, and gradual transition of both states into totalitarian dictatorships no different from each other."
+        },
+        {
+          "id": "timeline",
+          "name": "TIMELINE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/ea/Fo76_intro_slide_4.png/revision/latest/scale-to-width-down/600?cb=20180928135216",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1969",
+            "Revision": "4627618"
+          },
+          "lore": "What follows is a complete timeline of all known canonical events in the Fallout universe. For clarity and performance, some parts of the timeline were separated into other articles: Events unique to Fallout Tactics are found in Fallout Tactics timeline."
+        },
+        {
+          "id": "timeline_of_major_events",
+          "name": "TIMELINE OF MAJOR EVENTS",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=TIMELINE+OF+MAJOR+EVENTS",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1907",
+            "Revision": "4601187"
+          },
+          "lore": "What follows is an edited version of the Fallout timeline focusing on major events and omitting minor, inconsequential occurrences, such as fixing pipes or delivery dates, and most personal occurrences, focusing on those tied to the rise and development of factions, settlements, and technologies. Historical events with no impact on the Fallout setting are not included."
+        },
+        {
+          "id": "fallout_3",
+          "name": "FALLOUT 3",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/c0/Fallout_3_cover_art.png/revision/latest/scale-to-width-down/484?cb=20150327223914",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2008",
+            "Revision": "4626090"
+          },
+          "lore": "Fallout 3 is a post-apocalyptic role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the third major installment in the Fallout series (fifth overall) and a sequel to Interplay Entertainment's Fallout and Fallout 2. It was released on October 28, 2008, in North America, on October 31, 2008, in Europe and Australia and on December 4, 2008, in Japan."
         }
       ],
       "greatwar": [
@@ -275,6 +747,17 @@
             "Outcome": "Global devastation"
           },
           "lore": "Escalating alerts became confirmed launches and full nuclear exchange. The Great War lasted roughly two hours and destroyed most organized civilization."
+        },
+        {
+          "id": "great_war",
+          "name": "GREAT WAR",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/4b/FO4_Nuclear_strikes_on_Boston.jpg/revision/latest/scale-to-width-down/600?cb=20170328092532",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4626537"
+          },
+          "lore": "The Great War, also simply referred to as The War, was a pivotal event in the setting of the Fallout series: a global thermonuclear exchange that took place on Saturday, October 23, 2077, as a result of the then-ongoing Sino-American War between China and the United States of America. It resulted in the destruction of all participating nations and abroad, global disruption of the climate and billions of casualties as a result of nuclear blasts, exposure to radiation and the subsequent collapse of social and government structures, all within the span of just two hours. The landscape of the United States and the rest of the world were transformed into a wasteland and even 200 years later, the consequences of the Great War can still be felt in the form of lingering radiation, rampant sickness and disease, hostile mutated creatures, environmental degradation, and significant scarcity of resources resulting in mass societal breakdown and regression to violent lawlessness."
         }
       ],
       "darkages": [
@@ -389,6 +872,17 @@
             "Capital": "Shady Sands"
           },
           "lore": "After a transitional period of local governance, the New California Republic was formally established as a republic centered on Shady Sands."
+        },
+        {
+          "id": "the_hub",
+          "name": "THE HUB",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/ef/The_Hub_map.png/revision/latest/scale-to-width-down/600?cb=20201219173437",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2189",
+            "Revision": "4567678"
+          },
+          "lore": "\"A Trader's Life\" The Hub, also called The Hub Trading Co., is a major trading center and settlement established in an old town relatively untouched by the Great War. Since its foundation, the Hub became an economic powerhouse, as a crossroads for commerce and staging base for caravan houses, a major producer of agricultural goods thanks to the farms surrounding the city, and supplier of vital water for much of New California. The caravan houses that work the routes trade in everything: chems, tires, guns, bullets, food, brahmin, dirt, even scraps of metal."
         }
       ],
       "modern": [
@@ -441,6 +935,17 @@
             "Key development": "Lucy leaves Vault 33"
           },
           "lore": "In 2296, events around Vault 33 drive Lucy into the wasteland, linking vault politics, NCR remnants, and pre-war corporate legacies."
+        },
+        {
+          "id": "mysterious_stranger_character",
+          "name": "MYSTERIOUS STRANGER (CHARACTER)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/2/28/FO76_Mysterious_stranger_disappointed_in_me.png/revision/latest/scale-to-width-down/600?cb=20211231124126",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2287",
+            "Revision": "4604179"
+          },
+          "lore": "The Mysterious Stranger is an enigmatic character that has made multiple appearances in the Fallout series, typically only when one has the Mysterious Stranger perk and uses V.A.T.S.. == Background == The Mysterious Stranger has been spotted throughout the wasteland in the aftermath of the Great War, always wearing his trademark trench coat and fedora. He appears suddenly to certain people during combat and assists them with his signature .44 Magnum before vanishing as abruptly as he appeared."
         }
       ]
     }
@@ -507,6 +1012,38 @@
             "Opened": "2102"
           },
           "lore": "Control vault. Opened after 25 years. Dwellers emerged to reclaim Appalachia. Featured in Fallout 76."
+        },
+        {
+          "id": "control_vault",
+          "name": "CONTROL VAULT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/1/13/Fallout76_Teaser_Atrium.png/revision/latest/scale-to-width-down/600?cb=20180530170702",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4487154"
+          },
+          "lore": "Non-experimental Vaults, or control Vaults, were Vaults designed and built by Vault-Tec to provide baseline data in order to compare and evaluate the results of experiments conducted in non-control Vaults. These Vaults functioned exactly as advertised by the corporation, with no underlying scheme intended to take place within the Vault itself."
+        },
+        {
+          "id": "multi_generational_starship",
+          "name": "MULTI-GENERATIONAL STARSHIP",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=MULTI-GENERATIONAL+STARSHI",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2023",
+            "Revision": "4514399"
+          },
+          "lore": "The multi-generational starship was a long-term plan by the Enclave to address the problem of Earth's destruction in the wake of a global thermonuclear war. Fearing that the war would render the surface of the world uninhabitable, the Enclave elected to create an interstellar vessel to take the \"best and brightest\" off world to a new planet that could be colonized and human civilization started anew."
+        },
+        {
+          "id": "vault_8",
+          "name": "VAULT 8",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/e8/Fo2_Vault_8_Entry.png/revision/latest/scale-to-width-down/600?cb=20180809163524",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2091",
+            "Revision": "4572828"
+          },
+          "lore": "Vault 8 is a Vault located in the post-War settlement of Vault City in Fallout 2. == Background == Vault 8 was a control Vault that was intended to open and re-colonize the surface 10 years after being sealed. The Vault was designed to house a hundred or so people."
         }
       ],
       "social": [
@@ -609,6 +1146,179 @@
             "Location": "New Vegas"
           },
           "lore": "Vault 21 used gambling as a dispute-resolution system and later became tied to New Vegas politics."
+        },
+        {
+          "id": "demonstration_vault",
+          "name": "DEMONSTRATION VAULT",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=DEMONSTRATION+VAULT",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4023121"
+          },
+          "lore": "A demonstration Vault is a showing to the general public illustrating the benefits of a Vault-Tec Vault."
+        },
+        {
+          "id": "list_of_known_vaults",
+          "name": "LIST OF KNOWN VAULTS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/91/FOTV_ep8_Vault_heat_map.png/revision/latest/scale-to-width-down/600?cb=20240412145743",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1959",
+            "Revision": "4623353"
+          },
+          "lore": "The following page lists all Vault-Tec Corporation Vault series shelters and facilities inspired by them."
+        },
+        {
+          "id": "makeshift_vault",
+          "name": "MAKESHIFT VAULT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/bb/Ls_raidervault01.webp/revision/latest/scale-to-width-down/600?cb=20210408214357",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4048610"
+          },
+          "lore": "The makeshift vault is a location in the Toxic Valley region of Appalachia. == Background == A nuclear fallout shelter constructed by former Vault-Tec Corporation contractors using supplies and materials stolen from Vault construction sites in Appalachia. The builders decided on this course of action after they were informed that they'd not receive a spot in the Vaults they helped build due to being \"unessential.\" By October 2077, the work was mostly completed, with construction on this \"budget\" Vault well ahead of schedule."
+        },
+        {
+          "id": "three_vaults",
+          "name": "THREE VAULTS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/45/FOTV_Three_Vaults_Poster.png/revision/latest/scale-to-width-down/542?cb=20240520100102",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4603759"
+          },
+          "lore": "The Three Vaults are a unique network of three interconnected Vaults built in Los Angeles, California."
+        },
+        {
+          "id": "vault",
+          "name": "VAULT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo3_Vault_Corridor.png/revision/latest/scale-to-width-down/600?cb=20190917141253",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2054",
+            "Revision": "4617469"
+          },
+          "lore": "The Vaults™ are a series of subterranean shelters designed and constructed by the Vault-Tec Corporation under a joint operation contract with the United States government (codenamed Project Safehouse) to create hard-sealed fallout shelters outwardly intended to protect a selected portion of the American population from impending nuclear holocaust in the 21st century, so that the survivors could eventually repopulate post-apocalypse America on Reclamation Day. Unknown to the public at large, outside a minority of control Vaults, the main purpose of the Vaults was to conduct social experiments on the inhabitants, often involving mental, psychological, and physical torture for the purpose of scientific research into various, often unethical fields of study."
+        },
+        {
+          "id": "vault_12",
+          "name": "VAULT 12",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/ce/Fo1_Vault_12_Level_1.png/revision/latest/scale-to-width-down/600?cb=20150303132706",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4530320"
+          },
+          "lore": "Vault 12 is one of the Vaults constructed by the Vault-Tec Corporation. It is located in Bakersfield, California, in the post-War ghoul settlement of Necropolis. == Background == Constructed under the sprawling metropolis of Bakersfield, Vault 12 was billed as \"built with every amenity in mind for the prospective Vault Dweller,\" and that it had \"been fitted with the newest in Vault Water Purification Systems."
+        },
+        {
+          "id": "vault_27",
+          "name": "VAULT 27",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=VAULT+27",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2000",
+            "Revision": "4385713"
+          },
+          "lore": "Vault 27 is one of the Vault-Tec Vaults. == Background == As part of the Vault experiment, this Vault would be deliberately overcrowded. 2000 people would be assigned to enter, double the total sustainable amount."
+        },
+        {
+          "id": "vault_29",
+          "name": "VAULT 29",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=VAULT+29",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2090",
+            "Revision": "4416088"
+          },
+          "lore": "Vault 29 is one of the Vaults built by Vault-Tec. Located on the West Coast, the Vault housed children, mostly teenagers, from affluent families. == Background == Trisha Miller, a Vault-Tec University student, was concerned that her assignment would be a janitor in Vault 29 on the West Coast, with \"a bunch of obnoxious rich teenagers.\" == Notes == In the Fallout Bible, the Vault is said to have contained only children under the age of 15, with adults purposefully diverted elsewhere."
+        },
+        {
+          "id": "vault_29_van_buren",
+          "name": "VAULT 29 (VAN BUREN)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/cc/VB_DD05_map_Vault_29.png/revision/latest/scale-to-width-down/600?cb=20100119002305",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2090",
+            "Revision": "4449578"
+          },
+          "lore": "Vault 29 is one of the Vaults built by Vault-Tec. == Background == As part of the Vault experiment, it was meant to be populated by young children, with the original inhabitants being no more than 15 years old. Harold emerged from Vault 29 in 2090."
+        },
+        {
+          "id": "vault_32",
+          "name": "VAULT 32",
+          "img": "https://static.wikia.nocookie.net/fallout/images/d/d9/FOTV_Vault_32_crop_field_1.png/revision/latest/scale-to-width-down/600?cb=20240511160457",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2294",
+            "Revision": "4613678"
+          },
+          "lore": "Vault 32 is a location and Vault-Tec Vault in Los Angeles, California in the Fallout TV series. == Background == === Origins === One of the interconnected Three Vaults near Santa Monica, Los Angeles, Vault 32 was directly connected with Vault 31 and 33. However, direct contact between the populations was limited - officially to prevent the spread of threats, but with the ability to come to each other's aid in times of need."
+        },
+        {
+          "id": "vault_33",
+          "name": "VAULT 33",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/4e/Vault33extdoor.png/revision/latest/scale-to-width-down/600?cb=20240419215127",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2296",
+            "Revision": "4624760"
+          },
+          "lore": "Vault 33 is a Vault in what was once Santa Monica in the Fallout TV series. Its entrance is located shortly south of the Santa Monica Pier. Along with Vault 31 and Vault 32, it is one of the \"Three Vaults\" linked by a triangle of tunnels."
+        },
+        {
+          "id": "vault_65",
+          "name": "VAULT 65",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/92/Vault_65.png/revision/latest?cb=20201107171100",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2017",
+            "Revision": "4473918"
+          },
+          "lore": "Vault 65 would have been a Vault-Tec vault in Appalachia. == Background == The vault's original purpose in the vault experiment is unknown. The vault is powered by four generators, similar in design to the generators found in Vaults 51 and 94."
+        },
+        {
+          "id": "vault_77",
+          "name": "VAULT 77",
+          "img": "https://static.wikia.nocookie.net/fallout/images/1/1c/Vault77.png/revision/latest?cb=20110722143139",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4305812"
+          },
+          "lore": "Vault 77 is one of the Vault series of fallout shelters developed by Vault-Tec. It was featured in a promotional, crossover comic strip entitled One Man, and a Crate of Puppets, released to promote Fallout 3. Only one man was sealed inside with only a crate of puppets for company."
+        },
+        {
+          "id": "vault_blast_door",
+          "name": "VAULT BLAST DOOR",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b5/Vault13MasterEnding.png/revision/latest/scale-to-width-down/600?cb=20110712161110",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4605721"
+          },
+          "lore": "Unlike internal doors, Vault blast doors or Vault gear doors are designed not only to keep contaminants and radiation out but also to protect the occupants from danger. These massive doors are one of the iconic elements of a Vault, their gear design instantly recognizable in the wastelands."
+        },
+        {
+          "id": "vault_depressive_syndrome",
+          "name": "VAULT DEPRESSIVE SYNDROME",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=VAULT+DEPRESSIVE+SYNDROME",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2268",
+            "Revision": "4622630"
+          },
+          "lore": "Vault depressive syndrome, or VDS, is a mental health illness that affects Vault Dwellers."
+        },
+        {
+          "id": "vault_tec_corporation",
+          "name": "VAULT-TEC CORPORATION",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/67/FO4_Vault-Tec_logo.png/revision/latest?cb=20230219185714",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2031",
+            "Revision": "4621570"
+          },
+          "lore": "The Vault-Tec Corporation,(Note 1) also known as Vault-Tec Industries, Vault-Tec Incorporated, or simply as Vault-Tec, was a pre-War defense corporation which won the federal government contracts to design and implement a network of bunkers known as Vaults with the stated intent of preserving a small fraction of the U.S. population. By the time of the Great War, it was the largest company in America, valued at an estimated trillion dollars, with stakes in countless industries and businesses."
         }
       ],
       "science": [
@@ -661,6 +1371,60 @@
             "Region": "Capital Wasteland"
           },
           "lore": "Vault 87 conducted FEV-based experimentation that produced many Capital Wasteland super mutants."
+        },
+        {
+          "id": "los_angeles_vault",
+          "name": "LOS ANGELES VAULT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/e8/Fo1_Demonstration_Vault.png/revision/latest/scale-to-width-down/600?cb=20140530152111",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2161",
+            "Revision": "4603764"
+          },
+          "lore": "\"Flame of the Ancient World\" The Los Angeles Vault is a functional demonstration site designed by Vault-Tec to present their Vaults to the public. It held survivors during the War, who would leave to become the peoples of Boneyard. Some decades after the War, it would serve as the Master's main base beneath the Cathedral."
+        },
+        {
+          "id": "vault_120",
+          "name": "VAULT 120",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/f4/Fo4_Vault_120_2_Yangtze_and_Vault_Door.png/revision/latest/scale-to-width-down/600?cb=20221003105846",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2021",
+            "Revision": "4540639"
+          },
+          "lore": "Vault 120 is a cut Vault-Tec Vault located off the Atlantic coast of Massachusetts, underwater in the Commonwealth. It would have been involved in the cut quest 20 Leagues Under the Sea. The adventure there would involve a sentient giant squid contained inside the Vault, and the Vault itself would be inspired by BioShock."
+        },
+        {
+          "id": "vault_24",
+          "name": "VAULT 24",
+          "img": "https://static.wikia.nocookie.net/fallout/images/2/2c/FTV_S2E1_Still_151.png/revision/latest/scale-to-width-down/600?cb=20251218141728",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2296",
+            "Revision": "4619739"
+          },
+          "lore": "Vault 24 is a Vault-Tec Vault located in the Mojave Wasteland. It appears as a location in the Fallout TV series, while a jumpsuit from the Vault was cut from Fallout: New Vegas. == Background == Vault 24 was designed to preserve and continue research into mind-control technologies, with Vault-Tec's experimental staff using Americans assigned to the Vault as test subjects once the protocol was initiated."
+        },
+        {
+          "id": "vault_4",
+          "name": "VAULT 4",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/ec/Vault_4_entrance.jpg/revision/latest/scale-to-width-down/600?cb=20240412210822",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2198",
+            "Revision": "4623564"
+          },
+          "lore": "Vault 4 is a Vault-Tec Vault located beneath the Hawthorne Medical Laboratories campus in Los Angeles, California in the Fallout TV series. == Background == Before the Great War, Vault 4 was featured in advertisements and Vault orientation videos, with Cooper Howard serving as the spokesman. The Vault's experiment was publicly revealed in these advertisements: it would be governed by scientists living and working there full-time (technocracy)."
+        },
+        {
+          "id": "vault_jumpsuit",
+          "name": "VAULT JUMPSUIT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/2/2c/Fo1_Vault_13_Citizens.png/revision/latest/scale-to-width-down/600?cb=20201231220718",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4593121"
+          },
+          "lore": "Vault jumpsuits or Vault suits (terms used interchangeably) are the iconic gear of Vault dwellers and by and large the symbol of Vault-Tec Corporation, being worn by mascots Vault Boy and Vault Girl."
         }
       ],
       "esoteric": [
@@ -793,6 +1557,28 @@
             "Faction": "Gun Runners"
           },
           "lore": "Ruins of Los Angeles. Home to Gun Runners and Followers of the Apocalypse. Scavenger territory."
+        },
+        {
+          "id": "fallout",
+          "name": "FALLOUT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/59/Fallout-boxcover-windows-ESRB.jpg/revision/latest/scale-to-width-down/600?cb=20240406120426",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1997",
+            "Revision": "4625571"
+          },
+          "lore": "Fallout: A Post Nuclear Role Playing Game is a computer role-playing game developed by Interplay Entertainment and its division Dragonplay (later Black Isle Studios). It was published on October 10, 1997. The game received a direct sequel, Fallout 2."
+        },
+        {
+          "id": "10mm_pistol_fallout_3",
+          "name": "10MM PISTOL (FALLOUT 3)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/0a/Winterized_N99_10mm_pistol.png/revision/latest/scale-to-width-down/600?cb=20110411233800",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2051",
+            "Revision": "4372619"
+          },
+          "lore": "The 10mm pistol, officially the N99 10mm pistol, is a small gun in Fallout 3. == Background == The large-framed N99 was selected as the standard issue conventional sidearm of the United States military, following the phaseout of the N80 in 2051. The long-barreled pistol remained in service for 26 years, until the Great War destroyed the United States."
         }
       ],
       "mojave": [
@@ -869,12 +1655,36 @@
         {
           "id": "hidden_valley_bunker",
           "name": "HIDDEN VALLEY BUNKER",
-          "img": "https://placehold.co/300x200/113300/88ff33?text=HIDDEN+VALLEY",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/41/Hidden_Valley_bunker.jpg/revision/latest/scale-to-width-down/600?cb=20140526204730",
           "specs": {
             "Region": "Mojave",
-            "Occupants": "Brotherhood of Steel"
+            "Occupants": "Brotherhood of Steel",
+            "Source": "Fallout Wiki",
+            "Year": "2276",
+            "Revision": "4602851"
           },
-          "lore": "Primary Mojave bunker complex used by the Brotherhood of Steel chapter in New Vegas."
+          "lore": "\"Brothers of Steel\" \"Mutant Massacre\" The Hidden Valley bunker is an unmarked location within Hidden Valley in the Mojave Wasteland in Fallout: New Vegas. It is the current headquarters of the Mojave Brotherhood of Steel following their defeat by the New California Republic at HELIOS One during Operation: Sunburst in 2276. == Background == Originally built by the U.S."
+        },
+        {
+          "id": "location",
+          "name": "LOCATION",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=LOCATION",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4615638"
+          },
+          "lore": "== Maps == World map Fallout 3 world map Fallout: New Vegas world map Fallout 4 world map Fallout 76 world map == Series == ==== Television ==== Fallout TV series locations ==== Main games ==== ==== Spin-offs ==== == Countries == Pre-War countries == States == State == Regions == == Categories == Locations by game Cut locations Mentioned-only Test cell Unmarked Locations by faction Locations by type"
+        },
+        {
+          "id": "all_roads",
+          "name": "ALL ROADS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/58/AllRoads01.jpg/revision/latest/scale-to-width-down/600?cb=20111116162522",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2010",
+            "Revision": "4615190"
+          },
+          "lore": "All Roads is a Fallout graphic novel written by Chris Avellone. The cover artists are Geof Darrow and Peter Doherty (colors), while the interior artists are Jean Diaz and Wellinton Alves. The art style changes when focus is shifted to another character."
         }
       ],
       "east": [
@@ -947,6 +1757,92 @@
             "Landmark": "Unexploded atomic bomb"
           },
           "lore": "A major Capital Wasteland settlement built around an unexploded atomic bomb."
+        },
+        {
+          "id": "far_harbor_location",
+          "name": "FAR HARBOR (LOCATION)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/76/FarHarborTown-FarHarbor.jpg/revision/latest/scale-to-width-down/600?cb=20161003031921",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2287",
+            "Revision": "4572689"
+          },
+          "lore": "Far Harbor is a location on Mount Desert Island in the Fallout 4 add-on Far Harbor. Once known as Bar Harbor, a seaside resort town off the coast of Maine, after the Great War, it became one of the few bastions of civilization on the island due to the unpredictable spread of the radioactive phenomenon known as the Fog. Coming to be called Far Harbor, the native harbormen live day after day trying to survive against the Fog's encroachment, threats from the mutated wildlife sharing the island, and by 2287, tensions mounting towards open war against a sect of the Church of the Children of Atom who desire to blanket the entire island in \"Atom's veil\" and either kill or drive off the locals."
+        },
+        {
+          "id": "giant_ant",
+          "name": "GIANT ANT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/3/3b/Antstory.jpg/revision/latest/scale-to-width-down/600?cb=20081002090244",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4460369"
+          },
+          "lore": "Giant ants are hostile creatures commonly found in the wasteland, including the former state of California, the Capital Wasteland, the Mojave Wasteland, the Commonwealth and Appalachia."
+        },
+        {
+          "id": "megaton",
+          "name": "MEGATON",
+          "img": "https://static.wikia.nocookie.net/fallout/images/1/1a/Megaton_exterior.png/revision/latest/scale-to-width-down/600?cb=20141028165538",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2277",
+            "Revision": "4580780"
+          },
+          "lore": "Megaton is a fortified settlement in the Capital Wasteland in 2277. This shantytown is built around a crater with an undetonated megaton class atomic bomb at its center, after which the town is named. The town of Megaton is protected by large metal walls made from various scavenged materials, primarily the scraps of old pre-War airplanes, which were assembled and reforged together several decades ago by the founders of Megaton in an effort to make the town safer."
+        },
+        {
+          "id": "radstag",
+          "name": "RADSTAG",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/73/Radstag_yearlings_and_mother.jpg/revision/latest/scale-to-width-down/600?cb=20151201211454",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4481077"
+          },
+          "lore": "Radstags (although \"stag\" was once only used to refer to a male deer) are a species of mutated deer. These creatures live in Appalachia, the Commonwealth and the Island."
+        },
+        {
+          "id": "state",
+          "name": "STATE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/ee/WelcometoNevadaNipton.jpg/revision/latest/scale-to-width-down/600?cb=20240307035119",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1969",
+            "Revision": "4627175"
+          },
+          "lore": "A state of the United States was a pre-War geographic territory with established borders within the United States of America, formed into commonwealths, and then into the federal republic. Though essentially defunct with the dissolution of the United States following the nuclear apocalypse, the names of the former American states are still used by the inhabitants of the wasteland and mentioned multiple times in the Fallout series. == Background == Prior to the Great War, the United States of America was comprised of a total of 50 states."
+        },
+        {
+          "id": "appalachia",
+          "name": "APPALACHIA",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/04/Landscape-E3-Fallout76.png/revision/latest/scale-to-width-down/600?cb=20180618185603",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2102",
+            "Revision": "4624937"
+          },
+          "lore": "Appalachia is the name given to a geographic expanse which covers the pre-War state of West Virginia and parts of other states, including Virginia and Ohio.(Note) This area, which has several different regional names, serves as the game world of Fallout 76. Spared from most of the destruction and carnage of the Great War due to its relative isolation and lack of strategic targets, much of the surviving human population in the West Virginian core of Appalachia nonetheless perished over the following years due to the Scorched Plague. In 2102, Vault Dwellers emerged into Appalachia after 25 years of isolation inside Vault 76 and began to reclaim the wilderness."
+        },
+        {
+          "id": "fallout_4",
+          "name": "FALLOUT 4",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/e9/Fallout_4_box_cover.jpg/revision/latest/scale-to-width-down/526?cb=20170220211249",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2015",
+            "Revision": "4625283"
+          },
+          "lore": "Fallout 4 is a post-apocalyptic role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fifth major installment in the Fallout series (eighth overall). It was released on Microsoft Windows, PlayStation 4, and Xbox One on November 10, 2015, except in Japan, where it was released on December 17, 2015."
+        },
+        {
+          "id": "nuka_world_location",
+          "name": "NUKA-WORLD (LOCATION)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/a/af/NukaTown-NukaWorld.jpg/revision/latest/scale-to-width-down/600?cb=20210228204144",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2287",
+            "Revision": "4574649"
+          },
+          "lore": "Nuka-World is a pre-War amusement park turned raider settlement in 2287. It is in Massachusetts, west of Boston. == Background == === Founding === After Nuka-Cola's success on the national market in 2044, the Nuka-Cola Corporation opened its own soda-themed amusement park, Nuka-World, for the first time on May 1, 2050."
         }
       ]
     }
@@ -1010,13 +1906,16 @@
         },
         {
           "id": "enclave",
-          "name": "THE ENCLAVE",
-          "img": "https://placehold.co/300x200/111/333?text=ENCLAVE",
+          "name": "ENCLAVE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/93/FO3_Enclave_Flag_Recreated.png/revision/latest/scale-to-width-down/600?cb=20220828115358",
           "specs": {
             "Origin": "Pre-war government",
-            "Status": "Near extinct"
+            "Status": "Near extinct",
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4627074"
           },
-          "lore": "Remnants of US government. Advanced power armor. Consider themselves true America. Oil Rig destroyed 2242."
+          "lore": "The Enclave is a secretive faction appearing as a major antagonist throughout the Fallout series, first as the main villain in Fallout 2 and again in Fallout 3. It was largely absent in Fallout 4 (although later added as Creation Club content which is enabled by default in the first next-gen update) but returned in Fallout 76 as a joinable faction. It appeared in a minor role in the Fallout TV series' first season, when Siggi Wilzig defects from the organization and sets the show's plot in motion, and takes on an expanded, overarching role in the latter half of the show's second season."
         },
         {
           "id": "ncr_foundation_profile",
@@ -1027,6 +1926,61 @@
             "Formalized": "2189"
           },
           "lore": "The NCR grew from post-war settlements linked to Vault 15 descendants. It developed into a large federal republic with expansionist military and political institutions."
+        },
+        {
+          "id": "brotherhood_of_steel",
+          "name": "BROTHERHOOD OF STEEL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/2/23/Fo3_Citadel_flag_rev2.png/revision/latest/scale-to-width-down/600?cb=20210415053618",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2076",
+            "Revision": "4627364"
+          },
+          "lore": "The Brotherhood of Steel (commonly abbreviated to BoS) is a post-War technology-focused paramilitary order with chapters operating across the territory of the former United States of America. It was founded by rogue U.S. Army officer Captain Roger Maxson shortly after the Great War."
+        },
+        {
+          "id": "caesars_legion",
+          "name": "CAESAR'S LEGION",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/65/Nv_legiocaesaricon_d.png/revision/latest?cb=20220113064721",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2247",
+            "Revision": "4625610"
+          },
+          "lore": "Caesar's Legion (Latin: Legio Caesaris), also referred to simply as the Legion, is an imperialistic slaver society and totalitarian dictatorship founded in 2247 by Edward Sallow (Caesar) and Joshua Graham, built on the conquest and enslavement of tribal societies and lording over subjects of civilized settlements in the American southwest. To enforce unity, the Legion loosely models itself after the military of the Roman Empire, repurposing its language and aesthetics for the post-apocalypse. As of 2281, the Legion controls large amounts of territory east of the Colorado River, primarily in the former states of Arizona and New Mexico, with footholds in Utah and Colorado."
+        },
+        {
+          "id": "minigun",
+          "name": "MINIGUN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/ce/CZ57Avenger.png/revision/latest/scale-to-width-down/600?cb=20110208175236",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "1960",
+            "Revision": "4592344"
+          },
+          "lore": "A minigun is a multi-barrel rotary machine gun with a high rate of fire, employing Gatling-style rotating barrels. It was a standard military weapon before the Great War, with Rockwell's CZ series being the most popular choice in the United States of America."
+        },
+        {
+          "id": "new_california_republic",
+          "name": "NEW CALIFORNIA REPUBLIC",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/07/FOTV_Great_Seal_of_the_New_California_Republic_%28recreated%29.png/revision/latest/scale-to-width-down/600?cb=20240424145321",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2189",
+            "Revision": "4625567"
+          },
+          "lore": "The New California Republic (NCR) is a post-War federal republic founded in the namesake territory of New California in 2189. At its peak, its territory comprised five contiguous states located in southern California, with additional holdings in northern California, Oregon, Nevada, Arizona, and northern Mexico. Officially, the New California Republic stands for democracy, personal liberty, and rule of law; these values have been upheld unevenly both within and without."
+        },
+        {
+          "id": "new_vegas",
+          "name": "NEW VEGAS",
+          "img": "https://static.wikia.nocookie.net/fallout/images/a/a3/Ranger_at_New_Vegas_entrance.jpg/revision/latest/scale-to-width-down/600?cb=20110721063233",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2065",
+            "Revision": "4624045"
+          },
+          "lore": "New Vegas is a post-War city established in the ruins of the pre-War city of Las Vegas, Nevada in the Mojave Wasteland, with the most prominent fixture being the New Vegas Strip controlled by the enigmatic Mr. House and his Three Families who govern the Strip's casinos. It appears as a major location in the eponymous Fallout: New Vegas as well as in the Fallout TV series."
         }
       ],
       "regional": [
@@ -1079,6 +2033,17 @@
             "Type": "Humanitarian organization"
           },
           "lore": "A humanitarian knowledge-focused organization dedicated to medicine, education, and social recovery."
+        },
+        {
+          "id": "followers_of_the_apocalypse",
+          "name": "FOLLOWERS OF THE APOCALYPSE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/0/04/FNV_FotA_Flag.webp/revision/latest/scale-to-width-down/600?cb=20230106182945",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2161",
+            "Revision": "4579812"
+          },
+          "lore": "The Followers of the Apocalypse, or simply called the Followers, are a humanitarian organization originating in New California that appear multiple times in the Fallout series. The Followers' core goal is the providing of education and medical services to those in need, as well as furthering research in non-military areas to establish a bulwark against the loss of humanity's technological advancement after the Great War destroyed the world. Once close allies of the New California Republic on the West Coast, by the 23rd century, they severed official ties due to disagreements over the republic's increasingly expansionist foreign policy, though still maintain a degree of civility, with both the NCR and Followers understanding the other is needed if they are to rebuild civilization."
         }
       ],
       "raiders": [
@@ -1131,6 +2096,16 @@
             "Tactics": "Explosives"
           },
           "lore": "Former NCR correctional laborers turned explosive-focused raider gang in the Mojave."
+        },
+        {
+          "id": "faction",
+          "name": "FACTION",
+          "img": "https://static.wikia.nocookie.net/fallout/images/6/60/SlayerFNV.png/revision/latest?cb=20101014195935",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4028398"
+          },
+          "lore": "A faction is a grouping of like-minded individuals, united in a common goal or set of common goals. The individuals band together as a way of achieving these goals and advancing their agenda."
         }
       ]
     }
@@ -1175,12 +2150,15 @@
         {
           "id": "radscorpion",
           "name": "RADSCORPION",
-          "img": "https://placehold.co/300x200/220000/ff6600?text=RADSCORPION",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/9a/FOT_radscorpion.png/revision/latest?cb=20081104161449",
           "specs": {
             "Size": "Giant",
-            "Weapon": "Venomous tail"
+            "Weapon": "Venomous tail",
+            "Source": "Fallout Wiki",
+            "Year": "1977",
+            "Revision": "4591124"
           },
-          "lore": "Mutated emperor scorpion. Size of a car. Poison tail and tough carapace. Burrows underground."
+          "lore": "Radscorpions are large, mutated scorpions commonly found in and around abandoned structures and are practically ubiquitous across post-Great War United States."
         },
         {
           "id": "mirelurk",
@@ -1205,12 +2183,14 @@
         {
           "id": "bloatfly",
           "name": "BLOATFLY",
-          "img": "https://placehold.co/300x200/221100/aa6600?text=BLOATFLY",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/9b/Bloatfly_dart.png/revision/latest/scale-to-width-down/600?cb=20130916164818",
           "specs": {
             "Size": "Large",
-            "Attack": "Larvae spit"
+            "Attack": "Larvae spit",
+            "Source": "Fallout Wiki",
+            "Revision": "4319419"
           },
-          "lore": "Mutated blowfly. Bloated with radiation. Spits maggot larvae as projectiles. Explodes when killed."
+          "lore": "A bloatfly is a mutated pest resembling an oversized biting horse or common housefly, often found in Appalachia, the Capital Wasteland, the Commonwealth and the Mojave Wasteland."
         },
         {
           "id": "centaur",
@@ -1235,12 +2215,175 @@
         {
           "id": "nightkin",
           "name": "NIGHTKIN",
-          "img": "https://placehold.co/300x200/331133/cc88ff?text=NIGHTKIN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/2/22/FNV_Reveal_NightKin.jpg/revision/latest/scale-to-width-down/600?cb=20230503112646",
           "specs": {
             "Type": "Super mutant variant",
-            "Trait": "Stealth specialization"
+            "Trait": "Stealth specialization",
+            "Source": "Fallout Wiki",
+            "Year": "2162",
+            "Revision": "4621148"
           },
-          "lore": "A stealth-specialist super mutant variant strongly associated with prolonged Stealth Boy use."
+          "lore": "Nightkin is a name for the elite super mutants of the Unity, created by the Master at Mariposa Military Base. The mutants were the apex of mutant development, corresponding with the Master's vision for the future of humanity."
+        },
+        {
+          "id": "bear_creature",
+          "name": "BEAR (CREATURE)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/d/d6/MagwaiCA1.jpg/revision/latest/scale-to-width-down/427?cb=20220830041647",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4526269"
+          },
+          "lore": "Bears are animals from before the Great War. == Background == Several mutated species of bear have come to roam the wastes following the war. Bears typically inhabited forested areas of North America, but occasionally transitioned into grassy plain, alpine and tundra regions."
+        },
+        {
+          "id": "creature",
+          "name": "CREATURE",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/9f/MTG_Squirrel_art_crop.png/revision/latest?cb=20240402093920",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4586987"
+          },
+          "lore": "Creatures are living beings found throughout the wastelands. They are separate from both humans and plants."
+        },
+        {
+          "id": "deathclaw",
+          "name": "DEATHCLAW",
+          "img": "https://static.wikia.nocookie.net/fallout/images/b/b1/FO1_MotherDeathclaw.png/revision/latest?cb=20121211164516",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4622451"
+          },
+          "lore": "Deathclaws, colloquially named by most for their signature massive claws, are a species of genetically engineered reptilian creatures originating from secret experiments by the Enclave to create superior battlefield soldiers capable of carrying out high-risk, search-and-destroy missions in place of humans. In the wake of the Great War and their escape into the wild, the deathclaw population exploded and evolved to become an apex predator in the post-nuclear ecosystem of the North American wasteland."
+        },
+        {
+          "id": "deathclaw_gauntlet",
+          "name": "DEATHCLAW GAUNTLET",
+          "img": "https://static.wikia.nocookie.net/fallout/images/e/e4/Deathclaw_Hand.png/revision/latest/scale-to-width-down/600?cb=20110308180248",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4259107"
+          },
+          "lore": "The deathclaw gauntlet is a weapon in Fallout 3, Fallout: New Vegas, Fallout 4 and Fallout 76."
+        },
+        {
+          "id": "fish",
+          "name": "FISH",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=FISH",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2077",
+            "Revision": "4486415"
+          },
+          "lore": "Fish are a group of animals distinguished by being aquatic, having a distinct skull, gills, and no limbs with digits. Due to the horror of the Great War, fish are a rare sight inland and most are horribly mutated."
+        },
+        {
+          "id": "floater",
+          "name": "FLOATER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/f/f4/FO76WL_Floater_idle_animation.gif/revision/latest?cb=20200516184726",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2103",
+            "Revision": "4503334"
+          },
+          "lore": "Floaters are a unique species of creature, found in New California and Appalachia."
+        },
+        {
+          "id": "fog_crawler",
+          "name": "FOG CRAWLER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/5/54/Fo4FH_fog_crawler_concept_art.png/revision/latest/scale-to-width-down/556?cb=20160520221800",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2287",
+            "Revision": "4582702"
+          },
+          "lore": "Fog crawlers are creatures encountered on Mount Desert Island in the Fallout 4 add-on Far Harbor and in the Mire region of Appalachia in Fallout 76."
+        },
+        {
+          "id": "gecko_creature",
+          "name": "GECKO (CREATURE)",
+          "img": "https://static.wikia.nocookie.net/fallout/images/c/ce/FNV_LGecko.png/revision/latest/scale-to-width-down/487?cb=20110514035810",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2241",
+            "Revision": "4445859"
+          },
+          "lore": "Geckos are mutated lizards prized for their sleek and durable hides. They are known to inhabit the Mojave Wasteland and New California and its surrounding areas."
+        },
+        {
+          "id": "gulper",
+          "name": "GULPER",
+          "img": "https://static.wikia.nocookie.net/fallout/images/4/4d/FO4FH_Gulper_Newt.jpg/revision/latest/scale-to-width-down/600?cb=20210716225327",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2024",
+            "Revision": "4488666"
+          },
+          "lore": "Gulpers are mutated creatures resembling giant salamanders, encountered in the Fallout 4 add-on Far Harbor, Fallout 76 and the Fallout TV series."
+        },
+        {
+          "id": "mutant_hound",
+          "name": "MUTANT HOUND",
+          "img": "https://placehold.co/300x200/111100/33ff33?text=MUTANT+HOUND",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4087268"
+          },
+          "lore": "Mutant hounds are creatures found across the post-War United States."
+        },
+        {
+          "id": "super_mutant",
+          "name": "SUPER MUTANT",
+          "img": "https://static.wikia.nocookie.net/fallout/images/9/9b/Harry.jpg/revision/latest/scale-to-width-down/600?cb=20101229231614",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2162",
+            "Revision": "4609225"
+          },
+          "lore": "Super mutant is a general term referring to humanoid mutants created by exposing a regular human to a variety of the Forced Evolutionary Virus (FEV). The resulting hulking mutants typically possess exceptional strength, endurance, resistance or immunity to disease and radiation, as well as modified intelligence."
+        },
+        {
+          "id": "wanamingo",
+          "name": "WANAMINGO",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/7a/Wanamingo_render.jpg/revision/latest?cb=20210612205516",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2246",
+            "Revision": "4527981"
+          },
+          "lore": "Wanamingos, also referred to as aliens or alien things, are a variety of mutant creatures."
+        },
+        {
+          "id": "yao_guai",
+          "name": "YAO GUAI",
+          "img": "https://static.wikia.nocookie.net/fallout/images/3/36/FO3_yao_guai_concept_art.jpg/revision/latest?cb=20080919012706",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Revision": "4619759"
+          },
+          "lore": "Yao guai are the mutated descendants of the American black bear. These vicious creatures are found in Appalachia, the Capital Wasteland, the Commonwealth, the Island, Zion Canyon, and rarely, New California."
+        },
+        {
+          "id": "broken_steel",
+          "name": "BROKEN STEEL",
+          "img": "https://static.wikia.nocookie.net/fallout/images/3/3d/Broken_Steel_Steam_banner.jpg/revision/latest?cb=20110709024527",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2009",
+            "Revision": "4561939"
+          },
+          "lore": "Broken Steel is the third add-on for Fallout 3, developed and published by Bethesda Softworks. == Release == Broken Steel was initially released exclusively as downloadable content on Xbox Live and Games for Windows Live on May 5, 2009. After difficulties with the initial download for PC users, it was re-released for Games for Windows Live on May 7, 2009."
+        },
+        {
+          "id": "fallout_76",
+          "name": "FALLOUT 76",
+          "img": "https://static.wikia.nocookie.net/fallout/images/7/79/Fallout-76-burningsprings-library-capsule.jpg/revision/latest/scale-to-width-down/400?cb=20251202163708",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2018",
+            "Revision": "4620943"
+          },
+          "lore": "Fallout 76 is a post-apocalyptic multiplayer online role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the sixth installment in the Fallout series (ninth overall) and released on Windows, PlayStation 4, and Xbox One on November 14, 2018. Fallout 76 receives free seasonal updates via patches."
         }
       ],
       "robots": [
@@ -1373,6 +2516,17 @@
             "Status": "Functional"
           },
           "lore": "Central location. NCR vs Caesar's Legion (called Blackfoot Tribe). Similar to New Vegas version."
+        },
+        {
+          "id": "van_buren",
+          "name": "VAN BUREN",
+          "img": "https://static.wikia.nocookie.net/fallout/images/8/83/Vbtitle.png/revision/latest/scale-to-width-down/600?cb=20080719065928",
+          "specs": {
+            "Source": "Fallout Wiki",
+            "Year": "2003",
+            "Revision": "4566421"
+          },
+          "lore": "Van Buren is the codename Black Isle Studios assigned to their second iteration of Fallout 3. It saw development by Black Isle Studios until its cancelation in December 8, 2003 and would have been published by Interplay Entertainment. == Development == Black Isle Studios planned to include a dual-combat system in the game that allowed for the player to choose between real-time (Bethesda Softworks' Fallout games and Micro Forté and 14° East's Fallout Tactics) or turn-based combat (Fallout and Fallout 2) but real-time was only included due to Interplay's demands."
         }
       ]
     }

@@ -1,0 +1,201 @@
+{
+  "run_at": "2026-02-22T01:53:45+00:00",
+  "input_candidates": 113,
+  "coverage": {
+    "modules": {
+      "bestiary": 16,
+      "factions": 8,
+      "locations": 14,
+      "tech": 41,
+      "timeline": 9,
+      "vanburen": 1,
+      "vaults": 24
+    },
+    "module_categories": {
+      "bestiary.mutants": 16,
+      "factions.major": 6,
+      "factions.raiders": 1,
+      "factions.regional": 1,
+      "locations.east": 9,
+      "locations.mojave": 3,
+      "locations.west": 2,
+      "tech.devices": 11,
+      "tech.energy": 16,
+      "tech.pa": 10,
+      "tech.robots": 4,
+      "timeline.greatwar": 1,
+      "timeline.heroic": 1,
+      "timeline.modern": 1,
+      "timeline.prewar": 6,
+      "vanburen.all": 1,
+      "vaults.control": 3,
+      "vaults.science": 5,
+      "vaults.social": 16
+    }
+  },
+  "quality": {
+    "confidence_histogram": {
+      "0.50-0.59": 49,
+      "0.60-0.69": 20,
+      "0.70-0.79": 9,
+      "0.80-0.89": 8,
+      "0.90-1.00": 3,
+      "<0.50": 24
+    },
+    "low_confidence_count": 24,
+    "missing_required_fields_count": 0,
+    "weak_record_samples": [
+      {
+        "id": "10mm_pistol",
+        "module": "tech",
+        "category_id": "energy",
+        "confidence": 0.472,
+        "source_url": "https://fallout.fandom.com/wiki/10mm_pistol"
+      },
+      {
+        "id": "fat_man",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.496,
+        "source_url": "https://fallout.fandom.com/wiki/Fat_Man"
+      },
+      {
+        "id": "gauss_rifle",
+        "module": "tech",
+        "category_id": "energy",
+        "confidence": 0.496,
+        "source_url": "https://fallout.fandom.com/wiki/Gauss_rifle"
+      },
+      {
+        "id": "grenade_launcher",
+        "module": "tech",
+        "category_id": "energy",
+        "confidence": 0.487,
+        "source_url": "https://fallout.fandom.com/wiki/Grenade_launcher"
+      },
+      {
+        "id": "gulper",
+        "module": "bestiary",
+        "category_id": "mutants",
+        "confidence": 0.496,
+        "source_url": "https://fallout.fandom.com/wiki/Gulper"
+      },
+      {
+        "id": "hand_grenade",
+        "module": "tech",
+        "category_id": "energy",
+        "confidence": 0.472,
+        "source_url": "https://fallout.fandom.com/wiki/Hand_grenade"
+      },
+      {
+        "id": "katana",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.462,
+        "source_url": "https://fallout.fandom.com/wiki/Katana"
+      },
+      {
+        "id": "land_mine",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.474,
+        "source_url": "https://fallout.fandom.com/wiki/Land_mine"
+      },
+      {
+        "id": "location",
+        "module": "locations",
+        "category_id": "mojave",
+        "confidence": 0.464,
+        "source_url": "https://fallout.fandom.com/wiki/Location"
+      },
+      {
+        "id": "machine_gun",
+        "module": "tech",
+        "category_id": "pa",
+        "confidence": 0.495,
+        "source_url": "https://fallout.fandom.com/wiki/Machine_gun"
+      },
+      {
+        "id": "power_fist",
+        "module": "tech",
+        "category_id": "pa",
+        "confidence": 0.488,
+        "source_url": "https://fallout.fandom.com/wiki/Power_fist"
+      },
+      {
+        "id": "radstag",
+        "module": "locations",
+        "category_id": "east",
+        "confidence": 0.47,
+        "source_url": "https://fallout.fandom.com/wiki/Radstag"
+      },
+      {
+        "id": "railgun",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.481,
+        "source_url": "https://fallout.fandom.com/wiki/Railgun"
+      },
+      {
+        "id": "railway_rifle",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.468,
+        "source_url": "https://fallout.fandom.com/wiki/Railway_rifle"
+      },
+      {
+        "id": "sword",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.462,
+        "source_url": "https://fallout.fandom.com/wiki/Sword"
+      },
+      {
+        "id": "t60_pistol",
+        "module": "tech",
+        "category_id": "pa",
+        "confidence": 0.472,
+        "source_url": "https://fallout.fandom.com/wiki/T60_pistol"
+      },
+      {
+        "id": "unique_weapons",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.487,
+        "source_url": "https://fallout.fandom.com/wiki/Unique_weapons"
+      },
+      {
+        "id": "weapon",
+        "module": "tech",
+        "category_id": "devices",
+        "confidence": 0.487,
+        "source_url": "https://fallout.fandom.com/wiki/Weapon"
+      },
+      {
+        "id": "yao_guai",
+        "module": "bestiary",
+        "category_id": "mutants",
+        "confidence": 0.497,
+        "source_url": "https://fallout.fandom.com/wiki/Yao_guai"
+      },
+      {
+        "id": "broken_steel",
+        "module": "bestiary",
+        "category_id": "mutants",
+        "confidence": 0.476,
+        "source_url": "https://fallout.fandom.com/wiki/Broken_Steel"
+      }
+    ]
+  },
+  "duplicates": {
+    "duplicate_id_count": 0,
+    "duplicate_url_count": 0,
+    "exact_duplicate_lore_count": 0,
+    "duplicate_id_samples": [],
+    "duplicate_url_samples": []
+  },
+  "canon_tags": {
+    "mainline": 113,
+    "tv": 34
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "global_default": 0.45,
+  "module_min_confidence": {
+    "timeline": 0.5,
+    "vaults": 0.5,
+    "factions": 0.5,
+    "locations": 0.46,
+    "bestiary": 0.46,
+    "tech": 0.46,
+    "vanburen": 0.55
+  }
+}
+
